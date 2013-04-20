@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Quranic Arabic</string>
+
+  <!-- lessons -->
+  <string name="lesson_1">Lesson 1</string>
+  <string name="lesson_3">Lesson 3</string>
+  <string name="lesson_5">Lesson 5</string>
+
+  <!-- Lesson 1 -->
+  <string-array name="hooa">
+    <item>هُوَ</item>
+    <item>وه</item>
+  </string-array>
+  <string-array name="hum">
+    <item>هُمْ</item>
+    <item>وه سب</item>
+  </string-array>
+  <string-array name="anta">
+    <item>اَنْتَ</item>
+    <item>آپ</item>
+  </string-array>
+  <string-array name="antum">
+    <item>اَنْتُمْ</item>
+    <item>آپ سب</item>
+  </string-array>
+  <string-array name="ana">
+    <item>اَنَا</item>
+    <item>میں</item>
+  </string-array>
+  <string-array name="nahnu">
+    <item>نَحْنُ</item>
+    <item>ہم</item>
+  </string-array>
+  <string-array name="heeya">
+    <item>هِيَ</item>
+    <item>وه عورت</item>
+  </string-array>
+
+  <!-- Lesson 3 -->
+  <string-array name="rabbuhu">
+    <item>رَبُّهُ</item>
+    <item>اُس کا رب</item>
+  </string-array>
+  <string-array name="rabbuhum">
+    <item>رَبُّهُمْ</item>
+    <item>اُن کا رب</item>
+  </string-array>
+  <string-array name="rabbuka">
+    <item>رَبُّكَ</item>
+    <item>آپ کا رب</item>
+  </string-array>
+  <string-array name="rabbukum">
+    <item>رَبُّكُمْ</item>
+    <item>آپ سب کا رب</item>
+  </string-array>
+  <string-array name="rabbi">
+    <item>رَبّي</item>
+    <item>میرا رب</item>
+  </string-array>
+  <string-array name="rabbuna">
+    <item>رَبُّنَا</item>
+    <item>ہمارا رب</item>
+  </string-array>
+  <string-array name="rabbuha">
+    <item>رَبُّهَا</item>
+    <item>اُس عورت کا رب</item>
+  </string-array>
+
+  <!-- Lesson 5 -->
+  <string-array name="lahu">
+    <item>لَهُ</item>
+    <item>اُس کے لئے، اُس کا</item>
+  </string-array>
+  <string-array name="lahum">
+    <item>لَهُمْ</item>
+    <item>اُن کے لئے، اُن کا</item>
+  </string-array>
+  <string-array name="laka">
+    <item>لَكَ</item>
+    <item>آپ کے لئے، آپ کا</item>
+  </string-array>
+  <string-array name="lakum">
+    <item>لَكُمْ</item>
+    <item>آپ سب کے لئے، آپ سب کا</item>
+  </string-array>
+  <string-array name="lee">
+    <item>لِي</item>
+    <item>میرے لئے، میرا</item>
+  </string-array>
+  <string-array name="lana">
+    <item>لَنَا</item>
+    <item>ہمارے لئے، ہمارا</item>
+  </string-array>
+  <string-array name="laha">
+    <item>لَهَا</item>
+    <item>اُس عورت کے لئے</item>
+  </string-array>
+
+  <string-array name="fa_ala">
+    <item>فَعَلَ</item>
+    <item>اُس نے کیا</item>
+  </string-array>
+  <string-array name="fa_alu">
+    <item>فَعَلُوا</item>
+    <item>اُس سب نے کیا</item>
+  </string-array>
+  <string-array name="fa_alta">
+    <item>فَعَلْتَ</item>
+    <item>آپ نے کیا</item>
+  </string-array>
+  <string-array name="fa_altum">
+    <item>فَعَلْتُمْ</item>
+    <item>آپ سب نے کیا</item>
+  </string-array>
+  <string-array name="fa_altu">
+    <item>فَعَلْتُ</item>
+    <item>میں نے کیا</item>
+  </string-array>
+  <string-array name="fa_alna">
+    <item>فَعَلْنَا</item>
+    <item>ہم نے کیا</item>
+  </string-array>
+</resources>

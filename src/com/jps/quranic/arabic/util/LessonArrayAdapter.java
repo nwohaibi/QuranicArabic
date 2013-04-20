@@ -6,7 +6,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
-import com.jps.flashcards.util.Util;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -49,7 +48,8 @@ public class LessonArrayAdapter extends ArrayAdapter<Integer>
     public TextView _wordView;
     public TextView _meaningView;
   }
-// todo disable all list cells
+
+  // todo disable all list cells
   @Override
   public View getView( int position, View convertView, ViewGroup parent )
   {

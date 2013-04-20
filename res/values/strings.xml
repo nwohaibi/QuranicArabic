@@ -2,6 +2,14 @@
 <resources>
   <string name="app_name">Quranic Arabic</string>
 
+  <!-- buttons -->
+  <string name="previous">Previous</string>
+  <string name="next">Next</string>
+  <string name="view_meaning">View Meaning</string>
+
+  <string name="start_new_session">Start new session</string>
+  <string name="continue_with_saved_session">Continue with saved session</string>
+
   <!-- lessons -->
   <string name="lesson_1">Lesson 1</string>
   <string name="lesson_3">Lesson 3</string>

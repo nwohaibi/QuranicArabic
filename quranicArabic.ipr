@@ -86,7 +86,7 @@
         <modules>
           <module name="core">
             <files>
-              <file url="file://$PROJECT_DIR$/../../../Work/Blackboard/Work/svn/android/code/trunk/modules/core/AndroidManifest.xml" />
+              <file url="file://$USER_HOME$/Work/Blackboard/Work/svn/android/code/trunk/modules/core/AndroidManifest.xml" />
             </files>
           </module>
           <module name="flashcards">

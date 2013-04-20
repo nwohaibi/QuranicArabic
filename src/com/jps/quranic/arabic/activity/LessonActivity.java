@@ -1,10 +1,10 @@
 package com.jps.quranic.arabic.activity;
 
-import com.jps.flashcards.activity.SafeListActivity;
 import android.os.Bundle;
 
 import java.util.ArrayList;
 
+import com.jps.quranic.arabic.activity_helper.SafeListActivity;
 import com.jps.quranic.arabic.util.LessonArrayAdapter;
 
 /**

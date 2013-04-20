@@ -3,10 +3,10 @@ package com.jps.quranic.arabic.activity;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.jps.flashcards.activity.FlashCardActivity;
-import com.jps.flashcards.activity.HomeActivity;
-import com.jps.flashcards.util.Util;
 import com.jps.quranic.arabic.R;
+import com.jps.quranic.arabic.activity_helper.FlashCardActivity;
+import com.jps.quranic.arabic.activity_helper.HomeActivity;
+import com.jps.quranic.arabic.util.Util;
 
 /**
  * User: shah

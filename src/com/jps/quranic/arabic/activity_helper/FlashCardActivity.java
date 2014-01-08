@@ -20,6 +20,7 @@ import java.util.Map;
 import java.util.Set;
 
 import com.jps.quranic.arabic.R;
+import com.jps.quranic.arabic.activity.HomeActivity;
 import com.jps.quranic.arabic.util.DialogUtil;
 import com.jps.quranic.arabic.util.Util;
 

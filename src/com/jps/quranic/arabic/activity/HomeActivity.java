@@ -1,10 +1,11 @@
-package com.jps.quranic.arabic.activity_helper;
+package com.jps.quranic.arabic.activity;
 
 import android.app.AlertDialog;
 import android.app.ListActivity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
@@ -14,6 +15,8 @@ import java.util.List;
 import java.util.Map;
 
 import com.jps.quranic.arabic.R;
+import com.jps.quranic.arabic.activity_helper.FlashCardActivity;
+import com.jps.quranic.arabic.util.Util;
 
 /**
  * User: shah
@@ -22,10 +25,29 @@ import com.jps.quranic.arabic.R;
  */
 public class HomeActivity extends ListActivity
 {
+  private final int[] _lesson1 = { R.array.hooa, R.array.hum, R.array.anta, R.array.antum, R.array.ana,
+                                   R.array.nahnu, R.array.heeya };
+  private final int[] _lesson3 = { R.array.rabbuhu, R.array.rabbuhum, R.array.rabbuka, R.array.rabbukum,
+                                   R.array.rabbi, R.array.rabbuna, R.array.rabbuha };
+
+  private final int[] _lesson5 = { R.array.lahu, R.array.lahum, R.array.laka, R.array.lakum, R.array.lee,
+                                   R.array.lana, R.array.laha, R.array.fa_ala, R.array.fa_alu, R.array.fa_alta,
+                                   R.array.fa_altum, R.array.fa_altu, R.array.fa_alna };
+
   protected ArrayList<Integer> _extraResourceIds;
 
   // extras
   public static final String EXTRA_RESOURCE_IDS = "extra_resource_ids";
+
+  @Override
+  protected void onCreate( Bundle savedInstanceState )
+  {
+    super.onCreate( savedInstanceState );
+
+    FlashCardActivity.PREF_NAME = this.getClass().getName();
+
+    _extraResourceIds = Util.append( _lesson1, _lesson3, _lesson5 );
+  }
 
   @Override
   protected void onResume()
@@ -73,6 +95,14 @@ public class HomeActivity extends ListActivity
     {
       startSession( true );
     }
+  }
+
+  // todo use this for lessons
+  private void launchLessonActivity( int[] lesson1 )
+  {
+    Intent intent = new Intent( this, LessonActivity.class );
+    intent.putIntegerArrayListExtra( EXTRA_RESOURCE_IDS, Util.append( lesson1 ) );
+    startActivity( intent );
   }
 
   private void startSession( final boolean doContinueWithSavedSession )

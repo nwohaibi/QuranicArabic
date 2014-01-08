@@ -19,7 +19,7 @@ public class LessonActivity extends ListActivity
   {
     super.onCreate( savedInstanceState );
 
-    ArrayList<Integer> resIds = getIntent().getIntegerArrayListExtra( QuranicArabicActivity.EXTRA_RESOURCE_IDS );
+    ArrayList<Integer> resIds = getIntent().getIntegerArrayListExtra( HomeActivity.EXTRA_RESOURCE_IDS );
 
     LessonArrayAdapter adapter = new LessonArrayAdapter( this, resIds );
     setListAdapter( adapter );

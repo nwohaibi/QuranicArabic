@@ -383,6 +383,7 @@
   </component>
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
   </component>
   <component name="atlassian-ide-plugin-workspace">
     <option name="bambooConfiguration">

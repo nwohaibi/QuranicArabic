@@ -1,4 +1,4 @@
-package com.jps.quranic.arabic.activity_helper;
+package com.jps.quranic.arabic.activity;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -20,7 +20,6 @@ import java.util.Map;
 import java.util.Set;
 
 import com.jps.quranic.arabic.R;
-import com.jps.quranic.arabic.activity.HomeActivity;
 import com.jps.quranic.arabic.util.DialogUtil;
 import com.jps.quranic.arabic.util.Util;
 

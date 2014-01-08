@@ -23,7 +23,7 @@
 
     <activity android:name=".activity.LessonActivity" />
 
-    <activity android:name="com.jps.quranic.arabic.activity_helper.FlashCardActivity" />
+    <activity android:name=".activity.FlashCardActivity" />
 
   </application>
 </manifest> 

@@ -15,7 +15,6 @@ import java.util.List;
 import java.util.Map;
 
 import com.jps.quranic.arabic.R;
-import com.jps.quranic.arabic.activity_helper.FlashCardActivity;
 import com.jps.quranic.arabic.util.Util;
 
 /**

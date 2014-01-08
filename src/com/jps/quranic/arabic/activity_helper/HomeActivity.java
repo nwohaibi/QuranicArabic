@@ -1,6 +1,7 @@
 package com.jps.quranic.arabic.activity_helper;
 
 import android.app.AlertDialog;
+import android.app.ListActivity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -19,7 +20,7 @@ import com.jps.quranic.arabic.R;
  * Date: 2/25/12
  * Time: 5:57 PM
  */
-public class HomeActivity extends SafeListActivity
+public class HomeActivity extends ListActivity
 {
   protected ArrayList<Integer> _extraResourceIds;
 
@@ -27,8 +28,10 @@ public class HomeActivity extends SafeListActivity
   public static final String EXTRA_RESOURCE_IDS = "extra_resource_ids";
 
   @Override
-  public void safeOnResume()
+  protected void onResume()
   {
+    super.onResume();
+
     // display options
     List<String> optionsList = new ArrayList<String>();
     optionsList.add( getString( R.string.start_new_session ) );
@@ -56,8 +59,10 @@ public class HomeActivity extends SafeListActivity
   }
 
   @Override
-  public void safeOnListItemClick( ListView l, View v, int position, long id )
+  protected void onListItemClick( ListView l, View v, int position, long id )
   {
+    super.onListItemClick( l, v, position, id );
+
     String option = (String) getListAdapter().getItem( position );
 
     if ( getString( R.string.start_new_session ).equals( option ) )

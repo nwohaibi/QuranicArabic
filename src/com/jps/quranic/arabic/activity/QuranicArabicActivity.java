@@ -25,8 +25,10 @@ public class QuranicArabicActivity extends HomeActivity
                                    R.array.fa_altum, R.array.fa_altu, R.array.fa_alna };
 
   @Override
-  public void safeOnCreate( Bundle savedInstanceState )
+  protected void onCreate( Bundle savedInstanceState )
   {
+    super.onCreate( savedInstanceState );
+
     FlashCardActivity.PREF_NAME = "QuranicArabicActivity";
 
     _extraResourceIds = Util.append( _lesson1, _lesson3, _lesson5 );

@@ -1,5 +1,6 @@
 package com.jps.quranic.arabic.activity_helper;
 
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -27,7 +28,7 @@ import com.jps.quranic.arabic.util.Util;
  * Date: 2/25/12
  * Time: 5:51 PM
  */
-public class FlashCardActivity extends SafeActivity
+public class FlashCardActivity extends Activity
 {
   /** For every word, holds its meaning */
   private Map<String, String> _wordMeaningMap;
@@ -58,8 +59,10 @@ public class FlashCardActivity extends SafeActivity
   public static final String EXTRA_CONTINUE_WITH_SAVED_SESSION = "start_from_saved_session";
 
   @Override
-  public void safeOnCreate( Bundle savedInstanceState )
+  protected void onCreate( Bundle savedInstanceState )
   {
+    super.onCreate( savedInstanceState );
+
     setContentView( R.layout.flash_card_view );
 
     // get extras
@@ -105,20 +108,24 @@ public class FlashCardActivity extends SafeActivity
   }
 
   @Override
-  public void safeOnCreateOptionsMenu( Menu menu )
+  public boolean onCreateOptionsMenu( Menu menu )
   {
     menu.add( 0, MENU_SAVE_PROGRESS, 0, "Save Progress" );
+
+    return super.onCreateOptionsMenu( menu );
   }
 
   @Override
-  public void safeOnOptionsItemSelected( MenuItem menuItem )
+  public boolean onOptionsItemSelected( MenuItem item )
   {
-    switch ( menuItem.getItemId() )
+    switch ( item.getItemId() )
     {
       case MENU_SAVE_PROGRESS:
         saveProgress();
         break;
     }
+
+    return super.onOptionsItemSelected( item );
   }
 
   @Override

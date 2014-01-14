@@ -14,6 +14,7 @@
   <string name="lesson_1">Lesson 1</string>
   <string name="lesson_2">Lesson 2</string>
   <string name="lesson_3">Lesson 3</string>
+  <string name="lesson_4">Lesson 4</string>
 
   <!-- Lesson 1 -->
   <string-array name="hooa">
@@ -105,6 +106,7 @@
     <item>اُس عورت کے لئے</item>
   </string-array>
 
+  <!-- Lesson 4 -->
   <string-array name="fa_ala">
     <item>فَعَلَ</item>
     <item>اُس نے کیا</item>

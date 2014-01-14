@@ -28,9 +28,9 @@ public class HomeActivity extends ListActivity
                                    R.array.nahnu, R.array.heeya };
   private final int[] _lesson2 = { R.array.rabbuhu, R.array.rabbuhum, R.array.rabbuka, R.array.rabbukum,
                                    R.array.rabbi, R.array.rabbuna, R.array.rabbuha };
-
   private final int[] _lesson3 = { R.array.lahu, R.array.lahum, R.array.laka, R.array.lakum, R.array.lee,
-                                   R.array.lana, R.array.laha, R.array.fa_ala, R.array.fa_alu, R.array.fa_alta,
+                                   R.array.lana, R.array.laha };
+  private final int[] _lesson4 = { R.array.fa_ala, R.array.fa_alu, R.array.fa_alta,
                                    R.array.fa_altum, R.array.fa_altu, R.array.fa_alna };
 
   protected ArrayList<Integer> _extraResourceIds;
@@ -45,7 +45,7 @@ public class HomeActivity extends ListActivity
 
     FlashCardActivity.PREF_NAME = this.getClass().getName();
 
-    _extraResourceIds = Util.append( _lesson1, _lesson2, _lesson3 );
+    _extraResourceIds = Util.append( _lesson1, _lesson2, _lesson3, _lesson4 );
   }
 
   @Override
@@ -65,6 +65,7 @@ public class HomeActivity extends ListActivity
     optionsList.add( getString( R.string.lesson_1 ) );
     optionsList.add( getString( R.string.lesson_2 ) );
     optionsList.add( getString( R.string.lesson_3 ) );
+    optionsList.add( getString( R.string.lesson_4 ) );
 
     ArrayAdapter<String> adapter = new ArrayAdapter<String>( this, android.R.layout.simple_list_item_1, optionsList );
     setListAdapter( adapter );
@@ -109,6 +110,10 @@ public class HomeActivity extends ListActivity
     else if ( getString( R.string.lesson_3 ).equals( option ) )
     {
       launchLessonActivity( _lesson3 );
+    }
+    else if ( getString( R.string.lesson_4 ).equals( option ) )
+    {
+      launchLessonActivity( _lesson4 );
     }
   }
 

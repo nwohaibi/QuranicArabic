@@ -9,7 +9,6 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
 import com.jps.quranic.arabic.R;
 
@@ -23,10 +22,7 @@ public class LessonArrayAdapter extends ArrayAdapter<Integer>
   private final Activity _context;
 
   /** Holds a list of arabic words */
-  private List<String> _wordList;
-
-  /** For every arabic word, holds its urdu meaning */
-  private Map<String, String> _wordMeaningMap;
+  private List<WordMeaning> _wordMeaningList;
 
   public LessonArrayAdapter( Activity context, ArrayList<Integer> lessonResIds )
   {
@@ -34,11 +30,13 @@ public class LessonArrayAdapter extends ArrayAdapter<Integer>
 
     _context = context;
 
-    // initialize _wordMeaningMap with all arabic words and their meanings from strings.xml
-    _wordMeaningMap = Util.getWordMeaningMap( _context, lessonResIds );
+    _wordMeaningList = new ArrayList<WordMeaning>();
 
-    _wordList = new ArrayList<String>();
-    _wordList.addAll( _wordMeaningMap.keySet() );
+    for ( Integer lessonResId : lessonResIds )
+    {
+      String[] stringArray = context.getResources().getStringArray( lessonResId );
+      _wordMeaningList.add( new WordMeaning( stringArray[0], stringArray[1] ) );
+    }
   }
 
   // static to save the reference to the outer class and to avoid access to
@@ -53,7 +51,6 @@ public class LessonArrayAdapter extends ArrayAdapter<Integer>
   @Override
   public View getView( int position, View convertView, ViewGroup parent )
   {
-    // todo try catch
     // ViewHolder will buffer the assess to the individual fields of the row
     // layout
 
@@ -78,11 +75,8 @@ public class LessonArrayAdapter extends ArrayAdapter<Integer>
       holder = (ViewHolder) rowView.getTag();
     }
 
-    String word = _wordList.get( position );
-    holder._wordView.setText( word );
-
-    String meaning = _wordMeaningMap.get( word );
-    holder._meaningView.setText( meaning );
+    holder._wordView.setText( _wordMeaningList.get( position ).getWord() );
+    holder._meaningView.setText( _wordMeaningList.get( position ).getMeaning() );
 
     return rowView;
   }

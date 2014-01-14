@@ -26,10 +26,10 @@ public class HomeActivity extends ListActivity
 {
   private final int[] _lesson1 = { R.array.hooa, R.array.hum, R.array.anta, R.array.antum, R.array.ana,
                                    R.array.nahnu, R.array.heeya };
-  private final int[] _lesson3 = { R.array.rabbuhu, R.array.rabbuhum, R.array.rabbuka, R.array.rabbukum,
+  private final int[] _lesson2 = { R.array.rabbuhu, R.array.rabbuhum, R.array.rabbuka, R.array.rabbukum,
                                    R.array.rabbi, R.array.rabbuna, R.array.rabbuha };
 
-  private final int[] _lesson5 = { R.array.lahu, R.array.lahum, R.array.laka, R.array.lakum, R.array.lee,
+  private final int[] _lesson3 = { R.array.lahu, R.array.lahum, R.array.laka, R.array.lakum, R.array.lee,
                                    R.array.lana, R.array.laha, R.array.fa_ala, R.array.fa_alu, R.array.fa_alta,
                                    R.array.fa_altum, R.array.fa_altu, R.array.fa_alna };
 
@@ -45,7 +45,7 @@ public class HomeActivity extends ListActivity
 
     FlashCardActivity.PREF_NAME = this.getClass().getName();
 
-    _extraResourceIds = Util.append( _lesson1, _lesson3, _lesson5 );
+    _extraResourceIds = Util.append( _lesson1, _lesson2, _lesson3 );
   }
 
   @Override
@@ -61,6 +61,10 @@ public class HomeActivity extends ListActivity
     {
       optionsList.add( getString( R.string.continue_with_saved_session ) );
     }
+
+    optionsList.add( getString( R.string.lesson_1 ) );
+    optionsList.add( getString( R.string.lesson_2 ) );
+    optionsList.add( getString( R.string.lesson_3 ) );
 
     ArrayAdapter<String> adapter = new ArrayAdapter<String>( this, android.R.layout.simple_list_item_1, optionsList );
     setListAdapter( adapter );
@@ -94,13 +98,30 @@ public class HomeActivity extends ListActivity
     {
       startSession( true );
     }
+    else if ( getString( R.string.lesson_1 ).equals( option ) )
+    {
+      launchLessonActivity( _lesson1 );
+    }
+    else if ( getString( R.string.lesson_2 ).equals( option ) )
+    {
+      launchLessonActivity( _lesson2 );
+    }
+    else if ( getString( R.string.lesson_3 ).equals( option ) )
+    {
+      launchLessonActivity( _lesson3 );
+    }
   }
 
-  // todo use this for lessons
-  private void launchLessonActivity( int[] lesson1 )
+  private void launchLessonActivity( int[] lessonArray )
   {
     Intent intent = new Intent( this, LessonActivity.class );
-    intent.putIntegerArrayListExtra( EXTRA_RESOURCE_IDS, Util.append( lesson1 ) );
+
+    for ( int i = 0; i < lessonArray.length; i++ )
+    {
+      intent.putExtra( LessonActivity.EXTRA_LESSON_RES_ID + i, lessonArray[i] );
+    }
+
+    intent.putExtra( LessonActivity.EXTRA_NUM_LESSONS, lessonArray.length );
     startActivity( intent );
   }
 

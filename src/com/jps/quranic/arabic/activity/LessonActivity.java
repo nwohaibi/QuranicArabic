@@ -6,7 +6,7 @@ import android.os.Bundle;
 
 import java.util.ArrayList;
 
-import com.jps.quranic.arabic.util.LessonArrayAdapter;
+import com.jps.quranic.arabic.adapter.LessonArrayAdapter;
 
 /**
  * User: shah

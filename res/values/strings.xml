@@ -10,6 +10,8 @@
   <string name="start_new_session">Start new session</string>
   <string name="continue_with_saved_session">Continue with saved session</string>
 
+  <string name="settings">Settings</string>
+
   <!-- lessons -->
   <string name="lesson_1">Lesson 1</string>
   <string name="lesson_2">Lesson 2</string>

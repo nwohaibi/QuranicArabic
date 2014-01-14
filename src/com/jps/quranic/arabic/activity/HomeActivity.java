@@ -8,6 +8,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -43,9 +44,22 @@ public class HomeActivity extends ListActivity
   {
     super.onCreate( savedInstanceState );
 
+    setContentView( R.layout.home_view );
+
     FlashCardActivity.PREF_NAME = this.getClass().getName();
 
     _extraResourceIds = Util.append( _lesson1, _lesson2, _lesson3, _lesson4 );
+
+    Button settingsButton = (Button) findViewById( R.id.settings_button );
+    settingsButton.setOnClickListener( new View.OnClickListener()
+    {
+      @Override
+      public void onClick( View view )
+      {
+        Intent intent = new Intent( HomeActivity.this, SettingsActivity.class );
+        startActivity( intent );
+      }
+    } );
   }
 
   @Override

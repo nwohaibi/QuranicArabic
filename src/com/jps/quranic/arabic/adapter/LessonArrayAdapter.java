@@ -1,4 +1,4 @@
-package com.jps.quranic.arabic.util;
+package com.jps.quranic.arabic.adapter;
 
 import android.app.Activity;
 import android.view.LayoutInflater;
@@ -11,6 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.jps.quranic.arabic.R;
+import com.jps.quranic.arabic.util.WordMeaning;
 
 /**
  * User: shah

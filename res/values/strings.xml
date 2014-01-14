@@ -11,6 +11,7 @@
   <string name="continue_with_saved_session">Continue with saved session</string>
 
   <string name="settings">Settings</string>
+  <string name="settings_header">The following Lessons will appear in Flashcards:</string>
 
   <!-- lessons -->
   <string name="lesson_1">Lesson 1</string>

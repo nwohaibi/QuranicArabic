@@ -10,10 +10,13 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 import com.jps.quranic.arabic.R;
 import com.jps.quranic.arabic.util.Util;
@@ -107,7 +110,17 @@ public class HomeActivity extends ListActivity
 
     if ( getString( R.string.start_new_session ).equals( option ) )
     {
-      startSession( false );
+      SharedPreferences prefs = getSharedPreferences( SettingsActivity.SETTINGS_PREF, 0 );
+      Set<String> checkedLessonSet = prefs.getStringSet( SettingsActivity.KEY_CHECKED_LESSON_SET, new HashSet<String>() );
+
+      if ( checkedLessonSet.isEmpty() )
+      {
+        Toast.makeText( getBaseContext(), "Visit Settings to add Lessons", Toast.LENGTH_LONG ).show();
+      }
+      else
+      {
+        startSession( false );
+      }
     }
     else if ( getString( R.string.continue_with_saved_session ).equals( option ) )
     {

@@ -27,7 +27,7 @@ public class LessonArrayAdapter extends ArrayAdapter<Integer>
 
   public LessonArrayAdapter( Activity context, ArrayList<Integer> lessonResIds )
   {
-    super( context, R.layout.lesson_view, lessonResIds );
+    super( context, R.layout.lesson_list_item, lessonResIds );
 
     _context = context;
 
@@ -63,7 +63,7 @@ public class LessonArrayAdapter extends ArrayAdapter<Integer>
     if ( rowView == null )
     {
       LayoutInflater inflater = _context.getLayoutInflater();
-      rowView = inflater.inflate( R.layout.lesson_view, null, true );
+      rowView = inflater.inflate( R.layout.lesson_list_item, null, true );
 
       holder = new ViewHolder();
       holder._wordView = (TextView) rowView.findViewById( R.id.word_view );

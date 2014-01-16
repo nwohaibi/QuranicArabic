@@ -6,6 +6,8 @@
   <!-- word -->
   <TextView android:id="@+id/word_view"
             android:text="word view"
+            android:paddingTop="@dimen/text_view_padding"
+            android:paddingBottom="@dimen/text_view_padding"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
@@ -24,6 +26,8 @@
   <!-- meaning -->
   <TextView android:id="@+id/meaning_view"
             android:text="meaning view"
+            android:paddingTop="@dimen/text_view_padding"
+            android:paddingBottom="@dimen/text_view_padding"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"

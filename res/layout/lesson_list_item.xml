@@ -8,6 +8,8 @@
   <!-- word -->
   <TextView android:id="@+id/word_view"
             android:layout_width="125dip"
+            android:paddingTop="@dimen/text_view_padding"
+            android:paddingBottom="@dimen/text_view_padding"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:textAppearance="?android:attr/textAppearanceLarge">
@@ -16,6 +18,8 @@
   <!-- meaning -->
   <TextView android:id="@+id/meaning_view"
             android:layout_width="wrap_content"
+            android:paddingTop="@dimen/text_view_padding"
+            android:paddingBottom="@dimen/text_view_padding"
             android:layout_height="wrap_content"
             android:layout_toLeftOf="@+id/word_view"
             android:textAppearance="?android:attr/textAppearanceLarge">

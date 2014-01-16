@@ -18,6 +18,7 @@
   <string name="lesson_2">Lesson 2</string>
   <string name="lesson_3">Lesson 3</string>
   <string name="lesson_4">Lesson 4</string>
+  <string name="lesson_5">Lesson 5</string>
 
   <!-- Lesson 1 -->
   <string-array name="hooa">
@@ -133,5 +134,31 @@
   <string-array name="fa_alna">
     <item>فَعَلْنَا</item>
     <item>ہم نے کیا</item>
+  </string-array>
+
+  <!-- Lesson 5 -->
+  <string-array name="min_hu">
+    <item>مِنْهُ</item>
+    <item>اُس سے</item>
+  </string-array>
+  <string-array name="min_hum">
+    <item>مِنْهُمْ</item>
+    <item>اُن سے</item>
+  </string-array>
+  <string-array name="min_ka">
+    <item>مِنْكَ</item>
+    <item>آپ سے</item>
+  </string-array>
+  <string-array name="min_kum">
+    <item>مِنْكُمْ</item>
+    <item>آپ سب سے</item>
+  </string-array>
+  <string-array name="min_ni">
+    <item>مِنّي</item>
+    <item>مجھ سے</item>
+  </string-array>
+  <string-array name="min_na">
+    <item>مِنَّا</item>
+    <item>ہم سے</item>
   </string-array>
 </resources>

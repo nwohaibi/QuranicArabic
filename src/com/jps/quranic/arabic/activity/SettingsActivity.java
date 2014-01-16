@@ -48,6 +48,7 @@ public class SettingsActivity extends ListActivity
     lessonList.add( getString( R.string.lesson_2 ) );
     lessonList.add( getString( R.string.lesson_3 ) );
     lessonList.add( getString( R.string.lesson_4 ) );
+    lessonList.add( getString( R.string.lesson_5 ) );
 
     ArrayAdapter<String> adapter;
     adapter = new ArrayAdapter<String>( this, android.R.layout.simple_list_item_multiple_choice, lessonList );

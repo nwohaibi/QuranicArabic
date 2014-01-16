@@ -36,6 +36,8 @@ public class HomeActivity extends ListActivity
                                    R.array.lana, R.array.laha };
   private final int[] _lesson4 = { R.array.fa_ala, R.array.fa_alu, R.array.fa_alta,
                                    R.array.fa_altum, R.array.fa_altu, R.array.fa_alna };
+  private final int[] _lesson5 = { R.array.min_hu, R.array.min_hum, R.array.min_ka,
+                                   R.array.min_kum, R.array.min_ni, R.array.min_na };
 
   // extras
   public static final String EXTRA_RESOURCE_IDS = "extra_resource_ids";
@@ -79,6 +81,7 @@ public class HomeActivity extends ListActivity
     optionsList.add( getString( R.string.lesson_2 ) );
     optionsList.add( getString( R.string.lesson_3 ) );
     optionsList.add( getString( R.string.lesson_4 ) );
+    optionsList.add( getString( R.string.lesson_5 ) );
 
     ArrayAdapter<String> adapter = new ArrayAdapter<String>( this, android.R.layout.simple_list_item_1, optionsList );
     setListAdapter( adapter );
@@ -135,6 +138,10 @@ public class HomeActivity extends ListActivity
           {
             lessonIds.addAll( Util.append( _lesson4 ) );
           }
+          else if ( Integer.valueOf( checkedLesson ) == 5 )
+          {
+            lessonIds.addAll( Util.append( _lesson5 ) );
+          }
         }
 
         startSession( false, lessonIds );
@@ -142,7 +149,7 @@ public class HomeActivity extends ListActivity
     }
     else if ( getString( R.string.continue_with_saved_session ).equals( option ) )
     {
-      startSession( true, Util.append( _lesson1, _lesson2, _lesson3, _lesson4 ) );
+      startSession( true, Util.append( _lesson1, _lesson2, _lesson3, _lesson4, _lesson5 ) );
     }
     else if ( getString( R.string.lesson_1 ).equals( option ) )
     {
@@ -159,6 +166,10 @@ public class HomeActivity extends ListActivity
     else if ( getString( R.string.lesson_4 ).equals( option ) )
     {
       launchLessonActivity( _lesson4 );
+    }
+    else if ( getString( R.string.lesson_5 ).equals( option ) )
+    {
+      launchLessonActivity( _lesson5 );
     }
   }
 

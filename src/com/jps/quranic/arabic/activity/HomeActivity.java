@@ -37,8 +37,6 @@ public class HomeActivity extends ListActivity
   private final int[] _lesson4 = { R.array.fa_ala, R.array.fa_alu, R.array.fa_alta,
                                    R.array.fa_altum, R.array.fa_altu, R.array.fa_alna };
 
-  protected ArrayList<Integer> _extraResourceIds;
-
   // extras
   public static final String EXTRA_RESOURCE_IDS = "extra_resource_ids";
 
@@ -50,8 +48,6 @@ public class HomeActivity extends ListActivity
     setContentView( R.layout.home_view );
 
     FlashCardActivity.PREF_NAME = this.getClass().getName();
-
-    _extraResourceIds = Util.append( _lesson1, _lesson2, _lesson3, _lesson4 );
 
     Button settingsButton = (Button) findViewById( R.id.settings_button );
     settingsButton.setOnClickListener( new View.OnClickListener()
@@ -119,12 +115,34 @@ public class HomeActivity extends ListActivity
       }
       else
       {
-        startSession( false );
+        ArrayList<Integer> lessonIds = new ArrayList<Integer>();
+
+        for ( String checkedLesson : checkedLessonSet )
+        {
+          if ( Integer.valueOf( checkedLesson ) == 1 )
+          {
+            lessonIds.addAll( Util.append( _lesson1 ) );
+          }
+          else if ( Integer.valueOf( checkedLesson ) == 2 )
+          {
+            lessonIds.addAll( Util.append( _lesson2 ) );
+          }
+          else if ( Integer.valueOf( checkedLesson ) == 3 )
+          {
+            lessonIds.addAll( Util.append( _lesson3 ) );
+          }
+          else if ( Integer.valueOf( checkedLesson ) == 4 )
+          {
+            lessonIds.addAll( Util.append( _lesson4 ) );
+          }
+        }
+
+        startSession( false, lessonIds );
       }
     }
     else if ( getString( R.string.continue_with_saved_session ).equals( option ) )
     {
-      startSession( true );
+      startSession( true, Util.append( _lesson1, _lesson2, _lesson3, _lesson4 ) );
     }
     else if ( getString( R.string.lesson_1 ).equals( option ) )
     {
@@ -157,7 +175,7 @@ public class HomeActivity extends ListActivity
     startActivity( intent );
   }
 
-  private void startSession( final boolean doContinueWithSavedSession )
+  private void startSession( final boolean doContinueWithSavedSession, final ArrayList<Integer> lessonIds )
   {
     // if user wants to start a new session and there is already a saved session, warn user that
     // if they start a new session, the saved one will be deleted
@@ -170,7 +188,7 @@ public class HomeActivity extends ListActivity
         {
           public void onClick( DialogInterface dialog, int id )
           {
-            doStartSession( doContinueWithSavedSession );
+            doStartSession( doContinueWithSavedSession, lessonIds );
           }
         } )
         .setNegativeButton( "No", new DialogInterface.OnClickListener()
@@ -185,15 +203,15 @@ public class HomeActivity extends ListActivity
     }
     else
     {
-      doStartSession( doContinueWithSavedSession );
+      doStartSession( doContinueWithSavedSession, lessonIds );
     }
   }
 
-  private void doStartSession( boolean doContinueWithSavedSession )
+  private void doStartSession( boolean doContinueWithSavedSession, ArrayList<Integer> lessonIds )
   {
     Intent intent = new Intent( HomeActivity.this, FlashCardActivity.class );
     intent.putExtra( FlashCardActivity.EXTRA_CONTINUE_WITH_SAVED_SESSION, doContinueWithSavedSession );
-    intent.putIntegerArrayListExtra( EXTRA_RESOURCE_IDS, _extraResourceIds );
+    intent.putIntegerArrayListExtra( EXTRA_RESOURCE_IDS, lessonIds );
     startActivity( intent );
   }
 }

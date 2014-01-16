@@ -73,9 +73,6 @@ public class FlashCardActivity extends Activity
     // initialize _wordMeaningMap with all words and their meanings from strings.xml
     _wordMeaningMap = Util.getWordMeaningMap( this, resIds );
 
-    // _wordArray is initialized based on number of words taken from _wordMeaningMap's key set
-    _wordArray = new String[_wordMeaningMap.keySet().size()];
-
     // start from saved progress
     if ( doStartFromSavedProgress )
     {
@@ -164,6 +161,9 @@ public class FlashCardActivity extends Activity
   /** Initialize _wordArray with words from _wordMeaningMap. */
   private void initializeWordList()
   {
+    // _wordArray is initialized based on number of words taken from _wordMeaningMap's key set
+    _wordArray = new String[_wordMeaningMap.keySet().size()];
+
     Set<String> wordSet = _wordMeaningMap.keySet();
 
     // copy wordSet to wordList
@@ -212,6 +212,9 @@ public class FlashCardActivity extends Activity
 
     // retrieve _currentWordIndex
     _currentWordIndex = (Integer) preferencesMap.remove( "current word index" );
+
+    // _wordArray is initialized based on number of words taken from preferencesMap's key set
+    _wordArray = new String[preferencesMap.keySet().size()];
 
     // initialize _wordArray from preferences
     for ( Map.Entry<String, ?> entry : preferencesMap.entrySet() )

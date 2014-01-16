@@ -37,7 +37,7 @@ public class HomeActivity extends ListActivity
   private final int[] _lesson4 = { R.array.fa_ala, R.array.fa_alu, R.array.fa_alta,
                                    R.array.fa_altum, R.array.fa_altu, R.array.fa_alna };
   private final int[] _lesson5 = { R.array.min_hu, R.array.min_hum, R.array.min_ka,
-                                   R.array.min_kum, R.array.min_ni, R.array.min_na };
+                                   R.array.min_kum, R.array.min_ni, R.array.min_na, R.array.min_ha };
 
   // extras
   public static final String EXTRA_RESOURCE_IDS = "extra_resource_ids";

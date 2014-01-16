@@ -161,4 +161,8 @@
     <item>مِنَّا</item>
     <item>ہم سے</item>
   </string-array>
+  <string-array name="min_ha">
+    <item>مِنْهَا</item>
+    <item>اُس عورت سے</item>
+  </string-array>
 </resources>

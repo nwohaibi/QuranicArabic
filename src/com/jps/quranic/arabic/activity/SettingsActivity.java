@@ -22,7 +22,9 @@ import com.jps.quranic.arabic.R;
 public class SettingsActivity extends ListActivity
 {
   public static final String SETTINGS_PREF = "settings_pref";
-  public static final String KEY_CHECKED_LESSON_SET = "checkedLessonSet";
+  public static final String KEY_CHECKED_LESSON_INDEX_SET = "key_checked_lesson_index_set";
+  public static final String KEY_CHECKED_LESSON_NAME_SET = "key_checked_lesson_name_set";
+  public static final String EXTRA_LESSON_NAMES = "extra_lesson_names";
 
   @Override
   protected void onCreate( Bundle savedInstanceState )
@@ -43,12 +45,7 @@ public class SettingsActivity extends ListActivity
 
     listView.setChoiceMode( AbsListView.CHOICE_MODE_MULTIPLE );
 
-    ArrayList<String> lessonList = new ArrayList<String>();
-    lessonList.add( getString( R.string.lesson_1 ) );
-    lessonList.add( getString( R.string.lesson_2 ) );
-    lessonList.add( getString( R.string.lesson_3 ) );
-    lessonList.add( getString( R.string.lesson_4 ) );
-    lessonList.add( getString( R.string.lesson_5 ) );
+    ArrayList<String> lessonList = (ArrayList<String>) getIntent().getSerializableExtra( EXTRA_LESSON_NAMES );
 
     ArrayAdapter<String> adapter;
     adapter = new ArrayAdapter<String>( this, android.R.layout.simple_list_item_multiple_choice, lessonList );
@@ -56,7 +53,7 @@ public class SettingsActivity extends ListActivity
 
     // get checked lessons from preferences
     SharedPreferences prefs = getSharedPreferences( SETTINGS_PREF, 0 );
-    Set<String> checkedLessonSet = prefs.getStringSet( KEY_CHECKED_LESSON_SET, new HashSet<String>() );
+    Set<String> checkedLessonSet = prefs.getStringSet( KEY_CHECKED_LESSON_INDEX_SET, new HashSet<String>() );
 
     if ( !checkedLessonSet.isEmpty() )
     {
@@ -73,19 +70,22 @@ public class SettingsActivity extends ListActivity
     super.onStop();
 
     ListView listView = getListView();
-    Set<String> checkedLessonSet = new HashSet<String>();
+    Set<String> checkedLessonIndexSet = new HashSet<String>();
+    Set<String> checkedLessonNameSet = new HashSet<String>();
     for ( int i = 0; i < listView.getCount(); i++ )
     {
       if ( listView.isItemChecked( i ) )
       {
-        checkedLessonSet.add( String.valueOf( i ) );
+        checkedLessonIndexSet.add( String.valueOf( i ) );
+        checkedLessonNameSet.add( listView.getAdapter().getItem( i ).toString() ); // save lesson names
       }
     }
 
     // save checked lessons in preferences
     SharedPreferences prefs = getSharedPreferences( SETTINGS_PREF, 0 );
     SharedPreferences.Editor editor = prefs.edit();
-    editor.putStringSet( KEY_CHECKED_LESSON_SET, checkedLessonSet );
+    editor.putStringSet( KEY_CHECKED_LESSON_INDEX_SET, checkedLessonIndexSet );
+    editor.putStringSet( KEY_CHECKED_LESSON_NAME_SET, checkedLessonNameSet );
     editor.commit();
   }
 }

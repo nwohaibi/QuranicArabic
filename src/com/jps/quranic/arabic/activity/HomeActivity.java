@@ -12,7 +12,10 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
@@ -39,6 +42,8 @@ public class HomeActivity extends ListActivity
   private final int[] _lesson5 = { R.array.min_hu, R.array.min_hum, R.array.min_ka,
                                    R.array.min_kum, R.array.min_ni, R.array.min_na, R.array.min_ha };
 
+  private Map<String, int[]> _lessonMap;
+
   // extras
   public static final String EXTRA_RESOURCE_IDS = "extra_resource_ids";
 
@@ -57,10 +62,21 @@ public class HomeActivity extends ListActivity
       @Override
       public void onClick( View view )
       {
+        List<String> lessonNameList = new ArrayList<String>( _lessonMap.keySet() );
+        Collections.reverse( lessonNameList );
+
         Intent intent = new Intent( HomeActivity.this, SettingsActivity.class );
+        intent.putExtra( SettingsActivity.EXTRA_LESSON_NAMES, (Serializable) lessonNameList );
         startActivity( intent );
       }
     } );
+
+    _lessonMap = new HashMap<String, int[]>();
+    _lessonMap.put( getString( R.string.lesson_1 ), _lesson1 );
+    _lessonMap.put( getString( R.string.lesson_2 ), _lesson2 );
+    _lessonMap.put( getString( R.string.lesson_3 ), _lesson3 );
+    _lessonMap.put( getString( R.string.lesson_4 ), _lesson4 );
+    _lessonMap.put( getString( R.string.lesson_5 ), _lesson5 );
   }
 
   @Override
@@ -77,11 +93,9 @@ public class HomeActivity extends ListActivity
       optionsList.add( getString( R.string.continue_with_saved_session ) );
     }
 
-    optionsList.add( getString( R.string.lesson_1 ) );
-    optionsList.add( getString( R.string.lesson_2 ) );
-    optionsList.add( getString( R.string.lesson_3 ) );
-    optionsList.add( getString( R.string.lesson_4 ) );
-    optionsList.add( getString( R.string.lesson_5 ) );
+    List<String> lessonNameList = new ArrayList<String>( _lessonMap.keySet() );
+    Collections.reverse( lessonNameList );
+    optionsList.addAll( lessonNameList );
 
     ArrayAdapter<String> adapter = new ArrayAdapter<String>( this, android.R.layout.simple_list_item_1, optionsList );
     setListAdapter( adapter );
@@ -110,38 +124,21 @@ public class HomeActivity extends ListActivity
     if ( getString( R.string.start_new_session ).equals( option ) )
     {
       SharedPreferences prefs = getSharedPreferences( SettingsActivity.SETTINGS_PREF, 0 );
-      Set<String> checkedLessonSet = prefs.getStringSet( SettingsActivity.KEY_CHECKED_LESSON_SET, new HashSet<String>() );
+      Set<String> checkedLessonNameSet = prefs.getStringSet( SettingsActivity.KEY_CHECKED_LESSON_NAME_SET, new HashSet<String>() );
 
-      if ( checkedLessonSet.isEmpty() )
+      if ( checkedLessonNameSet.isEmpty() )
       {
         Toast.makeText( getBaseContext(), "Visit Settings to add Lessons", Toast.LENGTH_LONG ).show();
       }
       else
       {
+        // lesson ids of lessons checked in settings
         ArrayList<Integer> lessonIds = new ArrayList<Integer>();
 
-        for ( String checkedLesson : checkedLessonSet )
+        for ( String checkedLessonName : checkedLessonNameSet )
         {
-          if ( Integer.valueOf( checkedLesson ) == 1 )
-          {
-            lessonIds.addAll( Util.append( _lesson1 ) );
-          }
-          else if ( Integer.valueOf( checkedLesson ) == 2 )
-          {
-            lessonIds.addAll( Util.append( _lesson2 ) );
-          }
-          else if ( Integer.valueOf( checkedLesson ) == 3 )
-          {
-            lessonIds.addAll( Util.append( _lesson3 ) );
-          }
-          else if ( Integer.valueOf( checkedLesson ) == 4 )
-          {
-            lessonIds.addAll( Util.append( _lesson4 ) );
-          }
-          else if ( Integer.valueOf( checkedLesson ) == 5 )
-          {
-            lessonIds.addAll( Util.append( _lesson5 ) );
-          }
+          int[] lessonArray = _lessonMap.get( checkedLessonName );
+          lessonIds.addAll( Util.append( lessonArray ) );
         }
 
         startSession( false, lessonIds );
@@ -149,32 +146,25 @@ public class HomeActivity extends ListActivity
     }
     else if ( getString( R.string.continue_with_saved_session ).equals( option ) )
     {
-      startSession( true, Util.append( _lesson1, _lesson2, _lesson3, _lesson4, _lesson5 ) );
+      List<int[]> lessons = new ArrayList<int[]>( _lessonMap.values() );
+      int[][] lessonArray = new int[lessons.size()][];
+
+      for ( int i = 0; i < lessons.size(); i++ )
+      {
+        lessonArray[i] = lessons.get( i );
+      }
+
+      startSession( true, Util.append( lessonArray ) );
     }
-    else if ( getString( R.string.lesson_1 ).equals( option ) )
+    else
     {
-      launchLessonActivity( _lesson1 );
-    }
-    else if ( getString( R.string.lesson_2 ).equals( option ) )
-    {
-      launchLessonActivity( _lesson2 );
-    }
-    else if ( getString( R.string.lesson_3 ).equals( option ) )
-    {
-      launchLessonActivity( _lesson3 );
-    }
-    else if ( getString( R.string.lesson_4 ).equals( option ) )
-    {
-      launchLessonActivity( _lesson4 );
-    }
-    else if ( getString( R.string.lesson_5 ).equals( option ) )
-    {
-      launchLessonActivity( _lesson5 );
+      launchLessonActivity( option );
     }
   }
 
-  private void launchLessonActivity( int[] lessonArray )
+  private void launchLessonActivity( String lessonName )
   {
+    int[] lessonArray = _lessonMap.get( lessonName );
     Intent intent = new Intent( this, LessonActivity.class );
 
     for ( int i = 0; i < lessonArray.length; i++ )

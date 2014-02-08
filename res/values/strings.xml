@@ -19,6 +19,7 @@
   <string name="lesson_3">Lesson 3</string>
   <string name="lesson_4">Lesson 4</string>
   <string name="lesson_5">Lesson 5</string>
+  <string name="lesson_6">Lesson 6</string>
 
   <!-- Lesson 1 -->
   <string-array name="hooa">
@@ -164,5 +165,35 @@
   <string-array name="min_ha">
     <item>مِنْهَا</item>
     <item>اُس عورت سے</item>
+  </string-array>
+
+  <!-- Lesson 6 -->
+  <string-array name="an_hu">
+    <item>عَنْهُ</item>
+    <item>اس کے بارے میں، اس سے</item>
+  </string-array>
+  <string-array name="an_hum">
+    <item>عَنْهُمْ</item>
+    <item>ان کے بارے میں، ان سے</item>
+  </string-array>
+  <string-array name="an_ka">
+    <item>عَنْكَ</item>
+    <item>آپ کے بارے میں، آپ سے</item>
+  </string-array>
+  <string-array name="an_kum">
+    <item>عَنْكُمْ</item>
+    <item>آپ سب کے بارے میں، آپ سب سے</item>
+  </string-array>
+  <string-array name="an_ni">
+    <item>عَنّي</item>
+    <item>میرے بارے میں، مجھ سے</item>
+  </string-array>
+  <string-array name="an_na">
+    <item>عَنَّا</item>
+    <item>ہمارے بارے میں، ہم سے</item>
+  </string-array>
+  <string-array name="an_ha">
+    <item>عَنْهَا</item>
+    <item>اس عورت کے بارے میں، اس عورت سے</item>
   </string-array>
 </resources>

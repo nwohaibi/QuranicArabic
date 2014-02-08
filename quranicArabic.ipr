@@ -276,7 +276,6 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../flashcards/flashcards.iml" filepath="$PROJECT_DIR$/../flashcards/flashcards.iml" />
       <module fileurl="file://$PROJECT_DIR$/quranicArabic.iml" filepath="$PROJECT_DIR$/quranicArabic.iml" />
     </modules>
   </component>

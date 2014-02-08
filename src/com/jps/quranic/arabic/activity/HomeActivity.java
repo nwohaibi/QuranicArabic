@@ -41,6 +41,8 @@ public class HomeActivity extends ListActivity
                                    R.array.fa_altum, R.array.fa_altu, R.array.fa_alna };
   private final int[] _lesson5 = { R.array.min_hu, R.array.min_hum, R.array.min_ka,
                                    R.array.min_kum, R.array.min_ni, R.array.min_na, R.array.min_ha };
+  private final int[] _lesson6 = { R.array.an_hu, R.array.an_hum, R.array.an_ka,
+                                   R.array.an_kum, R.array.an_ni, R.array.an_na, R.array.an_ha };
 
   private Map<String, int[]> _lessonMap;
 
@@ -77,6 +79,7 @@ public class HomeActivity extends ListActivity
     _lessonMap.put( getString( R.string.lesson_3 ), _lesson3 );
     _lessonMap.put( getString( R.string.lesson_4 ), _lesson4 );
     _lessonMap.put( getString( R.string.lesson_5 ), _lesson5 );
+    _lessonMap.put( getString( R.string.lesson_6 ), _lesson6 );
   }
 
   @Override

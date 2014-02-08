@@ -170,11 +170,11 @@
   <!-- Lesson 6 -->
   <string-array name="an_hu">
     <item>عَنْهُ</item>
-    <item>اس کے بارے میں، اس سے</item>
+    <item>اُس کے بارے میں، اُس سے</item>
   </string-array>
   <string-array name="an_hum">
     <item>عَنْهُمْ</item>
-    <item>ان کے بارے میں، ان سے</item>
+    <item>اُن کے بارے میں، اُن سے</item>
   </string-array>
   <string-array name="an_ka">
     <item>عَنْكَ</item>
@@ -194,6 +194,6 @@
   </string-array>
   <string-array name="an_ha">
     <item>عَنْهَا</item>
-    <item>اس عورت کے بارے میں، اس عورت سے</item>
+    <item>اُس عورت کے بارے میں، اُس عورت سے</item>
   </string-array>
 </resources>

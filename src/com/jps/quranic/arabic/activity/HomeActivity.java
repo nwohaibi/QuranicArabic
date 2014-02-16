@@ -45,6 +45,8 @@ public class HomeActivity extends ListActivity
                                    R.array.an_na, R.array.an_ha };
   private final int[] _lesson7 = { R.array.yaf_alu, R.array.yaf_alu_na, R.array.taf_alu, R.array.taf_alu_na,
                                    R.array.af_alu, R.array.naf_alu };
+  private final int[] _lesson8 = { R.array.ma_ahu, R.array.ma_ahum, R.array.ma_aka, R.array.ma_akum,
+                                   R.array.ma_ee, R.array.ma_ee_na, R.array.ma_aha };
 
   private Map<String, int[]> _lessonMap;
 
@@ -66,11 +68,8 @@ public class HomeActivity extends ListActivity
       @Override
       public void onClick( View view )
       {
-        List<String> lessonNameList = new ArrayList<String>( _lessonMap.keySet() );
-        Collections.reverse( lessonNameList );
-
         Intent intent = new Intent( HomeActivity.this, SettingsActivity.class );
-        intent.putExtra( SettingsActivity.EXTRA_LESSON_NAMES, (Serializable) lessonNameList );
+        intent.putExtra( SettingsActivity.EXTRA_LESSON_NAMES, (Serializable) getLessonNameList() );
         startActivity( intent );
       }
     } );
@@ -83,6 +82,7 @@ public class HomeActivity extends ListActivity
     _lessonMap.put( getString( R.string.lesson_5 ), _lesson5 );
     _lessonMap.put( getString( R.string.lesson_6 ), _lesson6 );
     _lessonMap.put( getString( R.string.lesson_7 ), _lesson7 );
+    _lessonMap.put( getString( R.string.lesson_8 ), _lesson8 );
   }
 
   @Override
@@ -98,13 +98,17 @@ public class HomeActivity extends ListActivity
     {
       optionsList.add( getString( R.string.continue_with_saved_session ) );
     }
-
-    List<String> lessonNameList = new ArrayList<String>( _lessonMap.keySet() );
-    Collections.reverse( lessonNameList );
-    optionsList.addAll( lessonNameList );
+    optionsList.addAll( getLessonNameList() );
 
     ArrayAdapter<String> adapter = new ArrayAdapter<String>( this, android.R.layout.simple_list_item_1, optionsList );
     setListAdapter( adapter );
+  }
+
+  private List<String> getLessonNameList()
+  {
+    List<String> lessonNameList = new ArrayList<String>( _lessonMap.keySet() );
+    Collections.sort( lessonNameList );
+    return lessonNameList;
   }
 
   /**

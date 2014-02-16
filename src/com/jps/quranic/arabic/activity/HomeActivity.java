@@ -31,18 +31,20 @@ import com.jps.quranic.arabic.util.Util;
  */
 public class HomeActivity extends ListActivity
 {
-  private final int[] _lesson1 = { R.array.hooa, R.array.hum, R.array.anta, R.array.antum, R.array.ana,
-                                   R.array.nahnu, R.array.heeya };
-  private final int[] _lesson2 = { R.array.rabbuhu, R.array.rabbuhum, R.array.rabbuka, R.array.rabbukum,
-                                   R.array.rabbi, R.array.rabbuna, R.array.rabbuha };
-  private final int[] _lesson3 = { R.array.lahu, R.array.lahum, R.array.laka, R.array.lakum, R.array.lee,
-                                   R.array.lana, R.array.laha };
-  private final int[] _lesson4 = { R.array.fa_ala, R.array.fa_alu, R.array.fa_alta,
-                                   R.array.fa_altum, R.array.fa_altu, R.array.fa_alna };
-  private final int[] _lesson5 = { R.array.min_hu, R.array.min_hum, R.array.min_ka,
-                                   R.array.min_kum, R.array.min_ni, R.array.min_na, R.array.min_ha };
-  private final int[] _lesson6 = { R.array.an_hu, R.array.an_hum, R.array.an_ka,
-                                   R.array.an_kum, R.array.an_ni, R.array.an_na, R.array.an_ha };
+  private final int[] _lesson1 = { R.array.hooa, R.array.hum, R.array.anta, R.array.antum, R.array.ana, R.array.nahnu,
+                                   R.array.heeya };
+  private final int[] _lesson2 = { R.array.rabbuhu, R.array.rabbuhum, R.array.rabbuka, R.array.rabbukum, R.array.rabbi,
+                                   R.array.rabbuna, R.array.rabbuha };
+  private final int[] _lesson3 = { R.array.lahu, R.array.lahum, R.array.laka, R.array.lakum, R.array.lee, R.array.lana,
+                                   R.array.laha };
+  private final int[] _lesson4 = { R.array.fa_ala, R.array.fa_alu, R.array.fa_alta, R.array.fa_altum, R.array.fa_altu,
+                                   R.array.fa_alna };
+  private final int[] _lesson5 = { R.array.min_hu, R.array.min_hum, R.array.min_ka, R.array.min_kum, R.array.min_ni,
+                                   R.array.min_na, R.array.min_ha };
+  private final int[] _lesson6 = { R.array.an_hu, R.array.an_hum, R.array.an_ka, R.array.an_kum, R.array.an_ni,
+                                   R.array.an_na, R.array.an_ha };
+  private final int[] _lesson7 = { R.array.yaf_alu, R.array.yaf_alu_na, R.array.taf_alu, R.array.taf_alu_na,
+                                   R.array.af_alu, R.array.naf_alu };
 
   private Map<String, int[]> _lessonMap;
 
@@ -80,6 +82,7 @@ public class HomeActivity extends ListActivity
     _lessonMap.put( getString( R.string.lesson_4 ), _lesson4 );
     _lessonMap.put( getString( R.string.lesson_5 ), _lesson5 );
     _lessonMap.put( getString( R.string.lesson_6 ), _lesson6 );
+    _lessonMap.put( getString( R.string.lesson_7 ), _lesson7 );
   }
 
   @Override

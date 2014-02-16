@@ -20,6 +20,7 @@
   <string name="lesson_4">Lesson 4</string>
   <string name="lesson_5">Lesson 5</string>
   <string name="lesson_6">Lesson 6</string>
+  <string name="lesson_7">Lesson 7</string>
 
   <!-- Lesson 1 -->
   <string-array name="hooa">
@@ -195,5 +196,31 @@
   <string-array name="an_ha">
     <item>عَنْهَا</item>
     <item>اُس عورت کے بارے میں، اُس عورت سے</item>
+  </string-array>
+
+  <!-- Lesson 7 -->
+  <string-array name="yaf_alu">
+    <item>يَفْعَلُ</item>
+    <item>وہ کرتا ہے</item>
+  </string-array>
+  <string-array name="yaf_alu_na">
+    <item>يَفْعَلُونَ</item>
+    <item>وہ کرتے ہیں</item>
+  </string-array>
+  <string-array name="taf_alu">
+    <item>تَفْعَلُ</item>
+    <item>آپ کرتے ہیں</item>
+  </string-array>
+  <string-array name="taf_alu_na">
+    <item>تَفْعَلُونَ</item>
+    <item>آپ سب کرتے ہیں</item>
+  </string-array>
+  <string-array name="af_alu">
+    <item>أفْعَلُ</item>
+    <item>میں کرتا ہوں</item>
+  </string-array>
+  <string-array name="naf_alu">
+    <item>نَفْعَلُ</item>
+    <item>ہم کرتے ہيں</item>
   </string-array>
 </resources>

@@ -22,6 +22,7 @@
   <string name="lesson_6">Lesson 6</string>
   <string name="lesson_7">Lesson 7</string>
   <string name="lesson_8">Lesson 8</string>
+  <string name="lesson_9">Lesson 9</string>
 
   <!-- Lesson 1 -->
   <string-array name="hooa">
@@ -253,5 +254,35 @@
   <string-array name="ma_aha">
     <item>مَعَهَا</item>
     <item>اُس عورت کے ساتھ</item>
+  </string-array>
+
+  <!-- Lesson 9 -->
+  <string-array name="fee_hee">
+    <item>فِيهِ</item>
+    <item>اُس میں</item>
+  </string-array>
+  <string-array name="fee_him">
+    <item>فِيهِمْ</item>
+    <item>اُن میں</item>
+  </string-array>
+  <string-array name="fee_ka">
+    <item>فِيكَ</item>
+    <item>آپ میں</item>
+  </string-array>
+  <string-array name="fee_kum">
+    <item>فِيكُمْ</item>
+    <item>آپ سب میں</item>
+  </string-array>
+  <string-array name="fee_ya">
+    <item>فِيَّ</item>
+    <item>میرے میں</item>
+  </string-array>
+  <string-array name="fee_na">
+    <item>فِينَا</item>
+    <item>ہم میں</item>
+  </string-array>
+  <string-array name="fee_ha">
+    <item>فِيهَا</item>
+    <item>اُس عورت میں</item>
   </string-array>
 </resources>

@@ -47,6 +47,8 @@ public class HomeActivity extends ListActivity
                                    R.array.af_alu, R.array.naf_alu };
   private final int[] _lesson8 = { R.array.ma_ahu, R.array.ma_ahum, R.array.ma_aka, R.array.ma_akum,
                                    R.array.ma_ee, R.array.ma_ee_na, R.array.ma_aha };
+  private final int[] _lesson9 = { R.array.fee_hee, R.array.fee_him, R.array.fee_ka, R.array.fee_kum,
+                                   R.array.fee_ya, R.array.fee_na, R.array.fee_ha };
 
   private Map<String, int[]> _lessonMap;
 
@@ -83,6 +85,7 @@ public class HomeActivity extends ListActivity
     _lessonMap.put( getString( R.string.lesson_6 ), _lesson6 );
     _lessonMap.put( getString( R.string.lesson_7 ), _lesson7 );
     _lessonMap.put( getString( R.string.lesson_8 ), _lesson8 );
+    _lessonMap.put( getString( R.string.lesson_9 ), _lesson9 );
   }
 
   @Override

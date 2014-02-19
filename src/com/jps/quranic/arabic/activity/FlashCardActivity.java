@@ -128,8 +128,8 @@ public class FlashCardActivity extends Activity
   @Override
   public void onBackPressed()
   {
-    // prompt user to save session if it's not completed
-    if ( !_isCurrentSessionSaved )
+    // prompt user to save session if it's not completed and if the user isn't on the last word
+    if ( !_isCurrentSessionSaved && _currentWordIndex != _wordArray.length - 1 )
     {
       AlertDialog.Builder builder = new AlertDialog.Builder( this );
       builder.setMessage( "You haven't completed this session, do you want to save your progress before exiting?" )

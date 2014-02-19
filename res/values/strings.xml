@@ -23,6 +23,7 @@
   <string name="lesson_7">Lesson 7</string>
   <string name="lesson_8">Lesson 8</string>
   <string name="lesson_9">Lesson 9</string>
+  <string name="lesson_10">Lesson 10</string>
 
   <!-- Lesson 1 -->
   <string-array name="hooa">
@@ -284,5 +285,23 @@
   <string-array name="fee_ha">
     <item>فِيهَا</item>
     <item>اُس عورت میں</item>
+  </string-array>
+
+  <!-- Lesson 10 -->
+  <string-array name="if_al">
+    <item>اِفْعَلْ</item>
+    <item>کر</item>
+  </string-array>
+  <string-array name="if_a_lu">
+    <item>اِفْعَلُوا</item>
+    <item>کرو</item>
+  </string-array>
+  <string-array name="la_taf_al">
+    <item>لاَ تَفْعَلْ</item>
+    <item>مت کر</item>
+  </string-array>
+  <string-array name="la_taf_a_lu">
+    <item>لاَ تَفْعَلُوا</item>
+    <item>مت کرو</item>
   </string-array>
 </resources>

@@ -15,6 +15,7 @@ import android.widget.Toast;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
@@ -49,6 +50,7 @@ public class HomeActivity extends ListActivity
                                    R.array.ma_ee, R.array.ma_ee_na, R.array.ma_aha };
   private final int[] _lesson9 = { R.array.fee_hee, R.array.fee_him, R.array.fee_ka, R.array.fee_kum,
                                    R.array.fee_ya, R.array.fee_na, R.array.fee_ha };
+  private final int[] _lesson10 = { R.array.if_al, R.array.if_a_lu, R.array.la_taf_al, R.array.la_taf_a_lu };
 
   private Map<String, int[]> _lessonMap;
 
@@ -86,6 +88,7 @@ public class HomeActivity extends ListActivity
     _lessonMap.put( getString( R.string.lesson_7 ), _lesson7 );
     _lessonMap.put( getString( R.string.lesson_8 ), _lesson8 );
     _lessonMap.put( getString( R.string.lesson_9 ), _lesson9 );
+    _lessonMap.put( getString( R.string.lesson_10 ), _lesson10 );
   }
 
   @Override
@@ -110,7 +113,14 @@ public class HomeActivity extends ListActivity
   private List<String> getLessonNameList()
   {
     List<String> lessonNameList = new ArrayList<String>( _lessonMap.keySet() );
-    Collections.sort( lessonNameList );
+    Collections.sort( lessonNameList, new Comparator<String>()
+    {
+      @Override
+      public int compare( String s1, String s2 )
+      {
+        return Integer.valueOf( s1.substring( 7 ) ).compareTo( Integer.valueOf( s2.substring( 7 ) ) );
+      }
+    } );
     return lessonNameList;
   }
 

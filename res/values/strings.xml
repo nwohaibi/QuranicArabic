@@ -13,7 +13,7 @@
   <string name="settings">Settings</string>
   <string name="settings_header">The following Lessons will appear in Flashcards:</string>
 
-  <!-- lessons -->
+  <!-- lesson numbers -->
   <string name="lesson_1">Lesson 1</string>
   <string name="lesson_2">Lesson 2</string>
   <string name="lesson_3">Lesson 3</string>
@@ -24,6 +24,18 @@
   <string name="lesson_8">Lesson 8</string>
   <string name="lesson_9">Lesson 9</string>
   <string name="lesson_10">Lesson 10</string>
+
+  <!-- lesson titles -->
+  <string name="lesson_title_1">ضميريں</string>
+  <string name="lesson_title_2">رَبّ</string>
+  <string name="lesson_title_3">لَ</string>
+  <string name="lesson_title_4">فِعْل مَاضِي</string>
+  <string name="lesson_title_5">مِنْ</string>
+  <string name="lesson_title_6">عَنْ</string>
+  <string name="lesson_title_7">فِعْل مُضَارِع</string>
+  <string name="lesson_title_8">مَعَ</string>
+  <string name="lesson_title_9">فِي</string>
+  <string name="lesson_title_10">أمْر نَهْي</string>
 
   <!-- Lesson 1 -->
   <string-array name="hooa">

@@ -7,7 +7,6 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
@@ -23,6 +22,8 @@ import java.util.Map;
 import java.util.Set;
 
 import com.jps.quranic.arabic.R;
+import com.jps.quranic.arabic.adapter.HomeArrayAdapter;
+import com.jps.quranic.arabic.util.Lesson;
 import com.jps.quranic.arabic.util.Util;
 
 /**
@@ -53,6 +54,7 @@ public class HomeActivity extends ListActivity
   private final int[] _lesson10 = { R.array.if_al, R.array.if_a_lu, R.array.la_taf_al, R.array.la_taf_a_lu };
 
   private Map<String, int[]> _lessonMap;
+  private ArrayList<Lesson> _lessonList;
 
   // extras
   public static final String EXTRA_RESOURCE_IDS = "extra_resource_ids";
@@ -89,6 +91,18 @@ public class HomeActivity extends ListActivity
     _lessonMap.put( getString( R.string.lesson_8 ), _lesson8 );
     _lessonMap.put( getString( R.string.lesson_9 ), _lesson9 );
     _lessonMap.put( getString( R.string.lesson_10 ), _lesson10 );
+
+    _lessonList = new ArrayList<Lesson>();
+    _lessonList.add( new Lesson( getString( R.string.lesson_1 ), getString( R.string.lesson_title_1 ) ) );
+    _lessonList.add( new Lesson( getString( R.string.lesson_2 ), getString( R.string.lesson_title_2 ) ) );
+    _lessonList.add( new Lesson( getString( R.string.lesson_3 ), getString( R.string.lesson_title_3 ) ) );
+    _lessonList.add( new Lesson( getString( R.string.lesson_4 ), getString( R.string.lesson_title_4 ) ) );
+    _lessonList.add( new Lesson( getString( R.string.lesson_5 ), getString( R.string.lesson_title_5 ) ) );
+    _lessonList.add( new Lesson( getString( R.string.lesson_6 ), getString( R.string.lesson_title_6 ) ) );
+    _lessonList.add( new Lesson( getString( R.string.lesson_7 ), getString( R.string.lesson_title_7 ) ) );
+    _lessonList.add( new Lesson( getString( R.string.lesson_8 ), getString( R.string.lesson_title_8 ) ) );
+    _lessonList.add( new Lesson( getString( R.string.lesson_9 ), getString( R.string.lesson_title_9 ) ) );
+    _lessonList.add( new Lesson( getString( R.string.lesson_10 ), getString( R.string.lesson_title_10 ) ) );
   }
 
   @Override
@@ -97,17 +111,32 @@ public class HomeActivity extends ListActivity
     super.onResume();
 
     // display options
-    List<String> optionsList = new ArrayList<String>();
-    optionsList.add( getString( R.string.start_new_session ) );
+    ArrayList<Lesson> optionsList = new ArrayList<Lesson>();
+    optionsList.add( new Lesson( getString( R.string.start_new_session ), null ) );
 
     if ( !areSharedPreferencesEmpty() )
     {
-      optionsList.add( getString( R.string.continue_with_saved_session ) );
+      optionsList.add( new Lesson( getString( R.string.continue_with_saved_session ), null ) );
     }
-    optionsList.addAll( getLessonNameList() );
+    optionsList.addAll( getSortedLessonList() );
 
-    ArrayAdapter<String> adapter = new ArrayAdapter<String>( this, android.R.layout.simple_list_item_1, optionsList );
+    HomeArrayAdapter adapter = new HomeArrayAdapter( this, optionsList );
     setListAdapter( adapter );
+  }
+
+  private List<Lesson> getSortedLessonList()
+  {
+    List<Lesson> lessonList = new ArrayList<Lesson>( _lessonList );
+    Collections.sort( lessonList, new Comparator<Lesson>()
+    {
+      @Override
+      public int compare( Lesson lesson1, Lesson lesson2 )
+      {
+        return Integer.valueOf( lesson1.getLessonNumber().substring( 7 ) ).compareTo(
+          Integer.valueOf( lesson2.getLessonNumber().substring( 7 ) ) );
+      }
+    } );
+    return lessonList;
   }
 
   private List<String> getLessonNameList()
@@ -142,7 +171,8 @@ public class HomeActivity extends ListActivity
   {
     super.onListItemClick( l, v, position, id );
 
-    String option = (String) getListAdapter().getItem( position );
+    Lesson lesson = (Lesson) getListAdapter().getItem( position );
+    String option = lesson.getLessonNumber();
 
     if ( getString( R.string.start_new_session ).equals( option ) )
     {

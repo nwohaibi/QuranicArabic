@@ -24,6 +24,7 @@
   <string name="lesson_8">Lesson 8</string>
   <string name="lesson_9">Lesson 9</string>
   <string name="lesson_10">Lesson 10</string>
+  <string name="lesson_11">Lesson 11</string>
 
   <!-- lesson titles -->
   <string name="lesson_title_1">ضميريں</string>
@@ -36,6 +37,7 @@
   <string name="lesson_title_8">مَعَ</string>
   <string name="lesson_title_9">فِي</string>
   <string name="lesson_title_10">أمْر نَهْي</string>
+  <string name="lesson_title_11">بِ</string>
 
   <!-- Lesson 1 -->
   <string-array name="hooa">
@@ -315,5 +317,35 @@
   <string-array name="la_taf_a_lu">
     <item>لاَ تَفْعَلُوا</item>
     <item>مت کرو</item>
+  </string-array>
+
+  <!-- Lesson 11 -->
+  <string-array name="bi_hi">
+    <item>بِهِ</item>
+    <item>اُس کے ساتھ</item>
+  </string-array>
+  <string-array name="bi_him">
+    <item>بِهِمْ</item>
+    <item>اُن کے ساتھ</item>
+  </string-array>
+  <string-array name="bi_ka">
+    <item>بِكَ</item>
+    <item>آپ کے ساتھ</item>
+  </string-array>
+  <string-array name="bi_kum">
+    <item>بِكُمْ</item>
+    <item>آپ سب کے ساتھ</item>
+  </string-array>
+  <string-array name="bi">
+    <item>بِي</item>
+    <item>میرے ساتھ</item>
+  </string-array>
+  <string-array name="bi_na">
+    <item>بِنَا</item>
+    <item>ہمارے ساتھ</item>
+  </string-array>
+  <string-array name="bi_ha">
+    <item>بِهَا</item>
+    <item>اُس عورت کے ساتھ</item>
   </string-array>
 </resources>

@@ -56,6 +56,7 @@ public class HomeActivity extends ListActivity
                                     R.array.bi_na, R.array.bi_ha };
   private final int[] _lesson12 = { R.array.a_lai_hi, R.array.a_lai_him, R.array.a_lai_ka, R.array.a_lai_kum,
                                     R.array.a_lai_ya, R.array.a_lai_na, R.array.a_lai_ha };
+  private final int[] _lesson13 = { R.array.fa_il, R.array.maf_ul, R.array.fail, R.array.fa_i_lun, R.array.maf_u_lun };
 
   private Map<String, int[]> _lessonMap;
   private ArrayList<Lesson> _lessonList;
@@ -97,6 +98,7 @@ public class HomeActivity extends ListActivity
     _lessonMap.put( getString( R.string.lesson_10 ), _lesson10 );
     _lessonMap.put( getString( R.string.lesson_11 ), _lesson11 );
     _lessonMap.put( getString( R.string.lesson_12 ), _lesson12 );
+    _lessonMap.put( getString( R.string.lesson_13 ), _lesson13 );
 
     _lessonList = new ArrayList<Lesson>();
     _lessonList.add( new Lesson( getString( R.string.lesson_1 ), getString( R.string.lesson_title_1 ) ) );
@@ -111,6 +113,7 @@ public class HomeActivity extends ListActivity
     _lessonList.add( new Lesson( getString( R.string.lesson_10 ), getString( R.string.lesson_title_10 ) ) );
     _lessonList.add( new Lesson( getString( R.string.lesson_11 ), getString( R.string.lesson_title_11 ) ) );
     _lessonList.add( new Lesson( getString( R.string.lesson_12 ), getString( R.string.lesson_title_12 ) ) );
+    _lessonList.add( new Lesson( getString( R.string.lesson_13 ), getString( R.string.lesson_title_13 ) ) );
   }
 
   @Override

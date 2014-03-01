@@ -28,6 +28,7 @@
   <string name="lesson_12">Lesson 12</string>
   <string name="lesson_13">Lesson 13</string>
   <string name="lesson_14">Lesson 14</string>
+  <string name="lesson_15">Lesson 15</string>
 
   <!-- lesson titles -->
   <string name="lesson_title_1">ضميريں</string>
@@ -44,6 +45,7 @@
   <string name="lesson_title_12">عَلَى</string>
   <string name="lesson_title_13">فِعْل</string>
   <string name="lesson_title_14">إِلىٰ</string>
+  <string name="lesson_title_15">فَعَلَتْ</string>
 
   <!-- Lesson 1 -->
   <string-array name="hooa">
@@ -435,5 +437,31 @@
   <string-array name="ilai_ha">
     <item>إِلَيْهَا</item>
     <item>اُس عورت كى طرف</item>
+  </string-array>
+
+  <!-- Lesson 15 -->
+  <string-array name="fa_a_lat">
+    <item>فَعَلَتْ</item>
+    <item>اُس عورت نے کيا</item>
+  </string-array>
+  <string-array name="hiya_taf_a_lu">
+    <item>تَفْعَلُ (مونث)</item>
+    <item>وہ کرتی ہے</item>
+  </string-array>
+  <string-array name="fa_ila">
+    <item>فَاعِلَة</item>
+    <item>کرنےوالی</item>
+  </string-array>
+  <string-array name="fa_ilat">
+    <item>فَاعِلاَت</item>
+    <item>کرنےوالیاں</item>
+  </string-array>
+  <string-array name="maf_ula">
+    <item>مَفْعُولَة</item>
+    <item>وہ عورت جس پر اثر پڑا</item>
+  </string-array>
+  <string-array name="maf_ulat">
+    <item>مَفْعُولاَت</item>
+    <item>وہ عورتيں جن پر اثر پڑا</item>
   </string-array>
 </resources>

@@ -2,6 +2,9 @@
 <resources>
   <string name="app_name">Quranic Arabic</string>
 
+  <string name="save_progress">Save Progress</string>
+  <string name="progress_saved">Your progress has been saved</string>
+
   <!-- buttons -->
   <string name="previous">Previous</string>
   <string name="next">Next</string>

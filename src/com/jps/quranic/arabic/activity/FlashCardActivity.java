@@ -8,10 +8,12 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -107,9 +109,9 @@ public class FlashCardActivity extends Activity
   @Override
   public boolean onCreateOptionsMenu( Menu menu )
   {
-    menu.add( 0, MENU_SAVE_PROGRESS, 0, "Save Progress" );
-
-    return super.onCreateOptionsMenu( menu );
+    MenuInflater inflater = getMenuInflater();
+    inflater.inflate( R.menu.flash_card_menu, menu );
+    return true;
   }
 
   @Override
@@ -117,12 +119,12 @@ public class FlashCardActivity extends Activity
   {
     switch ( item.getItemId() )
     {
-      case MENU_SAVE_PROGRESS:
+      case R.id.save:
         saveProgress();
-        break;
+        return true;
+      default:
+        return super.onOptionsItemSelected( item );
     }
-
-    return super.onOptionsItemSelected( item );
   }
 
   @Override
@@ -200,6 +202,8 @@ public class FlashCardActivity extends Activity
     editor.commit();
 
     _isCurrentSessionSaved = true;
+
+    Toast.makeText( getBaseContext(), getString( R.string.progress_saved ), Toast.LENGTH_LONG ).show();
   }
 
   /** Retrieves saved progress. */

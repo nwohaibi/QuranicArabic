@@ -56,7 +56,8 @@ public class HomeActivity extends ListActivity
                                     R.array.bi_na, R.array.bi_ha };
   private final int[] _lesson12 = { R.array.a_lai_hi, R.array.a_lai_him, R.array.a_lai_ka, R.array.a_lai_kum,
                                     R.array.a_lai_ya, R.array.a_lai_na, R.array.a_lai_ha };
-  private final int[] _lesson13 = { R.array.fa_il, R.array.maf_ul, R.array.fail, R.array.fa_i_lun, R.array.maf_u_lun };
+  private final int[] _lesson13 = { R.array.fa_il, R.array.maf_ul, R.array.fail, R.array.fa_i_lun, R.array.fa_i_lin,
+                                    R.array.maf_u_lun, R.array.maf_u_lin };
   private final int[] _lesson14 = { R.array.ilai_hi, R.array.ilai_him, R.array.ilai_ka, R.array.ilai_kum,
                                     R.array.ilai_ya, R.array.ilai_na, R.array.ilai_ha };
   private final int[] _lesson15 = { R.array.fa_a_lat, R.array.hiya_taf_a_lu, R.array.fa_ila, R.array.fa_ilat,

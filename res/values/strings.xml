@@ -404,11 +404,19 @@
     <item>کرنا، کام کا کرنا</item>
   </string-array>
   <string-array name="fa_i_lun">
-    <item>فَاعِلُون، فَاعِلِين</item>
+    <item>فَاعِلُون</item>
+    <item>کرنے والے</item>
+  </string-array>
+  <string-array name="fa_i_lin">
+    <item>فَاعِلِين</item>
     <item>کرنے والے</item>
   </string-array>
   <string-array name="maf_u_lun">
-    <item>مَفْعُولُون، مَفْعُولِين</item>
+    <item>مَفْعُولُون</item>
+    <item>وہ جن پر اثر پڑا</item>
+  </string-array>
+  <string-array name="maf_u_lin">
+    <item>مَفْعُولِين</item>
     <item>وہ جن پر اثر پڑا</item>
   </string-array>
 

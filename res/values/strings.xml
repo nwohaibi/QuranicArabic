@@ -32,6 +32,7 @@
   <string name="lesson_13">Lesson 13</string>
   <string name="lesson_14">Lesson 14</string>
   <string name="lesson_15">Lesson 15</string>
+  <string name="lesson_16">Lesson 16</string>
 
   <!-- lesson titles -->
   <string name="lesson_title_1">ضميريں</string>
@@ -49,6 +50,7 @@
   <string name="lesson_title_13">فِعْل</string>
   <string name="lesson_title_14">إِلىٰ</string>
   <string name="lesson_title_15">فَعَلَتْ</string>
+  <string name="lesson_title_16">فَتْح</string>
 
   <!-- Lesson 1 -->
   <string-array name="hooa">
@@ -474,5 +476,91 @@
   <string-array name="maf_ulat">
     <item>مَفْعُولاَت</item>
     <item>وہ عورتيں جن پر اثر پڑا</item>
+  </string-array>
+
+  <!-- Lesson 16 -->
+  <string-array name="fa_ta_ha">
+    <item>فَتَحَ</item>
+    <item>اُس نے کھولا</item>
+  </string-array>
+  <string-array name="fa_ta_hu">
+    <item>فَتَحُوا</item>
+    <item>اُن سب نے کھولا</item>
+  </string-array>
+  <string-array name="fa_tah_ta">
+    <item>فَتَحْتَ</item>
+    <item>آپ نے کھولا</item>
+  </string-array>
+  <string-array name="fa_tah_tum">
+    <item>فَتَحْتُمْ</item>
+    <item>آپ سب نے کھولا</item>
+  </string-array>
+  <string-array name="fa_tah_tu">
+    <item>فَتَحْتُ</item>
+    <item>میں نے کھولا</item>
+  </string-array>
+  <string-array name="fa_tah_na">
+    <item>فَتَحْنَا</item>
+    <item>ہم نے کھولا</item>
+  </string-array>
+  <string-array name="yaf_ta_hu">
+    <item>يَفْتَحُ</item>
+    <item>وہ کھولتا ہے</item>
+  </string-array>
+  <string-array name="yaf_ta_hu_na">
+    <item>يَفْتَحُونَ</item>
+    <item>وہ سب کھولتے ہیں</item>
+  </string-array>
+  <string-array name="taf_ta_hu">
+    <item>تَفْتَحُ</item>
+    <item>آپ کھولتے ہیں</item>
+  </string-array>
+  <string-array name="taf_ta_hu_na">
+    <item>تَفْتَحُونَ</item>
+    <item>آپ سب کھولتے ہیں</item>
+  </string-array>
+  <string-array name="af_ta_hu">
+    <item>أَفْتَحُ</item>
+    <item>میں کھولتا ہوں</item>
+  </string-array>
+  <string-array name="naf_ta_hu">
+    <item>نَفْتَحُ</item>
+    <item>ہم کھولتے ہیں</item>
+  </string-array>
+  <string-array name="if_tah">
+    <item>إِفْتَحْ</item>
+    <item>کھول</item>
+  </string-array>
+  <string-array name="if_ta_hu">
+    <item>إِفْتَحُوا</item>
+    <item>کھولو</item>
+  </string-array>
+  <string-array name="la_taf_tah">
+    <item>لاَتَفْتَحْ</item>
+    <item>مت کھول</item>
+  </string-array>
+  <string-array name="la_taf_ta_hu">
+    <item>لاَتَفْتَحُوا</item>
+    <item>مت کھولو</item>
+  </string-array>
+  <string-array name="fa_tih">
+    <item>فَاتِحْ</item>
+    <item>کھولنے والا</item>
+  </string-array>
+  <string-array name="maf_tuh">
+    <item>مَفْتُوح</item>
+    <item>وہ جو کھلا</item>
+  </string-array>
+  <string-array name="fath">
+    <item>فَتْح</item>
+    <item>کھولنا</item>
+  </string-array>
+  <string-array name="fa_ta_hat">
+    <item>فَتَحَتْ</item>
+    <item>اُس عورت نے کھولا</item>
+  </string-array>
+  <string-array name="hiya_taf_ta_hu">
+    <item>تَفْتَحُ (مونث)</item>
+    <item>وہ کھولتی ہے</item>
   </string-array>
 </resources>

@@ -62,6 +62,12 @@ public class HomeActivity extends ListActivity
                                     R.array.ilai_ya, R.array.ilai_na, R.array.ilai_ha };
   private final int[] _lesson15 = { R.array.fa_a_lat, R.array.hiya_taf_a_lu, R.array.fa_ila, R.array.fa_ilat,
                                     R.array.maf_ula, R.array.maf_ulat };
+  private final int[] _lesson16 = { R.array.fa_ta_ha, R.array.fa_ta_hu, R.array.fa_tah_ta, R.array.fa_tah_tum,
+                                    R.array.fa_tah_tu, R.array.fa_tah_na, R.array.yaf_ta_hu, R.array.yaf_ta_hu_na,
+                                    R.array.taf_ta_hu, R.array.taf_ta_hu_na, R.array.af_ta_hu, R.array.naf_ta_hu,
+                                    R.array.if_tah, R.array.if_ta_hu, R.array.la_taf_tah, R.array.la_taf_ta_hu,
+                                    R.array.fa_tih, R.array.maf_tuh, R.array.fath, R.array.fa_ta_hat,
+                                    R.array.hiya_taf_ta_hu };
 
   private Map<String, int[]> _lessonMap;
   private ArrayList<Lesson> _lessonList;
@@ -106,6 +112,7 @@ public class HomeActivity extends ListActivity
     _lessonMap.put( getString( R.string.lesson_13 ), _lesson13 );
     _lessonMap.put( getString( R.string.lesson_14 ), _lesson14 );
     _lessonMap.put( getString( R.string.lesson_15 ), _lesson15 );
+    _lessonMap.put( getString( R.string.lesson_16 ), _lesson16 );
 
     _lessonList = new ArrayList<Lesson>();
     _lessonList.add( new Lesson( getString( R.string.lesson_1 ), getString( R.string.lesson_title_1 ) ) );
@@ -123,6 +130,7 @@ public class HomeActivity extends ListActivity
     _lessonList.add( new Lesson( getString( R.string.lesson_13 ), getString( R.string.lesson_title_13 ) ) );
     _lessonList.add( new Lesson( getString( R.string.lesson_14 ), getString( R.string.lesson_title_14 ) ) );
     _lessonList.add( new Lesson( getString( R.string.lesson_15 ), getString( R.string.lesson_title_15 ) ) );
+    _lessonList.add( new Lesson( getString( R.string.lesson_16 ), getString( R.string.lesson_title_16 ) ) );
   }
 
   @Override

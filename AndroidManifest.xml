@@ -9,7 +9,7 @@
     android:minSdkVersion="14"/>
 
   <application
-    android:label="quranicArabic"
+    android:label="@string/app_name"
     android:icon="@drawable/icon"
     android:allowBackup="true">
 

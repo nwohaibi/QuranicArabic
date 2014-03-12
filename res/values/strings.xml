@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">Quranic Arabic</string>
+  <string name="app_name">Arabic</string>
 
   <string name="save_progress">Save Progress</string>
   <string name="progress_saved">Your progress has been saved</string>

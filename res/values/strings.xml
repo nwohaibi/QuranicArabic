@@ -16,41 +16,70 @@
   <string name="settings">Settings</string>
   <string name="settings_header">The following Lessons will appear in Flashcards:</string>
 
-  <!-- lesson numbers -->
-  <string name="lesson_1">Lesson 1</string>
-  <string name="lesson_2">Lesson 2</string>
-  <string name="lesson_3">Lesson 3</string>
-  <string name="lesson_4">Lesson 4</string>
-  <string name="lesson_5">Lesson 5</string>
-  <string name="lesson_6">Lesson 6</string>
-  <string name="lesson_7">Lesson 7</string>
-  <string name="lesson_8">Lesson 8</string>
-  <string name="lesson_9">Lesson 9</string>
-  <string name="lesson_10">Lesson 10</string>
-  <string name="lesson_11">Lesson 11</string>
-  <string name="lesson_12">Lesson 12</string>
-  <string name="lesson_13">Lesson 13</string>
-  <string name="lesson_14">Lesson 14</string>
-  <string name="lesson_15">Lesson 15</string>
-  <string name="lesson_16">Lesson 16</string>
-
-  <!-- lesson titles -->
-  <string name="lesson_title_1">ضميريں</string>
-  <string name="lesson_title_2">رَبّ</string>
-  <string name="lesson_title_3">لَ</string>
-  <string name="lesson_title_4">فِعْل مَاضِي</string>
-  <string name="lesson_title_5">مِنْ</string>
-  <string name="lesson_title_6">عَنْ</string>
-  <string name="lesson_title_7">فِعْل مُضَارِع</string>
-  <string name="lesson_title_8">مَعَ</string>
-  <string name="lesson_title_9">فِي</string>
-  <string name="lesson_title_10">أمْر نَهْي</string>
-  <string name="lesson_title_11">بِ</string>
-  <string name="lesson_title_12">عَلَى</string>
-  <string name="lesson_title_13">فِعْل</string>
-  <string name="lesson_title_14">إِلىٰ</string>
-  <string name="lesson_title_15">فَعَلَتْ</string>
-  <string name="lesson_title_16">فَتْح</string>
+  <string-array name="lesson_1">
+    <item>Lesson 1</item>
+    <item>ضميريں</item>
+  </string-array>
+  <string-array name="lesson_2">
+    <item>Lesson 2</item>
+    <item>رَبّ</item>
+  </string-array>
+  <string-array name="lesson_3">
+    <item>Lesson 3</item>
+    <item>لَ</item>
+  </string-array>
+  <string-array name="lesson_4">
+    <item>Lesson 4</item>
+    <item>فِعْل مَاضِي</item>
+  </string-array>
+  <string-array name="lesson_5">
+    <item>Lesson 5</item>
+    <item>مِنْ</item>
+  </string-array>
+  <string-array name="lesson_6">
+    <item>Lesson 6</item>
+    <item>عَنْ</item>
+  </string-array>
+  <string-array name="lesson_7">
+    <item>Lesson 7</item>
+    <item>فِعْل مُضَارِع</item>
+  </string-array>
+  <string-array name="lesson_8">
+    <item>Lesson 8</item>
+    <item>مَعَ</item>
+  </string-array>
+  <string-array name="lesson_9">
+    <item>Lesson 9</item>
+    <item>فِي</item>
+  </string-array>
+  <string-array name="lesson_10">
+    <item>Lesson 10</item>
+    <item>أمْر نَهْي</item>
+  </string-array>
+  <string-array name="lesson_11">
+    <item>Lesson 11</item>
+    <item>بِ</item>
+  </string-array>
+  <string-array name="lesson_12">
+    <item>Lesson 12</item>
+    <item>عَلَى</item>
+  </string-array>
+  <string-array name="lesson_13">
+    <item>Lesson 13</item>
+    <item>فِعْل</item>
+  </string-array>
+  <string-array name="lesson_14">
+    <item>Lesson 14</item>
+    <item>إِلىٰ</item>
+  </string-array>
+  <string-array name="lesson_15">
+    <item>Lesson 15</item>
+    <item>فَعَلَتْ</item>
+  </string-array>
+  <string-array name="lesson_16">
+    <item>Lesson 16</item>
+    <item>فَتْح</item>
+  </string-array>
 
   <!-- Lesson 1 -->
   <string-array name="hooa">

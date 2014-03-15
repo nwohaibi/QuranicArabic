@@ -132,22 +132,22 @@ public class HomeActivity extends ListActivity
     _lessonMap.put( lesson16[0], _lesson16 );
 
     _lessonList = new ArrayList<Lesson>();
-    _lessonList.add( new Lesson( lesson1[0], lesson1[1] ) );
-    _lessonList.add( new Lesson( lesson2[0], lesson2[1] ) );
-    _lessonList.add( new Lesson( lesson3[0], lesson3[1] ) );
-    _lessonList.add( new Lesson( lesson4[0], lesson4[1] ) );
-    _lessonList.add( new Lesson( lesson5[0], lesson5[1] ) );
-    _lessonList.add( new Lesson( lesson6[0], lesson6[1] ) );
-    _lessonList.add( new Lesson( lesson7[0], lesson7[1] ) );
-    _lessonList.add( new Lesson( lesson8[0], lesson8[1] ) );
-    _lessonList.add( new Lesson( lesson9[0], lesson9[1] ) );
-    _lessonList.add( new Lesson( lesson10[0], lesson10[1] ) );
-    _lessonList.add( new Lesson( lesson11[0], lesson11[1] ) );
-    _lessonList.add( new Lesson( lesson12[0], lesson12[1] ) );
-    _lessonList.add( new Lesson( lesson13[0], lesson13[1] ) );
-    _lessonList.add( new Lesson( lesson14[0], lesson14[1] ) );
-    _lessonList.add( new Lesson( lesson15[0], lesson15[1] ) );
-    _lessonList.add( new Lesson( lesson16[0], lesson16[1] ) );
+    _lessonList.add( new Lesson( R.array.lesson_1, lesson1[0], lesson1[1] ) );
+    _lessonList.add( new Lesson( R.array.lesson_2, lesson2[0], lesson2[1] ) );
+    _lessonList.add( new Lesson( R.array.lesson_3, lesson3[0], lesson3[1] ) );
+    _lessonList.add( new Lesson( R.array.lesson_4, lesson4[0], lesson4[1] ) );
+    _lessonList.add( new Lesson( R.array.lesson_5, lesson5[0], lesson5[1] ) );
+    _lessonList.add( new Lesson( R.array.lesson_6, lesson6[0], lesson6[1] ) );
+    _lessonList.add( new Lesson( R.array.lesson_7, lesson7[0], lesson7[1] ) );
+    _lessonList.add( new Lesson( R.array.lesson_8, lesson8[0], lesson8[1] ) );
+    _lessonList.add( new Lesson( R.array.lesson_9, lesson9[0], lesson9[1] ) );
+    _lessonList.add( new Lesson( R.array.lesson_10, lesson10[0], lesson10[1] ) );
+    _lessonList.add( new Lesson( R.array.lesson_11, lesson11[0], lesson11[1] ) );
+    _lessonList.add( new Lesson( R.array.lesson_12, lesson12[0], lesson12[1] ) );
+    _lessonList.add( new Lesson( R.array.lesson_13, lesson13[0], lesson13[1] ) );
+    _lessonList.add( new Lesson( R.array.lesson_14, lesson14[0], lesson14[1] ) );
+    _lessonList.add( new Lesson( R.array.lesson_15, lesson15[0], lesson15[1] ) );
+    _lessonList.add( new Lesson( R.array.lesson_16, lesson16[0], lesson16[1] ) );
   }
 
   @Override
@@ -157,11 +157,11 @@ public class HomeActivity extends ListActivity
 
     // display options
     ArrayList<Lesson> optionsList = new ArrayList<Lesson>();
-    optionsList.add( new Lesson( getString( R.string.start_new_session ), null ) );
+    optionsList.add( new Lesson( 0, getString( R.string.start_new_session ), null ) );
 
     if ( !areSharedPreferencesEmpty() )
     {
-      optionsList.add( new Lesson( getString( R.string.continue_with_saved_session ), null ) );
+      optionsList.add( new Lesson( 0, getString( R.string.continue_with_saved_session ), null ) );
     }
     optionsList.addAll( getSortedLessonList() );
 
@@ -254,24 +254,20 @@ public class HomeActivity extends ListActivity
 
       startSession( true, Util.append( lessonArray ) );
     }
-    else
+    else // launch LessonActivity
     {
-      launchLessonActivity( option );
+      int[] lessonArray = _lessonMap.get( option );
+      Intent intent = new Intent( this, LessonActivity.class );
+
+      for ( int i = 0; i < lessonArray.length; i++ )
+      {
+        intent.putExtra( LessonActivity.EXTRA_LESSON_RES_ID + i, lessonArray[i] );
+      }
+
+      intent.putExtra( LessonActivity.EXTRA_NUM_LESSONS, lessonArray.length );
+      intent.putExtra( LessonActivity.EXTRA_STRING_ARRAY_ID, lesson.getStringArrayId() );
+      startActivity( intent );
     }
-  }
-
-  private void launchLessonActivity( String lessonName )
-  {
-    int[] lessonArray = _lessonMap.get( lessonName );
-    Intent intent = new Intent( this, LessonActivity.class );
-
-    for ( int i = 0; i < lessonArray.length; i++ )
-    {
-      intent.putExtra( LessonActivity.EXTRA_LESSON_RES_ID + i, lessonArray[i] );
-    }
-
-    intent.putExtra( LessonActivity.EXTRA_NUM_LESSONS, lessonArray.length );
-    startActivity( intent );
   }
 
   private void startSession( final boolean doContinueWithSavedSession, final ArrayList<Integer> lessonIds )

@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:padding="10dip">
+                android:padding="@dimen/list_item_padding">
 
   <!-- word -->
   <TextView android:id="@+id/word_view"
             android:layout_width="125dip"
-            android:paddingTop="@dimen/text_view_padding"
-            android:paddingBottom="@dimen/text_view_padding"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:textAppearance="?android:attr/textAppearanceLarge">
@@ -18,8 +15,6 @@
   <!-- meaning -->
   <TextView android:id="@+id/meaning_view"
             android:layout_width="wrap_content"
-            android:paddingTop="@dimen/text_view_padding"
-            android:paddingBottom="@dimen/text_view_padding"
             android:layout_height="wrap_content"
             android:layout_toLeftOf="@+id/word_view"
             android:textAppearance="?android:attr/textAppearanceLarge">

@@ -7,13 +7,20 @@ package com.jps.quranic.arabic.util;
  */
 public class Lesson
 {
-  private String _lessonNumber;
+  private int _stringArrayId; // R.array.lesson_1
+  private String _lessonNumber; // Lesson 1
   private String _lessonTitle;
 
-  public Lesson( String lessonNumber, String lessonTitle )
+  public Lesson( int stringArrayId, String lessonNumber, String lessonTitle )
   {
+    _stringArrayId = stringArrayId;
     _lessonNumber = lessonNumber;
     _lessonTitle = lessonTitle;
+  }
+
+  public int getStringArrayId()
+  {
+    return _stringArrayId;
   }
 
   public String getLessonNumber()

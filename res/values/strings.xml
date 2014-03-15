@@ -27,7 +27,7 @@
   <string-array name="lesson_3">
     <item>Lesson 3</item>
     <item>لَ</item>
-    <item>لَ : ليے</item>
+    <item>لَ : لیۓ</item>
   </string-array>
   <string-array name="lesson_4">
     <item>Lesson 4</item>
@@ -36,10 +36,12 @@
   <string-array name="lesson_5">
     <item>Lesson 5</item>
     <item>مِنْ</item>
+    <item>مِنْ : سے</item>
   </string-array>
   <string-array name="lesson_6">
     <item>Lesson 6</item>
     <item>عَنْ</item>
+    <item>عَنْ : بارے میں، سے</item>
   </string-array>
   <string-array name="lesson_7">
     <item>Lesson 7</item>
@@ -48,10 +50,12 @@
   <string-array name="lesson_8">
     <item>Lesson 8</item>
     <item>مَعَ</item>
+    <item>مَعَ : ساتھ</item>
   </string-array>
   <string-array name="lesson_9">
     <item>Lesson 9</item>
     <item>فِي</item>
+    <item>فِي : میں</item>
   </string-array>
   <string-array name="lesson_10">
     <item>Lesson 10</item>
@@ -60,10 +64,12 @@
   <string-array name="lesson_11">
     <item>Lesson 11</item>
     <item>بِ</item>
+    <item>بِ : ساتھ</item>
   </string-array>
   <string-array name="lesson_12">
     <item>Lesson 12</item>
     <item>عَلَى</item>
+    <item>عَلَى : پر</item>
   </string-array>
   <string-array name="lesson_13">
     <item>Lesson 13</item>
@@ -72,6 +78,7 @@
   <string-array name="lesson_14">
     <item>Lesson 14</item>
     <item>إِلىٰ</item>
+    <item>إِلىٰ : طرف</item>
   </string-array>
   <string-array name="lesson_15">
     <item>Lesson 15</item>
@@ -92,15 +99,15 @@
     <item>وه سب</item>
   </string-array>
   <string-array name="anta">
-    <item>اَنْتَ</item>
+    <item>أَنْتَ</item>
     <item>آپ</item>
   </string-array>
   <string-array name="antum">
-    <item>اَنْتُمْ</item>
+    <item>أَنْتُمْ</item>
     <item>آپ سب</item>
   </string-array>
   <string-array name="ana">
-    <item>اَنَا</item>
+    <item>أَنَا</item>
     <item>میں</item>
   </string-array>
   <string-array name="nahnu">
@@ -231,31 +238,31 @@
   <!-- Lesson 6 -->
   <string-array name="an_hu">
     <item>عَنْهُ</item>
-    <item>اُس کے بارے میں، اُس سے</item>
+    <item>اُس کے بارے میں</item>
   </string-array>
   <string-array name="an_hum">
     <item>عَنْهُمْ</item>
-    <item>اُن کے بارے میں، اُن سے</item>
+    <item>اُن کے بارے میں</item>
   </string-array>
   <string-array name="an_ka">
     <item>عَنْكَ</item>
-    <item>آپ کے بارے میں، آپ سے</item>
+    <item>آپ کے بارے میں</item>
   </string-array>
   <string-array name="an_kum">
     <item>عَنْكُمْ</item>
-    <item>آپ سب کے بارے میں، آپ سب سے</item>
+    <item>آپ سب کے بارے میں</item>
   </string-array>
   <string-array name="an_ni">
     <item>عَنّي</item>
-    <item>میرے بارے میں، مجھ سے</item>
+    <item>میرے بارے میں</item>
   </string-array>
   <string-array name="an_na">
     <item>عَنَّا</item>
-    <item>ہمارے بارے میں، ہم سے</item>
+    <item>ہمارے بارے میں</item>
   </string-array>
   <string-array name="an_ha">
     <item>عَنْهَا</item>
-    <item>اُس عورت کے بارے میں، اُس عورت سے</item>
+    <item>اُس عورت کے بارے میں</item>
   </string-array>
 
   <!-- Lesson 7 -->

@@ -27,7 +27,7 @@
   <string-array name="lesson_3">
     <item>Lesson 3</item>
     <item>لَ</item>
-    <item>لَ : لیۓ</item>
+    <item>لَ : لیۓ، كا</item>
   </string-array>
   <string-array name="lesson_4">
     <item>Lesson 4</item>
@@ -157,31 +157,31 @@
   <!-- Lesson 3-->
   <string-array name="lahu">
     <item>لَهُ</item>
-    <item>اُس کے لیے، اُس کا</item>
+    <item>اُس کے لیۓ</item>
   </string-array>
   <string-array name="lahum">
     <item>لَهُمْ</item>
-    <item>اُن کے لیے، اُن کا</item>
+    <item>اُن کے لیۓ</item>
   </string-array>
   <string-array name="laka">
     <item>لَكَ</item>
-    <item>آپ کے لیے، آپ کا</item>
+    <item>آپ کے لیۓ</item>
   </string-array>
   <string-array name="lakum">
     <item>لَكُمْ</item>
-    <item>آپ سب کے لیے، آپ سب کا</item>
+    <item>آپ سب کے لیۓ</item>
   </string-array>
   <string-array name="lee">
     <item>لِي</item>
-    <item>میرے لیے، میرا</item>
+    <item>میرے لیۓ</item>
   </string-array>
   <string-array name="lana">
     <item>لَنَا</item>
-    <item>ہمارے لیے، ہمارا</item>
+    <item>ہمارے لیۓ</item>
   </string-array>
   <string-array name="laha">
     <item>لَهَا</item>
-    <item>اُس عورت کے لیے، اُس عورت کا</item>
+    <item>اُس عورت کے لیۓ</item>
   </string-array>
 
   <!-- Lesson 4 -->
@@ -411,7 +411,7 @@
   </string-array>
   <string-array name="a_lai_him">
     <item>عَلَيْهِمْ</item>
-    <item>اُن سب پر</item>
+    <item>اُن پر</item>
   </string-array>
   <string-array name="a_lai_ka">
     <item>عَلَيْكَ</item>
@@ -633,6 +633,8 @@
   </string-array>
   <string-array name="inda_ha">
     <item>عِنْدَھَا</item>
-    <item><item>اُس عورت کے پاس</item></item>
+    <item>
+      <item>اُس عورت کے پاس</item>
+    </item>
   </string-array>
 </resources>

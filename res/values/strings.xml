@@ -93,6 +93,11 @@
     <item>عِنْدَ</item>
     <item>عِنْدَ : پاس، قريب</item>
   </string-array>
+  <string-array name="lesson_18">
+    <item>Lesson 18</item>
+    <item>جَعَلَ</item>
+    <item>جَعَلَ : بنانا، كرنا</item>
+  </string-array>
 
   <!-- Lesson 1 -->
   <string-array name="hooa">
@@ -633,8 +638,92 @@
   </string-array>
   <string-array name="inda_ha">
     <item>عِنْدَھَا</item>
-    <item>
-      <item>اُس عورت کے پاس</item>
-    </item>
+    <item>اُس عورت کے پاس</item>
+  </string-array>
+
+  <!-- Lesson 18 -->
+  <string-array name="ja_ala">
+    <item>جَعَلَ</item>
+    <item>اُس نے بنايا</item>
+  </string-array>
+  <string-array name="ja_alu">
+    <item>جَعَلُوا</item>
+    <item>اُن سب نے بنايا</item>
+  </string-array>
+  <string-array name="ja_al_ta">
+    <item>جَعَلْتَ</item>
+    <item>آپ نے بنايا</item>
+  </string-array>
+  <string-array name="ja_al_tum">
+    <item>جَعَلْتُمْ</item>
+    <item>آپ سب نے بنايا</item>
+  </string-array>
+  <string-array name="ja_al_tu">
+    <item>جَعَلْتُ</item>
+    <item>ميں نے بنايا</item>
+  </string-array>
+  <string-array name="ja_al_na">
+    <item>جَعَلْنَا</item>
+    <item>ہم نے بنايا</item>
+  </string-array>
+  <string-array name="yaj_alu">
+    <item>يَجْعَلُ</item>
+    <item>وہ بناتا ہے</item>
+  </string-array>
+  <string-array name="yaj_alu_na">
+    <item>يَجْعَلُونَ</item>
+    <item>وہ سب بناتے ہے</item>
+  </string-array>
+  <string-array name="taj_alu">
+    <item>تَجْعَلُ</item>
+    <item>آپ بناتے ہيں</item>
+  </string-array>
+  <string-array name="taj_alu_na">
+    <item>تَجْعَلُونَ</item>
+    <item>آپ سب بناتے ہيں</item>
+  </string-array>
+  <string-array name="aj_alu">
+    <item>أَجْعَلُ</item>
+    <item>ميں بناتا ہوں</item>
+  </string-array>
+  <string-array name="naj_alu">
+    <item>نَجْعَلُ</item>
+    <item>ہم بناتے ہيں</item>
+  </string-array>
+  <string-array name="ij_al">
+    <item>إِجْعَلْ</item>
+    <item>بنا</item>
+  </string-array>
+  <string-array name="ij_alu">
+    <item>إِجْعَلُوا</item>
+    <item>بناؤ</item>
+  </string-array>
+  <string-array name="la_taj_al">
+    <item>لاَتَجْعَلْ</item>
+    <item>مت بنا</item>
+  </string-array>
+  <string-array name="la_taj_alu">
+    <item>لاَتَجْعَلُوا</item>
+    <item>مت بناؤ</item>
+  </string-array>
+  <string-array name="ja_il">
+    <item>جَاعِل</item>
+    <item>بنانے والا</item>
+  </string-array>
+  <string-array name="maj_ul">
+    <item>مَجْعُول</item>
+    <item>وہ جو بنا</item>
+  </string-array>
+  <string-array name="jal">
+    <item>جَعْل</item>
+    <item>بنانا</item>
+  </string-array>
+  <string-array name="ja_a_lat">
+    <item>جَعَلَتْ</item>
+    <item>اُس عورت نے بنايا</item>
+  </string-array>
+  <string-array name="hiya_taj_alu">
+    <item>تَجْعَلُ (مونث)</item>
+    <item>وہ بناتی ہے</item>
   </string-array>
 </resources>

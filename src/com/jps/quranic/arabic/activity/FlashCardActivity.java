@@ -54,9 +54,6 @@ public class FlashCardActivity extends Activity
 
   public static String PREF_NAME = "MyPrefFile";
 
-  // menu options
-  private static final int MENU_SAVE_PROGRESS = 5;
-
   // extras
   public static final String EXTRA_CONTINUE_WITH_SAVED_SESSION = "start_from_saved_session";
 

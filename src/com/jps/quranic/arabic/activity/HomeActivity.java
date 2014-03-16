@@ -68,6 +68,8 @@ public class HomeActivity extends ListActivity
                                     R.array.if_tah, R.array.if_ta_hu, R.array.la_taf_tah, R.array.la_taf_ta_hu,
                                     R.array.fa_tih, R.array.maf_tuh, R.array.fath, R.array.fa_ta_hat,
                                     R.array.hiya_taf_ta_hu };
+  private final int[] _lesson17 = { R.array.inda_hu, R.array.inda_hum, R.array.inda_ka, R.array.inda_kum, R.array.in_di,
+                                    R.array.inda_na, R.array.inda_ha };
 
   private Map<String, int[]> _lessonMap;
   private ArrayList<Lesson> _lessonList;
@@ -112,6 +114,7 @@ public class HomeActivity extends ListActivity
     String[] lesson14 = getResources().getStringArray( R.array.lesson_14 );
     String[] lesson15 = getResources().getStringArray( R.array.lesson_15 );
     String[] lesson16 = getResources().getStringArray( R.array.lesson_16 );
+    String[] lesson17 = getResources().getStringArray( R.array.lesson_17 );
 
     _lessonMap = new HashMap<String, int[]>();
     _lessonMap.put( lesson1[0], _lesson1 );
@@ -130,6 +133,7 @@ public class HomeActivity extends ListActivity
     _lessonMap.put( lesson14[0], _lesson14 );
     _lessonMap.put( lesson15[0], _lesson15 );
     _lessonMap.put( lesson16[0], _lesson16 );
+    _lessonMap.put( lesson17[0], _lesson17 );
 
     _lessonList = new ArrayList<Lesson>();
     _lessonList.add( new Lesson( R.array.lesson_1, lesson1[0], lesson1[1] ) );
@@ -148,6 +152,7 @@ public class HomeActivity extends ListActivity
     _lessonList.add( new Lesson( R.array.lesson_14, lesson14[0], lesson14[1] ) );
     _lessonList.add( new Lesson( R.array.lesson_15, lesson15[0], lesson15[1] ) );
     _lessonList.add( new Lesson( R.array.lesson_16, lesson16[0], lesson16[1] ) );
+    _lessonList.add( new Lesson( R.array.lesson_17, lesson17[0], lesson17[1] ) );
   }
 
   @Override

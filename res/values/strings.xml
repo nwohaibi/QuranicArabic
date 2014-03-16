@@ -88,6 +88,11 @@
     <item>Lesson 16</item>
     <item>فَتْح</item>
   </string-array>
+  <string-array name="lesson_17">
+    <item>Lesson 17</item>
+    <item>عِنْدَ</item>
+    <item>عِنْدَ : پاس، قريب</item>
+  </string-array>
 
   <!-- Lesson 1 -->
   <string-array name="hooa">
@@ -599,5 +604,35 @@
   <string-array name="hiya_taf_ta_hu">
     <item>تَفْتَحُ (مونث)</item>
     <item>وہ کھولتی ہے</item>
+  </string-array>
+
+  <!-- Lesson 17 -->
+  <string-array name="inda_hu">
+    <item>عِنْدَہُ</item>
+    <item>اُس کے پاس</item>
+  </string-array>
+  <string-array name="inda_hum">
+    <item>عِنْدَھُمْ</item>
+    <item>اُن کے پاس</item>
+  </string-array>
+  <string-array name="inda_ka">
+    <item>عِنْدَكَ</item>
+    <item>آپ کے پاس</item>
+  </string-array>
+  <string-array name="inda_kum">
+    <item>عِنْدَكُمْ</item>
+    <item>آپ سب کے پاس</item>
+  </string-array>
+  <string-array name="in_di">
+    <item>عِنْدِي</item>
+    <item>ميرے پاس</item>
+  </string-array>
+  <string-array name="inda_na">
+    <item>عِنْدَنَا</item>
+    <item>ہمارے پاس</item>
+  </string-array>
+  <string-array name="inda_ha">
+    <item>عِنْدَھَا</item>
+    <item><item>اُس عورت کے پاس</item></item>
   </string-array>
 </resources>

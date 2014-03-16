@@ -3,6 +3,6 @@
           android:layout_width="match_parent"
           android:layout_height="match_parent"
           android:gravity="center"
-          android:padding="@dimen/list_item_padding"
+          android:padding="@dimen/lesson_header_view_padding"
           android:textAppearance="?android:attr/textAppearanceLarge">
 </TextView>

@@ -2,8 +2,13 @@
 <resources>
   <string name="app_name">Arabic</string>
 
-  <string name="save_progress">Save Progress</string>
+  <!-- toast messages -->
   <string name="progress_saved">Your progress has been saved</string>
+
+  <!-- menu options -->
+  <string name="save_progress">Save Progress</string>
+  <string name="check_all">Check All</string>
+  <string name="uncheck_all">Uncheck All</string>
 
   <!-- buttons -->
   <string name="previous">Previous</string>

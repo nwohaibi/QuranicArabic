@@ -3,7 +3,12 @@ package com.jps.quranic.arabic.activity;
 import android.app.ListActivity;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
+import android.view.View;
 import android.widget.AbsListView;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -27,6 +32,7 @@ public class SettingsActivity extends ListActivity
   public static final String EXTRA_LESSON_NAMES = "extra_lesson_names";
 
   @Override
+  @SuppressWarnings( "unchecked" )
   protected void onCreate( Bundle savedInstanceState )
   {
     super.onCreate( savedInstanceState );
@@ -62,6 +68,19 @@ public class SettingsActivity extends ListActivity
         listView.setItemChecked( Integer.valueOf( checkedLesson ), true );
       }
     }
+
+    // defining an item click listener
+    AdapterView.OnItemClickListener itemClickListener = new AdapterView.OnItemClickListener()
+    {
+      @Override
+      public void onItemClick( AdapterView<?> arg0, View arg1, int position, long id )
+      {
+        invalidateOptionsMenu();
+      }
+    };
+
+    // setting the ItemClickEvent listener for the ListView
+    listView.setOnItemClickListener( itemClickListener );
   }
 
   @Override
@@ -87,5 +106,86 @@ public class SettingsActivity extends ListActivity
     editor.putStringSet( KEY_CHECKED_LESSON_INDEX_SET, checkedLessonIndexSet );
     editor.putStringSet( KEY_CHECKED_LESSON_NAME_SET, checkedLessonNameSet );
     editor.commit();
+  }
+
+  @Override
+  public boolean onCreateOptionsMenu( Menu menu )
+  {
+    MenuInflater inflater = getMenuInflater();
+    inflater.inflate( R.menu.settings_menu, menu );
+    updateMenu( menu );
+
+    return true;
+  }
+
+  private void updateMenu( Menu menu )
+  {
+    MenuItem toggleCheckMenu = menu.findItem( R.id.toggle_check );
+
+    // if all lessons are checked, set menu icon to checked ( +1 because of header )
+    if ( areAllLessonsChecked() )
+    {
+      setMenuAsChecked( toggleCheckMenu );
+    }
+    else // if all lessons aren't checked, set menu icon to unchecked
+    {
+      setMenuAsUnchecked( toggleCheckMenu );
+    }
+  }
+
+  private boolean areAllLessonsChecked()
+  {
+    return getListView().getCheckedItemCount() + 1 == getListView().getCount();
+  }
+
+  @Override
+  public boolean onOptionsItemSelected( MenuItem item )
+  {
+    switch ( item.getItemId() )
+    {
+      case R.id.toggle_check:
+
+        // check all options
+        if ( item.getTitle().equals( getString( R.string.check_all ) ) )
+        {
+          for ( int i = 1; i < getListView().getCount(); i++ )
+          {
+            getListView().setItemChecked( i, true );
+
+            setMenuAsChecked( item );
+          }
+        }
+        else // uncheck all options
+        {
+          for ( int i = 1; i < getListView().getCount(); i++ )
+          {
+            getListView().setItemChecked( i, false );
+
+            setMenuAsUnchecked( item );
+          }
+        }
+        return true;
+      default:
+        return super.onOptionsItemSelected( item );
+    }
+  }
+
+  @Override
+  public boolean onPrepareOptionsMenu( Menu menu )
+  {
+    updateMenu( menu );
+    return super.onPrepareOptionsMenu( menu );
+  }
+
+  private void setMenuAsChecked( MenuItem item )
+  {
+    item.setIcon( android.R.drawable.checkbox_on_background );
+    item.setTitle( R.string.uncheck_all );
+  }
+
+  private void setMenuAsUnchecked( MenuItem item )
+  {
+    item.setIcon( android.R.drawable.checkbox_off_background );
+    item.setTitle( R.string.check_all );
   }
 }

@@ -91,7 +91,7 @@
   </string-array>
   <string-array name="lesson_16">
     <item>Lesson 16</item>
-    <item>فَتْح</item>
+    <item>فَتَحَ</item>
   </string-array>
   <string-array name="lesson_17">
     <item>Lesson 17</item>
@@ -102,6 +102,10 @@
     <item>Lesson 18</item>
     <item>جَعَلَ</item>
     <item>جَعَلَ : بنانا، كرنا</item>
+  </string-array>
+  <string-array name="lesson_19">
+    <item>Lesson 19</item>
+    <item>نَصَرَ</item>
   </string-array>
 
   <!-- Lesson 1 -->
@@ -730,5 +734,91 @@
   <string-array name="hiya_taj_alu">
     <item>تَجْعَلُ (مونث)</item>
     <item>وہ بناتی ہے</item>
+  </string-array>
+
+  <!-- Lesson 19 -->
+  <string-array name="na_sa_ra">
+    <item>نَصَرَ</item>
+    <item>اُس نے مدد کی</item>
+  </string-array>
+  <string-array name="na_sa_ru">
+    <item>نَصَرُوا</item>
+    <item>اُن سب نے مدد کی</item>
+  </string-array>
+  <string-array name="na_sar_ta">
+    <item>نَصَرْتَ</item>
+    <item>آپ نے مدد کی</item>
+  </string-array>
+  <string-array name="na_sar_tum">
+    <item>نَصَرْتُمْ</item>
+    <item>آپ سب نے مدد کی</item>
+  </string-array>
+  <string-array name="na_sar_tu">
+    <item>نَصَرْتُ</item>
+    <item>میں نے مدد کی</item>
+  </string-array>
+  <string-array name="na_sar_na">
+    <item>نَصَرْنَا</item>
+    <item>ہم نے مدد کی</item>
+  </string-array>
+  <string-array name="yan_su_ru">
+    <item>يَنْصُرُ</item>
+    <item>وه مدد کرتا ہے</item>
+  </string-array>
+  <string-array name="yan_su_ru_na">
+    <item>يَنْصُرُونَ</item>
+    <item>وه مدد کرتے ہیں</item>
+  </string-array>
+  <string-array name="tan_su_ru">
+    <item>تَنْصُرُ</item>
+    <item>آپ مدد کرتے ہیں</item>
+  </string-array>
+  <string-array name="tan_su_ru_na">
+    <item>تَنْصُرُونَ</item>
+    <item>آپ سب مدد کرتے ہیں</item>
+  </string-array>
+  <string-array name="an_su_ru">
+    <item>أَنْصُرُ</item>
+    <item>میں مدد کرتا ہوں</item>
+  </string-array>
+  <string-array name="nan_su_ru">
+    <item>نَنْصُرُ</item>
+    <item>ہم مدد کرتے ہیں</item>
+  </string-array>
+  <string-array name="un_sur">
+    <item>اُنْصُرْ</item>
+    <item>مدد کر</item>
+  </string-array>
+  <string-array name="un_su_ru">
+    <item>اُنْصُرُوا</item>
+    <item>مدد کرو</item>
+  </string-array>
+  <string-array name="la_tan_sur">
+    <item>لاَ تَنْصُرْ</item>
+    <item>مدد مت کر</item>
+  </string-array>
+  <string-array name="la_tan_su_ru">
+    <item>لاَ تَنْصُرُوا</item>
+    <item>مدد مت کرو</item>
+  </string-array>
+  <string-array name="na_sir">
+    <item>نَاصِر</item>
+    <item>مدد کرنے والا</item>
+  </string-array>
+  <string-array name="man_sur">
+    <item>مَنْصُور</item>
+    <item>وہ جس کی مدد ہوئ</item>
+  </string-array>
+  <string-array name="nasr">
+    <item>نَصْر</item>
+    <item>مدد کرنا</item>
+  </string-array>
+  <string-array name="na_sa_rat">
+    <item>نَصَرَتْ</item>
+    <item>اُس عورت نے مدد کی</item>
+  </string-array>
+  <string-array name="hiya_tan_su_ru">
+    <item>تَنْصُرُ (مؤنث)</item>
+    <item>وه مدد کرتی ہے</item>
   </string-array>
 </resources>

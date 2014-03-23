@@ -79,7 +79,8 @@ public class HomeActivity extends ListActivity
                                     R.array.na_sar_tu, R.array.na_sar_na, R.array.yan_su_ru, R.array.yan_su_ru_na,
                                     R.array.tan_su_ru, R.array.tan_su_ru_na, R.array.an_su_ru, R.array.nan_su_ru,
                                     R.array.un_sur, R.array.un_su_ru, R.array.la_tan_sur, R.array.la_tan_su_ru,
-                                    R.array.na_sir, R.array.man_sur, R.array.nasr };
+                                    R.array.na_sir, R.array.man_sur, R.array.nasr, R.array.na_sa_rat,
+                                    R.array.hiya_tan_su_ru };
 
   private Map<String, int[]> _lessonMap;
   private ArrayList<Lesson> _lessonList;

@@ -373,19 +373,19 @@
   <!-- Lesson 10 -->
   <string-array name="if_al">
     <item>اِفْعَلْ</item>
-    <item>کر</item>
+    <item>کریں</item>
   </string-array>
   <string-array name="if_a_lu">
     <item>اِفْعَلُوا</item>
-    <item>کرو</item>
+    <item>آپ سب کریں</item>
   </string-array>
   <string-array name="la_taf_al">
     <item>لاَ تَفْعَلْ</item>
-    <item>مت کر</item>
+    <item>مت کریں</item>
   </string-array>
   <string-array name="la_taf_a_lu">
     <item>لاَ تَفْعَلُوا</item>
-    <item>مت کرو</item>
+    <item>آپ سب مت کریں</item>
   </string-array>
 
   <!-- Lesson 11 -->
@@ -585,19 +585,19 @@
   </string-array>
   <string-array name="if_tah">
     <item>إِفْتَحْ</item>
-    <item>کھول</item>
+    <item>کھولیں</item>
   </string-array>
   <string-array name="if_ta_hu">
     <item>إِفْتَحُوا</item>
-    <item>کھولو</item>
+    <item>آپ سب کھولیں</item>
   </string-array>
   <string-array name="la_taf_tah">
     <item>لاَتَفْتَحْ</item>
-    <item>مت کھول</item>
+    <item>مت کھولیں</item>
   </string-array>
   <string-array name="la_taf_ta_hu">
     <item>لاَتَفْتَحُوا</item>
-    <item>مت کھولو</item>
+    <item>آپ سب مت کھولیں</item>
   </string-array>
   <string-array name="fa_tih">
     <item>فَاتِحْ</item>
@@ -701,19 +701,19 @@
   </string-array>
   <string-array name="ij_al">
     <item>إِجْعَلْ</item>
-    <item>بنا</item>
+    <item>بنائيں</item>
   </string-array>
   <string-array name="ij_alu">
     <item>إِجْعَلُوا</item>
-    <item>بناؤ</item>
+    <item>آپ سب بنائيں</item>
   </string-array>
   <string-array name="la_taj_al">
     <item>لاَتَجْعَلْ</item>
-    <item>مت بنا</item>
+    <item>مت بنائيں</item>
   </string-array>
   <string-array name="la_taj_alu">
     <item>لاَتَجْعَلُوا</item>
-    <item>مت بناؤ</item>
+    <item>آپ سب مت بنائيں</item>
   </string-array>
   <string-array name="ja_il">
     <item>جَاعِل</item>
@@ -787,19 +787,19 @@
   </string-array>
   <string-array name="un_sur">
     <item>اُنْصُرْ</item>
-    <item>مدد کر</item>
+    <item>مدد کريں</item>
   </string-array>
   <string-array name="un_su_ru">
     <item>اُنْصُرُوا</item>
-    <item>مدد کرو</item>
+    <item>آپ سب مدد کريں</item>
   </string-array>
   <string-array name="la_tan_sur">
     <item>لاَ تَنْصُرْ</item>
-    <item>مدد مت کر</item>
+    <item>مدد مت کريں</item>
   </string-array>
   <string-array name="la_tan_su_ru">
     <item>لاَ تَنْصُرُوا</item>
-    <item>مدد مت کرو</item>
+    <item>آپ سب مدد مت کريں</item>
   </string-array>
   <string-array name="na_sir">
     <item>نَاصِر</item>

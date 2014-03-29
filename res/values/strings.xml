@@ -149,7 +149,7 @@
   </string-array>
   <string-array name="rabbuhum">
     <item>رَبُّهُمْ</item>
-    <item>اُن کا رب</item>
+    <item>اُن سب کا رب</item>
   </string-array>
   <string-array name="rabbuka">
     <item>رَبُّكَ</item>
@@ -179,7 +179,7 @@
   </string-array>
   <string-array name="lahum">
     <item>لَهُمْ</item>
-    <item>اُن کے لیۓ</item>
+    <item>اُن سب کے لیۓ</item>
   </string-array>
   <string-array name="laka">
     <item>لَكَ</item>
@@ -235,7 +235,7 @@
   </string-array>
   <string-array name="min_hum">
     <item>مِنْهُمْ</item>
-    <item>اُن سے</item>
+    <item>اُن سب سے</item>
   </string-array>
   <string-array name="min_ka">
     <item>مِنْكَ</item>
@@ -265,7 +265,7 @@
   </string-array>
   <string-array name="an_hum">
     <item>عَنْهُمْ</item>
-    <item>اُن کے بارے میں</item>
+    <item>اُن سب کے بارے میں</item>
   </string-array>
   <string-array name="an_ka">
     <item>عَنْكَ</item>
@@ -295,7 +295,7 @@
   </string-array>
   <string-array name="yaf_alu_na">
     <item>يَفْعَلُونَ</item>
-    <item>وہ کرتے ہیں</item>
+    <item>وہ سب کرتے ہیں</item>
   </string-array>
   <string-array name="taf_alu">
     <item>تَفْعَلُ</item>
@@ -321,7 +321,7 @@
   </string-array>
   <string-array name="ma_ahum">
     <item>مَعَهُمْ</item>
-    <item>اُن کے ساتھ</item>
+    <item>اُن سب کے ساتھ</item>
   </string-array>
   <string-array name="ma_aka">
     <item>مَعَكَ</item>
@@ -351,7 +351,7 @@
   </string-array>
   <string-array name="fee_him">
     <item>فِيهِمْ</item>
-    <item>اُن میں</item>
+    <item>اُن سب میں</item>
   </string-array>
   <string-array name="fee_ka">
     <item>فِيكَ</item>
@@ -399,7 +399,7 @@
   </string-array>
   <string-array name="bi_him">
     <item>بِهِمْ</item>
-    <item>اُن کے ساتھ</item>
+    <item>اُن سب کے ساتھ</item>
   </string-array>
   <string-array name="bi_ka">
     <item>بِكَ</item>
@@ -429,7 +429,7 @@
   </string-array>
   <string-array name="a_lai_him">
     <item>عَلَيْهِمْ</item>
-    <item>اُن پر</item>
+    <item>اُن سب پر</item>
   </string-array>
   <string-array name="a_lai_ka">
     <item>عَلَيْكَ</item>
@@ -489,7 +489,7 @@
   </string-array>
   <string-array name="ilai_him">
     <item>إِلَيْهِمْ</item>
-    <item>اُن كى طرف</item>
+    <item>اُن سب كى طرف</item>
   </string-array>
   <string-array name="ilai_ka">
     <item>إِلَيْكَ</item>
@@ -631,7 +631,7 @@
   </string-array>
   <string-array name="inda_hum">
     <item>عِنْدَھُمْ</item>
-    <item>اُن کے پاس</item>
+    <item>اُن سب کے پاس</item>
   </string-array>
   <string-array name="inda_ka">
     <item>عِنْدَكَ</item>
@@ -771,7 +771,7 @@
   </string-array>
   <string-array name="yan_su_ru_na">
     <item>يَنْصُرُونَ</item>
-    <item>وه مدد کرتے ہیں</item>
+    <item>وه سب مدد کرتے ہیں</item>
   </string-array>
   <string-array name="tan_su_ru">
     <item>تَنْصُرُ</item>

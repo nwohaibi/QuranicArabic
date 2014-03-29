@@ -81,6 +81,12 @@ public class HomeActivity extends ListActivity
                                     R.array.un_sur, R.array.un_su_ru, R.array.la_tan_sur, R.array.la_tan_su_ru,
                                     R.array.na_sir, R.array.man_sur, R.array.nasr, R.array.na_sa_rat,
                                     R.array.hiya_tan_su_ru };
+  private final int[] _lesson20 = { R.array.a_ba_da, R.array.a_ba_du, R.array.a_bat_ta, R.array.a_bat_tum,
+                                    R.array.a_bat_tu, R.array.a_bad_na, R.array.ya_bu_du, R.array.ya_bu_du_na,
+                                    R.array.ta_bu_du, R.array.ta_bu_du_na, R.array.a_bu_du, R.array.na_bu_du,
+                                    R.array.o_bud, R.array.o_bu_du, R.array.la_ta_bud, R.array.la_ta_bu_du,
+                                    R.array.a_bid, R.array.ma_bud, R.array.i_ba_da, R.array.a_ba_dat,
+                                    R.array.hiya_ta_bu_du };
 
   private Map<String, int[]> _lessonMap;
   private ArrayList<Lesson> _lessonList;
@@ -128,6 +134,7 @@ public class HomeActivity extends ListActivity
     String[] lesson17 = getResources().getStringArray( R.array.lesson_17 );
     String[] lesson18 = getResources().getStringArray( R.array.lesson_18 );
     String[] lesson19 = getResources().getStringArray( R.array.lesson_19 );
+    String[] lesson20 = getResources().getStringArray( R.array.lesson_20 );
 
     _lessonMap = new HashMap<String, int[]>();
     _lessonMap.put( lesson1[0], _lesson1 );
@@ -149,6 +156,7 @@ public class HomeActivity extends ListActivity
     _lessonMap.put( lesson17[0], _lesson17 );
     _lessonMap.put( lesson18[0], _lesson18 );
     _lessonMap.put( lesson19[0], _lesson19 );
+    _lessonMap.put( lesson20[0], _lesson20 );
 
     _lessonList = new ArrayList<Lesson>();
     _lessonList.add( new Lesson( R.array.lesson_1, lesson1[0], lesson1[1] ) );
@@ -170,6 +178,7 @@ public class HomeActivity extends ListActivity
     _lessonList.add( new Lesson( R.array.lesson_17, lesson17[0], lesson17[1] ) );
     _lessonList.add( new Lesson( R.array.lesson_18, lesson18[0], lesson18[1] ) );
     _lessonList.add( new Lesson( R.array.lesson_19, lesson19[0], lesson19[1] ) );
+    _lessonList.add( new Lesson( R.array.lesson_20, lesson20[0], lesson20[1] ) );
   }
 
   @Override

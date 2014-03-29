@@ -107,6 +107,10 @@
     <item>Lesson 19</item>
     <item>نَصَرَ</item>
   </string-array>
+  <string-array name="lesson_20">
+    <item>Lesson 20</item>
+    <item>عَبَدَ</item>
+  </string-array>
 
   <!-- Lesson 1 -->
   <string-array name="hooa">
@@ -820,5 +824,91 @@
   <string-array name="hiya_tan_su_ru">
     <item>تَنْصُرُ (مؤنث)</item>
     <item>وه مدد کرتی ہے</item>
+  </string-array>
+
+  <!-- Lesson 20 -->
+  <string-array name="a_ba_da">
+    <item>عَبَدَ</item>
+    <item>اُس نے عبادت کی</item>
+  </string-array>
+  <string-array name="a_ba_du">
+    <item>عَبَدُوا</item>
+    <item>اُن سب نے عبادت کی</item>
+  </string-array>
+  <string-array name="a_bat_ta">
+    <item>عَبَدْتَّ</item>
+    <item>آپ نے عبادت کی</item>
+  </string-array>
+  <string-array name="a_bat_tum">
+    <item>عَبَدْتُّمْ</item>
+    <item>آپ سب نے عبادت کی</item>
+  </string-array>
+  <string-array name="a_bat_tu">
+    <item>عَبَدْتُّ</item>
+    <item>میں نے عبادت کی</item>
+  </string-array>
+  <string-array name="a_bad_na">
+    <item>عَبَدْنَا</item>
+    <item>ہم نے عبادت کی</item>
+  </string-array>
+  <string-array name="ya_bu_du">
+    <item>يَعْبُدُ</item>
+    <item>وہ عبادت کرتا ہے</item>
+  </string-array>
+  <string-array name="ya_bu_du_na">
+    <item>يَعْبُدُونَ</item>
+    <item>وہ سب عبادت کرتے ہیں</item>
+  </string-array>
+  <string-array name="ta_bu_du">
+    <item>تَعْبُدُ</item>
+    <item>آپ عبادت کرتے ہیں</item>
+  </string-array>
+  <string-array name="ta_bu_du_na">
+    <item>تَعْبُدُنَ</item>
+    <item>آپ سب عبادت کرتے ہیں</item>
+  </string-array>
+  <string-array name="a_bu_du">
+    <item>أَعْبُدُ</item>
+    <item>میں عبادت کرتا ہوں</item>
+  </string-array>
+  <string-array name="na_bu_du">
+    <item>نَعْبُدُ</item>
+    <item>ہم عبادت کرتے ہیں</item>
+  </string-array>
+  <string-array name="o_bud">
+    <item>اُعْبُدْ</item>
+    <item>عبادت کریں</item>
+  </string-array>
+  <string-array name="o_bu_du">
+    <item>اُعْبُدُوا</item>
+    <item>آپ سب عبادت کریں</item>
+  </string-array>
+  <string-array name="la_ta_bud">
+    <item>لاَ تَعْبُدْ</item>
+    <item>عبادت مت کریں</item>
+  </string-array>
+  <string-array name="la_ta_bu_du">
+    <item>لاَ تَعْبُدُوا</item>
+    <item>آپ سب عبادت مت کریں</item>
+  </string-array>
+  <string-array name="a_bid">
+    <item>عَابِدْ</item>
+    <item>عبادت کرنے والا</item>
+  </string-array>
+  <string-array name="ma_bud">
+    <item>مَعْبُود</item>
+    <item>وہ جس کی عبادت ہوئ</item>
+  </string-array>
+  <string-array name="i_ba_da">
+    <item>عِبَادَة</item>
+    <item>عبادت کرنا</item>
+  </string-array>
+  <string-array name="a_ba_dat">
+    <item>عَبَدَتْ</item>
+    <item>اُس عورت نے عبادت کی</item>
+  </string-array>
+  <string-array name="hiya_ta_bu_du">
+    <item>تَعْبُدُ (مؤنث)</item>
+    <item>وه عبادت کرتى ہے</item>
   </string-array>
 </resources>

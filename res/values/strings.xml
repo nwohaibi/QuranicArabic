@@ -111,6 +111,10 @@
     <item>Lesson 20</item>
     <item>عَبَدَ</item>
   </string-array>
+  <string-array name="lesson_21">
+    <item>Lesson 21</item>
+    <item>ذَكَرَ</item>
+  </string-array>
 
   <!-- Lesson 1 -->
   <string-array name="hooa">
@@ -910,5 +914,91 @@
   <string-array name="hiya_ta_bu_du">
     <item>تَعْبُدُ (مؤنث)</item>
     <item>وه عبادت کرتى ہے</item>
+  </string-array>
+
+  <!-- Lesson 21 -->
+  <string-array name="za_ka_ra">
+    <item>ذَكَرَ</item>
+    <item>اُس نے ياد کيا</item>
+  </string-array>
+  <string-array name="za_ka_ru">
+    <item>ذَكَرُوا</item>
+    <item>اُن سب نے ياد کيا</item>
+  </string-array>
+  <string-array name="za_kar_ta">
+    <item>ذَكَرْتَ</item>
+    <item>آپ نے ياد کيا</item>
+  </string-array>
+  <string-array name="za_kar_tum">
+    <item>ذَكَرْتُمْ</item>
+    <item>آپ سب نے ياد کيا</item>
+  </string-array>
+  <string-array name="za_kar_tu">
+    <item>ذَكَرْتُ</item>
+    <item>ميں نے ياد کيا</item>
+  </string-array>
+  <string-array name="za_kar_na">
+    <item>ذَكَرْنَا</item>
+    <item>ہم نے ياد کيا</item>
+  </string-array>
+  <string-array name="yaz_ku_ru">
+    <item>يَذْكُرُ</item>
+    <item>وہ ياد کرتا ہے</item>
+  </string-array>
+  <string-array name="yaz_ku_ru_na">
+    <item>يَذْكُرُونَ</item>
+    <item>وہ سب ياد کرتے ہيں</item>
+  </string-array>
+  <string-array name="taz_ku_ru">
+    <item>تَذْكُرُ</item>
+    <item>آپ ياد کرتے ہيں</item>
+  </string-array>
+  <string-array name="taz_ku_ru_na">
+    <item>تَذْكُرُونَ</item>
+    <item>آپ سب ياد کرتے ہيں</item>
+  </string-array>
+  <string-array name="az_ku_ru">
+    <item>أَذْكُرُ</item>
+    <item>ميں ياد کرتا ہوں</item>
+  </string-array>
+  <string-array name="naz_ku_ru">
+    <item>نَذْكُرُ</item>
+    <item>ہم ياد کرتے ہيں</item>
+  </string-array>
+  <string-array name="uz_kur">
+    <item>اُذْكُرْ</item>
+    <item>ياد کريں</item>
+  </string-array>
+  <string-array name="uz_ku_ru">
+    <item>اُذْكُرُوا</item>
+    <item>آپ سب ياد کريں</item>
+  </string-array>
+  <string-array name="la_taz_kur">
+    <item>لاَتَذْكُرْ</item>
+    <item>ياد مت کريں</item>
+  </string-array>
+  <string-array name="la_taz_ku_ru">
+    <item>لاَتَذْكُرُوا</item>
+    <item>آپ سب ياد مت کريں</item>
+  </string-array>
+  <string-array name="za_kir">
+    <item>ذَاكِر</item>
+    <item>ياد کرنے والا</item>
+  </string-array>
+  <string-array name="maz_kur">
+    <item>مَذْكُور</item>
+    <item>وہ جس کو ياد کيا گيا</item>
+  </string-array>
+  <string-array name="zikr">
+    <item>ذِكْر</item>
+    <item>ياد کرنا</item>
+  </string-array>
+  <string-array name="za_ka_rat">
+    <item>ذَكَرَتْ</item>
+    <item>اُس عورت نے ياد کيا</item>
+  </string-array>
+  <string-array name="hiya_taz_ku_ru">
+    <item>تَذْكُرُ (مؤنث)</item>
+    <item>وہ ياد کرتی ہے</item>
   </string-array>
 </resources>

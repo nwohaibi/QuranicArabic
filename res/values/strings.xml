@@ -389,7 +389,7 @@
   </string-array>
   <string-array name="la_taf_al">
     <item>لاَ تَفْعَلْ</item>
-    <item>مت کریں</item>
+    <item>آپ مت کریں</item>
   </string-array>
   <string-array name="la_taf_a_lu">
     <item>لاَ تَفْعَلُوا</item>
@@ -601,7 +601,7 @@
   </string-array>
   <string-array name="la_taf_tah">
     <item>لاَتَفْتَحْ</item>
-    <item>مت کھولیں</item>
+    <item>آپ مت کھولیں</item>
   </string-array>
   <string-array name="la_taf_ta_hu">
     <item>لاَتَفْتَحُوا</item>
@@ -717,7 +717,7 @@
   </string-array>
   <string-array name="la_taj_al">
     <item>لاَتَجْعَلْ</item>
-    <item>مت بنائيں</item>
+    <item>آپ مت بنائيں</item>
   </string-array>
   <string-array name="la_taj_alu">
     <item>لاَتَجْعَلُوا</item>
@@ -803,7 +803,7 @@
   </string-array>
   <string-array name="la_tan_sur">
     <item>لاَ تَنْصُرْ</item>
-    <item>مدد مت کريں</item>
+    <item>آپ مدد مت کريں</item>
   </string-array>
   <string-array name="la_tan_su_ru">
     <item>لاَ تَنْصُرُوا</item>
@@ -889,7 +889,7 @@
   </string-array>
   <string-array name="la_ta_bud">
     <item>لاَ تَعْبُدْ</item>
-    <item>عبادت مت کریں</item>
+    <item>آپ عبادت مت کریں</item>
   </string-array>
   <string-array name="la_ta_bu_du">
     <item>لاَ تَعْبُدُوا</item>
@@ -975,7 +975,7 @@
   </string-array>
   <string-array name="la_taz_kur">
     <item>لاَتَذْكُرْ</item>
-    <item>ياد مت کريں</item>
+    <item>آپ ياد مت کريں</item>
   </string-array>
   <string-array name="la_taz_ku_ru">
     <item>لاَتَذْكُرُوا</item>

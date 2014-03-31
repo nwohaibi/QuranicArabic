@@ -381,7 +381,7 @@
   <!-- Lesson 10 -->
   <string-array name="if_al">
     <item>اِفْعَلْ</item>
-    <item>کریں</item>
+    <item>آپ کریں</item>
   </string-array>
   <string-array name="if_a_lu">
     <item>اِفْعَلُوا</item>
@@ -593,7 +593,7 @@
   </string-array>
   <string-array name="if_tah">
     <item>إِفْتَحْ</item>
-    <item>کھولیں</item>
+    <item>آپ کھولیں</item>
   </string-array>
   <string-array name="if_ta_hu">
     <item>إِفْتَحُوا</item>
@@ -709,7 +709,7 @@
   </string-array>
   <string-array name="ij_al">
     <item>إِجْعَلْ</item>
-    <item>بنائيں</item>
+    <item>آپ بنائيں</item>
   </string-array>
   <string-array name="ij_alu">
     <item>إِجْعَلُوا</item>
@@ -795,7 +795,7 @@
   </string-array>
   <string-array name="un_sur">
     <item>اُنْصُرْ</item>
-    <item>مدد کريں</item>
+    <item>آپ مدد کريں</item>
   </string-array>
   <string-array name="un_su_ru">
     <item>اُنْصُرُوا</item>
@@ -881,7 +881,7 @@
   </string-array>
   <string-array name="o_bud">
     <item>اُعْبُدْ</item>
-    <item>عبادت کریں</item>
+    <item>آپ عبادت کریں</item>
   </string-array>
   <string-array name="o_bu_du">
     <item>اُعْبُدُوا</item>
@@ -967,7 +967,7 @@
   </string-array>
   <string-array name="uz_kur">
     <item>اُذْكُرْ</item>
-    <item>ياد کريں</item>
+    <item>آپ ياد کريں</item>
   </string-array>
   <string-array name="uz_ku_ru">
     <item>اُذْكُرُوا</item>

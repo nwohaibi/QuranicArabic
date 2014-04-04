@@ -101,7 +101,7 @@
   <string-array name="lesson_18">
     <item>Lesson 18</item>
     <item>جَعَلَ</item>
-    <item>جَعَلَ : بنانا، كرنا</item>
+    <item>جَعْل : بنانا، كرنا</item>
   </string-array>
   <string-array name="lesson_19">
     <item>Lesson 19</item>
@@ -118,6 +118,11 @@
   <string-array name="lesson_22">
     <item>Lesson 22</item>
     <item>هٰذا</item>
+  </string-array>
+  <string-array name="lesson_23">
+    <item>Lesson 23</item>
+    <item>كَفَرَ</item>
+    <item>كُفْر : كفر كرنا، نا شكرى كرنا، انكار كرنا</item>
   </string-array>
 
   <!-- Lesson 1 -->
@@ -1046,5 +1051,91 @@
   <string-array name="al_laa_ti">
     <item>اَلاَّتِي</item>
     <item>وہ سب جو (مؤنث)</item>
+  </string-array>
+
+  <!-- Lesson 23 -->
+  <string-array name="ka_fa_ra">
+    <item>كَفَرَ</item>
+    <item>اُس نے کفر کيا</item>
+  </string-array>
+  <string-array name="ka_fa_ru">
+    <item>كَفَرُوا</item>
+    <item>اُن سب نے کفر کيا</item>
+  </string-array>
+  <string-array name="ka_far_ta">
+    <item>كَفَرْتَ</item>
+    <item>آپ نے کفر کيا</item>
+  </string-array>
+  <string-array name="ka_far_tum">
+    <item>كَفَرْتُمْ</item>
+    <item>آپ سب نے کفر کيا</item>
+  </string-array>
+  <string-array name="ka_far_tu">
+    <item>كَفَرْتُ</item>
+    <item>ميں نے کفر کيا</item>
+  </string-array>
+  <string-array name="ka_far_na">
+    <item>كَفَرْنَا</item>
+    <item>ہم نے کفر کيا</item>
+  </string-array>
+  <string-array name="yak_fu_ru">
+    <item>يَكْفُرُ</item>
+    <item>وہ کفر کرتا ہے</item>
+  </string-array>
+  <string-array name="yak_fu_ru_na">
+    <item>يَكْفُرُونَ</item>
+    <item>وہ سب کفر کرتے ہيں</item>
+  </string-array>
+  <string-array name="tak_fu_ru">
+    <item>تَكْفُرُ</item>
+    <item>آپ کفر کرتے ہيں</item>
+  </string-array>
+  <string-array name="tak_fu_ru_na">
+    <item>تَكْفُرُونَ</item>
+    <item>آپ سب کفر کرتے ہيں</item>
+  </string-array>
+  <string-array name="ak_fu_ru">
+    <item>أَكْفُرُ</item>
+    <item>ميں کفر کرتا ہوں</item>
+  </string-array>
+  <string-array name="nak_fu_ru">
+    <item>نَكْفُرُ</item>
+    <item>ہم کفر کرتے ہيں</item>
+  </string-array>
+  <string-array name="uk_fur">
+    <item>اُكْفُرْ</item>
+    <item>آپ کفر کريں</item>
+  </string-array>
+  <string-array name="uk_fu_ru">
+    <item>اُكْفُرُوا</item>
+    <item>آپ سب کفر کريں</item>
+  </string-array>
+  <string-array name="la_tak_fur">
+    <item>لاَتَكْفُرْ</item>
+    <item>آپ کفر مت کريں</item>
+  </string-array>
+  <string-array name="la_tak_fu_ru">
+    <item>لاَتَكْفُرُوا</item>
+    <item>آپ سب کفر مت کريں</item>
+  </string-array>
+  <string-array name="ka_fir">
+    <item>كَافِر</item>
+    <item>کفر کرنے والا</item>
+  </string-array>
+  <string-array name="mak_fur">
+    <item>مَكْفُور</item>
+    <item>وہ جس کا کفر ہوا</item>
+  </string-array>
+  <string-array name="kufr">
+    <item>كُفْر</item>
+    <item>کفر کرنا</item>
+  </string-array>
+  <string-array name="ka_fa_rat">
+    <item>كَفَرَتْ</item>
+    <item>اُس عورت نے کفر کيا</item>
+  </string-array>
+  <string-array name="hiya_tak_fur">
+    <item>تَكْفُرُ (مؤنث)</item>
+    <item>وہ کفر کرتی ہے</item>
   </string-array>
 </resources>

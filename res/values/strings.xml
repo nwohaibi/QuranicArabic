@@ -115,6 +115,10 @@
     <item>Lesson 21</item>
     <item>ذَكَرَ</item>
   </string-array>
+  <string-array name="lesson_22">
+    <item>Lesson 22</item>
+    <item>هٰذا</item>
+  </string-array>
 
   <!-- Lesson 1 -->
   <string-array name="hooa">
@@ -1000,5 +1004,47 @@
   <string-array name="hiya_taz_ku_ru">
     <item>تَذْكُرُ (مؤنث)</item>
     <item>وہ ياد کرتی ہے</item>
+  </string-array>
+
+  <!-- Lesson 22 -->
+  <string-array name="ha_za">
+    <item>هٰذا</item>
+    <item>یہ</item>
+  </string-array>
+  <string-array name="ha_u_la_i">
+    <item>هٰؤُلآءِ</item>
+    <item>یہ سب (مذکر، مؤنث)</item>
+  </string-array>
+  <string-array name="za_li_ka">
+    <item>ذٰلِكَ</item>
+    <item>وہ</item>
+  </string-array>
+  <string-array name="u_la_i_ka">
+    <item>أُوْلٰئِكَ</item>
+    <item>وہ سب (مذکر، مؤنث)</item>
+  </string-array>
+  <string-array name="al_la_zi">
+    <item>اَلَّذِي</item>
+    <item>وہ جو</item>
+  </string-array>
+  <string-array name="al_la_zi_na">
+    <item>اَلَّذِينَ</item>
+    <item>وہ سب جو</item>
+  </string-array>
+  <string-array name="ha_zi_hi">
+    <item>هٰذِهِ</item>
+    <item>یہ (مؤنث)</item>
+  </string-array>
+  <string-array name="til_ka">
+    <item>تِلْكَ</item>
+    <item>وہ (مؤنث)</item>
+  </string-array>
+  <string-array name="al_la_ti">
+    <item>اَلَّتِي</item>
+    <item>وہ جو (مؤنث)</item>
+  </string-array>
+  <string-array name="al_laa_ti">
+    <item>اَلاَّتِي</item>
+    <item>وہ سب جو (مؤنث)</item>
   </string-array>
 </resources>

@@ -114,6 +114,7 @@
   <string-array name="lesson_21">
     <item>Lesson 21</item>
     <item>ذَكَرَ</item>
+    <item>ذِكْر : ذکر کرنا، ياد کرنا</item>
   </string-array>
   <string-array name="lesson_22">
     <item>Lesson 22</item>
@@ -928,87 +929,87 @@
   <!-- Lesson 21 -->
   <string-array name="za_ka_ra">
     <item>ذَكَرَ</item>
-    <item>اُس نے ياد کيا</item>
+    <item>اُس نے ذکر کيا</item>
   </string-array>
   <string-array name="za_ka_ru">
     <item>ذَكَرُوا</item>
-    <item>اُن سب نے ياد کيا</item>
+    <item>اُن سب نے ذکر کيا</item>
   </string-array>
   <string-array name="za_kar_ta">
     <item>ذَكَرْتَ</item>
-    <item>آپ نے ياد کيا</item>
+    <item>آپ نے ذکر کيا</item>
   </string-array>
   <string-array name="za_kar_tum">
     <item>ذَكَرْتُمْ</item>
-    <item>آپ سب نے ياد کيا</item>
+    <item>آپ سب نے ذکر کيا</item>
   </string-array>
   <string-array name="za_kar_tu">
     <item>ذَكَرْتُ</item>
-    <item>ميں نے ياد کيا</item>
+    <item>ميں نے ذکر کيا</item>
   </string-array>
   <string-array name="za_kar_na">
     <item>ذَكَرْنَا</item>
-    <item>ہم نے ياد کيا</item>
+    <item>ہم نے ذکر کيا</item>
   </string-array>
   <string-array name="yaz_ku_ru">
     <item>يَذْكُرُ</item>
-    <item>وہ ياد کرتا ہے</item>
+    <item>وہ ذکر کرتا ہے</item>
   </string-array>
   <string-array name="yaz_ku_ru_na">
     <item>يَذْكُرُونَ</item>
-    <item>وہ سب ياد کرتے ہيں</item>
+    <item>وہ سب ذکر کرتے ہيں</item>
   </string-array>
   <string-array name="taz_ku_ru">
     <item>تَذْكُرُ</item>
-    <item>آپ ياد کرتے ہيں</item>
+    <item>آپ ذکر کرتے ہيں</item>
   </string-array>
   <string-array name="taz_ku_ru_na">
     <item>تَذْكُرُونَ</item>
-    <item>آپ سب ياد کرتے ہيں</item>
+    <item>آپ سب ذکر کرتے ہيں</item>
   </string-array>
   <string-array name="az_ku_ru">
     <item>أَذْكُرُ</item>
-    <item>ميں ياد کرتا ہوں</item>
+    <item>ميں ذکر کرتا ہوں</item>
   </string-array>
   <string-array name="naz_ku_ru">
     <item>نَذْكُرُ</item>
-    <item>ہم ياد کرتے ہيں</item>
+    <item>ہم ذکر کرتے ہيں</item>
   </string-array>
   <string-array name="uz_kur">
     <item>اُذْكُرْ</item>
-    <item>آپ ياد کريں</item>
+    <item>آپ ذکر کريں</item>
   </string-array>
   <string-array name="uz_ku_ru">
     <item>اُذْكُرُوا</item>
-    <item>آپ سب ياد کريں</item>
+    <item>آپ سب ذکر کريں</item>
   </string-array>
   <string-array name="la_taz_kur">
     <item>لاَتَذْكُرْ</item>
-    <item>آپ ياد مت کريں</item>
+    <item>آپ ذکر مت کريں</item>
   </string-array>
   <string-array name="la_taz_ku_ru">
     <item>لاَتَذْكُرُوا</item>
-    <item>آپ سب ياد مت کريں</item>
+    <item>آپ سب ذکر مت کريں</item>
   </string-array>
   <string-array name="za_kir">
     <item>ذَاكِر</item>
-    <item>ياد کرنے والا</item>
+    <item>ذکر کرنے والا</item>
   </string-array>
   <string-array name="maz_kur">
     <item>مَذْكُور</item>
-    <item>وہ جس کو ياد کيا گيا</item>
+    <item>وہ جس کا ذکر ہوا</item>
   </string-array>
   <string-array name="zikr">
     <item>ذِكْر</item>
-    <item>ياد کرنا</item>
+    <item>ذکر کرنا</item>
   </string-array>
   <string-array name="za_ka_rat">
     <item>ذَكَرَتْ</item>
-    <item>اُس عورت نے ياد کيا</item>
+    <item>اُس عورت نے ذکر کيا</item>
   </string-array>
   <string-array name="hiya_taz_ku_ru">
     <item>تَذْكُرُ (مؤنث)</item>
-    <item>وہ ياد کرتی ہے</item>
+    <item>وہ ذکر کرتی ہے</item>
   </string-array>
 
   <!-- Lesson 22 -->

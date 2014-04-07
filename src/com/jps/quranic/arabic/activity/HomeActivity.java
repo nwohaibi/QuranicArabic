@@ -5,6 +5,7 @@ import android.app.ListActivity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -108,6 +109,12 @@ public class HomeActivity extends ListActivity
                                     R.array.id_rib, R.array.id_ri_bu, R.array.la_tad_rib, R.array.la_tad_ri_bu,
                                     R.array.da_rib, R.array.mad_rub, R.array.darb, R.array.da_ra_bat,
                                     R.array.hiya_tad_ri_bu };
+  private final int[] _lesson25 = { R.array.za_la_ma, R.array.za_la_mu, R.array.za_lam_ta, R.array.za_lam_tum,
+                                    R.array.za_lam_tu, R.array.za_lam_na, R.array.yaz_li_mu, R.array.yaz_li_mu_na,
+                                    R.array.taz_li_mu, R.array.taz_li_mu_na, R.array.az_li_mu, R.array.naz_li_mu,
+                                    R.array.iz_lim, R.array.iz_li_mu, R.array.la_taz_lim, R.array.la_taz_li_mu,
+                                    R.array.za_lim, R.array.maz_lum, R.array.zulm, R.array.za_la_mat,
+                                    R.array.hiya_taz_li_mu };
 
   private Map<String, int[]> _lessonMap;
   private ArrayList<Lesson> _lessonList;
@@ -136,30 +143,32 @@ public class HomeActivity extends ListActivity
       }
     } );
 
-    String[] lesson1 = getResources().getStringArray( R.array.lesson_1 );
-    String[] lesson2 = getResources().getStringArray( R.array.lesson_2 );
-    String[] lesson3 = getResources().getStringArray( R.array.lesson_3 );
-    String[] lesson4 = getResources().getStringArray( R.array.lesson_4 );
-    String[] lesson5 = getResources().getStringArray( R.array.lesson_5 );
-    String[] lesson6 = getResources().getStringArray( R.array.lesson_6 );
-    String[] lesson7 = getResources().getStringArray( R.array.lesson_7 );
-    String[] lesson8 = getResources().getStringArray( R.array.lesson_8 );
-    String[] lesson9 = getResources().getStringArray( R.array.lesson_9 );
-    String[] lesson10 = getResources().getStringArray( R.array.lesson_10 );
-    String[] lesson11 = getResources().getStringArray( R.array.lesson_11 );
-    String[] lesson12 = getResources().getStringArray( R.array.lesson_12 );
-    String[] lesson13 = getResources().getStringArray( R.array.lesson_13 );
-    String[] lesson14 = getResources().getStringArray( R.array.lesson_14 );
-    String[] lesson15 = getResources().getStringArray( R.array.lesson_15 );
-    String[] lesson16 = getResources().getStringArray( R.array.lesson_16 );
-    String[] lesson17 = getResources().getStringArray( R.array.lesson_17 );
-    String[] lesson18 = getResources().getStringArray( R.array.lesson_18 );
-    String[] lesson19 = getResources().getStringArray( R.array.lesson_19 );
-    String[] lesson20 = getResources().getStringArray( R.array.lesson_20 );
-    String[] lesson21 = getResources().getStringArray( R.array.lesson_21 );
-    String[] lesson22 = getResources().getStringArray( R.array.lesson_22 );
-    String[] lesson23 = getResources().getStringArray( R.array.lesson_23 );
-    String[] lesson24 = getResources().getStringArray( R.array.lesson_24 );
+    Resources resources = getResources();
+    String[] lesson1 = resources.getStringArray( R.array.lesson_1 );
+    String[] lesson2 = resources.getStringArray( R.array.lesson_2 );
+    String[] lesson3 = resources.getStringArray( R.array.lesson_3 );
+    String[] lesson4 = resources.getStringArray( R.array.lesson_4 );
+    String[] lesson5 = resources.getStringArray( R.array.lesson_5 );
+    String[] lesson6 = resources.getStringArray( R.array.lesson_6 );
+    String[] lesson7 = resources.getStringArray( R.array.lesson_7 );
+    String[] lesson8 = resources.getStringArray( R.array.lesson_8 );
+    String[] lesson9 = resources.getStringArray( R.array.lesson_9 );
+    String[] lesson10 = resources.getStringArray( R.array.lesson_10 );
+    String[] lesson11 = resources.getStringArray( R.array.lesson_11 );
+    String[] lesson12 = resources.getStringArray( R.array.lesson_12 );
+    String[] lesson13 = resources.getStringArray( R.array.lesson_13 );
+    String[] lesson14 = resources.getStringArray( R.array.lesson_14 );
+    String[] lesson15 = resources.getStringArray( R.array.lesson_15 );
+    String[] lesson16 = resources.getStringArray( R.array.lesson_16 );
+    String[] lesson17 = resources.getStringArray( R.array.lesson_17 );
+    String[] lesson18 = resources.getStringArray( R.array.lesson_18 );
+    String[] lesson19 = resources.getStringArray( R.array.lesson_19 );
+    String[] lesson20 = resources.getStringArray( R.array.lesson_20 );
+    String[] lesson21 = resources.getStringArray( R.array.lesson_21 );
+    String[] lesson22 = resources.getStringArray( R.array.lesson_22 );
+    String[] lesson23 = resources.getStringArray( R.array.lesson_23 );
+    String[] lesson24 = resources.getStringArray( R.array.lesson_24 );
+    String[] lesson25 = resources.getStringArray( R.array.lesson_25 );
 
     _lessonMap = new HashMap<String, int[]>();
     _lessonMap.put( lesson1[0], _lesson1 );
@@ -186,6 +195,7 @@ public class HomeActivity extends ListActivity
     _lessonMap.put( lesson22[0], _lesson22 );
     _lessonMap.put( lesson23[0], _lesson23 );
     _lessonMap.put( lesson24[0], _lesson24 );
+    _lessonMap.put( lesson25[0], _lesson25 );
 
     _lessonList = new ArrayList<Lesson>();
     _lessonList.add( new Lesson( R.array.lesson_1, lesson1[0], lesson1[1] ) );
@@ -212,6 +222,7 @@ public class HomeActivity extends ListActivity
     _lessonList.add( new Lesson( R.array.lesson_22, lesson22[0], lesson22[1] ) );
     _lessonList.add( new Lesson( R.array.lesson_23, lesson23[0], lesson23[1] ) );
     _lessonList.add( new Lesson( R.array.lesson_24, lesson24[0], lesson24[1] ) );
+    _lessonList.add( new Lesson( R.array.lesson_25, lesson25[0], lesson25[1] ) );
   }
 
   @Override

@@ -130,6 +130,10 @@
     <item>ضَرَبَ</item>
     <item>باب ضَرَبَ</item>
   </string-array>
+  <string-array name="lesson_25">
+    <item>Lesson 25</item>
+    <item>ظَلَمَ</item>
+  </string-array>
 
   <!-- Lesson 1 -->
   <string-array name="hooa">
@@ -1229,5 +1233,91 @@
   <string-array name="hiya_tad_ri_bu">
     <item>تَضْرِبُ (مؤنث)</item>
     <item>وہ مارتی ہے</item>
+  </string-array>
+
+  <!-- Lesson 25 -->
+  <string-array name="za_la_ma">
+    <item>ظَلَمَ</item>
+    <item>اُس نے ظلم کيا</item>
+  </string-array>
+  <string-array name="za_la_mu">
+    <item>ظَلَمُوا</item>
+    <item>اُن سب نے ظلم کيا</item>
+  </string-array>
+  <string-array name="za_lam_ta">
+    <item>ظَلَمْتَ</item>
+    <item>آپ نے ظلم کيا</item>
+  </string-array>
+  <string-array name="za_lam_tum">
+    <item>ظَلَمْتُمْ</item>
+    <item>آپ سب نے ظلم کيا</item>
+  </string-array>
+  <string-array name="za_lam_tu">
+    <item>ظَلَمْتُ</item>
+    <item>ميں نے ظلم کيا</item>
+  </string-array>
+  <string-array name="za_lam_na">
+    <item>ظَلَمْنَا</item>
+    <item>ہم نے ظلم کيا</item>
+  </string-array>
+  <string-array name="yaz_li_mu">
+    <item>يَظْلِمُ</item>
+    <item>وہ ظلم کرتا ہے</item>
+  </string-array>
+  <string-array name="yaz_li_mu_na">
+    <item>يَظْلِمُونَ</item>
+    <item>وہ سب ظلم کرتے ہيں</item>
+  </string-array>
+  <string-array name="taz_li_mu">
+    <item>تَظْلِمُ</item>
+    <item>آپ ظلم کرتے ہيں</item>
+  </string-array>
+  <string-array name="taz_li_mu_na">
+    <item>تَظْلِمُونَ</item>
+    <item>آپ سب ظلم کرتے ہيں</item>
+  </string-array>
+  <string-array name="az_li_mu">
+    <item>أَظْلِمُ</item>
+    <item>ميں ظلم کرتا ہوں</item>
+  </string-array>
+  <string-array name="naz_li_mu">
+    <item>نَظْلِمُ</item>
+    <item>ہم ظلم کرتے ہيں</item>
+  </string-array>
+  <string-array name="iz_lim">
+    <item>اِظْلِمْ</item>
+    <item>آپ ظلم کريں</item>
+  </string-array>
+  <string-array name="iz_li_mu">
+    <item>اِظْلِمُوا</item>
+    <item>آپ سب ظلم کريں</item>
+  </string-array>
+  <string-array name="la_taz_lim">
+    <item>لاَتَظْلِمْ</item>
+    <item>آپ ظلم مت کريں</item>
+  </string-array>
+  <string-array name="la_taz_li_mu">
+    <item>لاَتَظْلِمُوا</item>
+    <item>آپ سب ظلم مت کريں</item>
+  </string-array>
+  <string-array name="za_lim">
+    <item>ظَالِم</item>
+    <item>ظلم کرنے والا</item>
+  </string-array>
+  <string-array name="maz_lum">
+    <item>مَظْلُوم</item>
+    <item>وہ جس پر ظلم ہوا</item>
+  </string-array>
+  <string-array name="zulm">
+    <item>ظُلْم</item>
+    <item>ظلم</item>
+  </string-array>
+  <string-array name="za_la_mat">
+    <item>ظَلَمَتْ</item>
+    <item>اُس عورت نے ظلم کيا</item>
+  </string-array>
+  <string-array name="hiya_taz_li_mu">
+    <item>تَظْلِمُ (مؤنث)</item>
+    <item>وہ ظلم کرتی ہے</item>
   </string-array>
 </resources>

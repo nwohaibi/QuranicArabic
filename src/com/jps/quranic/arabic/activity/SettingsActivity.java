@@ -112,7 +112,7 @@ public class SettingsActivity extends ListActivity
   public boolean onCreateOptionsMenu( Menu menu )
   {
     MenuInflater inflater = getMenuInflater();
-    inflater.inflate( R.menu.settings_menu, menu );
+    inflater.inflate( R.menu.toggle_menu, menu );
     updateMenu( menu );
 
     return true;

@@ -107,7 +107,7 @@ public class FlashCardActivity extends Activity
   public boolean onCreateOptionsMenu( Menu menu )
   {
     MenuInflater inflater = getMenuInflater();
-    inflater.inflate( R.menu.flash_card_menu, menu );
+    inflater.inflate( R.menu.save_menu, menu );
     return true;
   }
 

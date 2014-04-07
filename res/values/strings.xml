@@ -125,6 +125,11 @@
     <item>كَفَرَ</item>
     <item>كُفْر : كفر كرنا، نا شكرى كرنا، انكار كرنا</item>
   </string-array>
+  <string-array name="lesson_24">
+    <item>Lesson 24</item>
+    <item>ضَرَبَ</item>
+    <item>باب ضَرَبَ</item>
+  </string-array>
 
   <!-- Lesson 1 -->
   <string-array name="hooa">
@@ -1138,5 +1143,91 @@
   <string-array name="hiya_tak_fur">
     <item>تَكْفُرُ (مؤنث)</item>
     <item>وہ کفر کرتی ہے</item>
+  </string-array>
+
+  <!-- Lesson 24 -->
+  <string-array name="da_ra_ba">
+    <item>ضَرَبَ</item>
+    <item>اُس نے مارا</item>
+  </string-array>
+  <string-array name="da_ra_bu">
+    <item>ضَرَبُوا</item>
+    <item>اُن سب نے مارا</item>
+  </string-array>
+  <string-array name="da_rab_ta">
+    <item>ضَرَبْتَ</item>
+    <item>آپ نے مارا</item>
+  </string-array>
+  <string-array name="da_rab_tum">
+    <item>ضَرَبْتُمْ</item>
+    <item>آپ سب نے مارا</item>
+  </string-array>
+  <string-array name="da_rab_tu">
+    <item>ضَرَبْتُ</item>
+    <item>ميں نے مارا</item>
+  </string-array>
+  <string-array name="da_rab_na">
+    <item>ضَرَبْنَا</item>
+    <item>ہم نے مارا</item>
+  </string-array>
+  <string-array name="yad_ri_bu">
+    <item>يَضْرِبُ</item>
+    <item>وہ مارتا ہے</item>
+  </string-array>
+  <string-array name="yad_ri_bu_na">
+    <item>يَضْرِبُونَ</item>
+    <item>وہ سب مارتے ہيں</item>
+  </string-array>
+  <string-array name="tad_ri_bu">
+    <item>تَضْرِبُ</item>
+    <item>آپ مارتے ہيں</item>
+  </string-array>
+  <string-array name="tad_ri_bu_na">
+    <item>تَضْرِبُونَ</item>
+    <item>آپ سب مارتے ہيں</item>
+  </string-array>
+  <string-array name="ad_ri_bu">
+    <item>أَضْرِبُ</item>
+    <item>ميں مارتا ہوں</item>
+  </string-array>
+  <string-array name="nad_ri_bu">
+    <item>نَضْرِبُ</item>
+    <item>ہم مارتے ہيں</item>
+  </string-array>
+  <string-array name="id_rib">
+    <item>اِضْرِبْ</item>
+    <item>آپ ماريں</item>
+  </string-array>
+  <string-array name="id_ri_bu">
+    <item>اِضْرِبُوا</item>
+    <item>آپ سب ماريں</item>
+  </string-array>
+  <string-array name="la_tad_rib">
+    <item>لاَتَضْرِبْ</item>
+    <item>آپ مت ماريں</item>
+  </string-array>
+  <string-array name="la_tad_ri_bu">
+    <item>لاَتَضْرِبُوا</item>
+    <item>آپ سب مت ماريں</item>
+  </string-array>
+  <string-array name="da_rib">
+    <item>ضَارِبْ</item>
+    <item>مارنے والا</item>
+  </string-array>
+  <string-array name="mad_rub">
+    <item>مَضْرُوب</item>
+    <item>جس کو مار لگی</item>
+  </string-array>
+  <string-array name="darb">
+    <item>ضَرْب</item>
+    <item>مار</item>
+  </string-array>
+  <string-array name="da_ra_bat">
+    <item>ضَرَبَتْ</item>
+    <item>اُس عورت نے مارا</item>
+  </string-array>
+  <string-array name="hiya_tad_ri_bu">
+    <item>تَضْرِبُ (مؤنث)</item>
+    <item>وہ مارتی ہے</item>
   </string-array>
 </resources>

@@ -619,11 +619,11 @@
     <item>آپ سب کھولیں</item>
   </string-array>
   <string-array name="la_taf_tah">
-    <item>لاَتَفْتَحْ</item>
+    <item>لاَ تَفْتَحْ</item>
     <item>آپ مت کھولیں</item>
   </string-array>
   <string-array name="la_taf_ta_hu">
-    <item>لاَتَفْتَحُوا</item>
+    <item>لاَ تَفْتَحُوا</item>
     <item>آپ سب مت کھولیں</item>
   </string-array>
   <string-array name="fa_tih">
@@ -735,11 +735,11 @@
     <item>آپ سب بنائيں</item>
   </string-array>
   <string-array name="la_taj_al">
-    <item>لاَتَجْعَلْ</item>
+    <item>لاَ تَجْعَلْ</item>
     <item>آپ مت بنائيں</item>
   </string-array>
   <string-array name="la_taj_alu">
-    <item>لاَتَجْعَلُوا</item>
+    <item>لاَ تَجْعَلُوا</item>
     <item>آپ سب مت بنائيں</item>
   </string-array>
   <string-array name="ja_il">
@@ -993,11 +993,11 @@
     <item>آپ سب ذکر کريں</item>
   </string-array>
   <string-array name="la_taz_kur">
-    <item>لاَتَذْكُرْ</item>
+    <item>لاَ تَذْكُرْ</item>
     <item>آپ ذکر مت کريں</item>
   </string-array>
   <string-array name="la_taz_ku_ru">
-    <item>لاَتَذْكُرُوا</item>
+    <item>لاَ تَذْكُرُوا</item>
     <item>آپ سب ذکر مت کريں</item>
   </string-array>
   <string-array name="za_kir">
@@ -1121,11 +1121,11 @@
     <item>آپ سب کفر کريں</item>
   </string-array>
   <string-array name="la_tak_fur">
-    <item>لاَتَكْفُرْ</item>
+    <item>لاَ تَكْفُرْ</item>
     <item>آپ کفر مت کريں</item>
   </string-array>
   <string-array name="la_tak_fu_ru">
-    <item>لاَتَكْفُرُوا</item>
+    <item>لاَ تَكْفُرُوا</item>
     <item>آپ سب کفر مت کريں</item>
   </string-array>
   <string-array name="ka_fir">
@@ -1207,11 +1207,11 @@
     <item>آپ سب ماريں</item>
   </string-array>
   <string-array name="la_tad_rib">
-    <item>لاَتَضْرِبْ</item>
+    <item>لاَ تَضْرِبْ</item>
     <item>آپ مت ماريں</item>
   </string-array>
   <string-array name="la_tad_ri_bu">
-    <item>لاَتَضْرِبُوا</item>
+    <item>لاَ تَضْرِبُوا</item>
     <item>آپ سب مت ماريں</item>
   </string-array>
   <string-array name="da_rib">
@@ -1293,11 +1293,11 @@
     <item>آپ سب ظلم کريں</item>
   </string-array>
   <string-array name="la_taz_lim">
-    <item>لاَتَظْلِمْ</item>
+    <item>لاَ تَظْلِمْ</item>
     <item>آپ ظلم مت کريں</item>
   </string-array>
   <string-array name="la_taz_li_mu">
-    <item>لاَتَظْلِمُوا</item>
+    <item>لاَ تَظْلِمُوا</item>
     <item>آپ سب ظلم مت کريں</item>
   </string-array>
   <string-array name="za_lim">

@@ -7,8 +7,10 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -130,18 +132,6 @@ public class HomeActivity extends ListActivity
     setContentView( R.layout.home_view );
 
     FlashCardActivity.PREF_NAME = this.getClass().getName();
-
-    Button settingsButton = (Button) findViewById( R.id.settings_button );
-    settingsButton.setOnClickListener( new View.OnClickListener()
-    {
-      @Override
-      public void onClick( View view )
-      {
-        Intent intent = new Intent( HomeActivity.this, SettingsActivity.class );
-        intent.putExtra( SettingsActivity.EXTRA_LESSON_NAMES, (Serializable) getLessonNameList() );
-        startActivity( intent );
-      }
-    } );
 
     Resources resources = getResources();
     String[] lesson1 = resources.getStringArray( R.array.lesson_1 );
@@ -287,6 +277,29 @@ public class HomeActivity extends ListActivity
   }
 
   @Override
+  public boolean onCreateOptionsMenu( Menu menu )
+  {
+    MenuInflater inflater = getMenuInflater();
+    inflater.inflate( R.menu.home_menu, menu );
+    return true;
+  }
+
+  @Override
+  public boolean onOptionsItemSelected( MenuItem item )
+  {
+    switch ( item.getItemId() )
+    {
+      case R.id.add_lessons:
+        Intent intent = new Intent( HomeActivity.this, SettingsActivity.class );
+        intent.putExtra( SettingsActivity.EXTRA_LESSON_NAMES, (Serializable) getLessonNameList() );
+        startActivity( intent );
+        return true;
+      default:
+        return super.onOptionsItemSelected( item );
+    }
+  }
+
+  @Override
   protected void onListItemClick( ListView l, View v, int position, long id )
   {
     super.onListItemClick( l, v, position, id );
@@ -301,7 +314,7 @@ public class HomeActivity extends ListActivity
 
       if ( checkedLessonNameSet.isEmpty() )
       {
-        Toast.makeText( getBaseContext(), "Visit Settings to add Lessons", Toast.LENGTH_LONG ).show();
+        Toast.makeText( getBaseContext(), "Add Lessons from Menu", Toast.LENGTH_LONG ).show();
       }
       else
       {

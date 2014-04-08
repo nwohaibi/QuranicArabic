@@ -487,7 +487,7 @@
   </string-array>
   <string-array name="fail">
     <item>فِعْل</item>
-    <item>کرنا، کام کا کرنا</item>
+    <item>کام</item>
   </string-array>
   <string-array name="fa_i_lun">
     <item>فَاعِلُون</item>
@@ -839,7 +839,7 @@
   </string-array>
   <string-array name="nasr">
     <item>نَصْر</item>
-    <item>مدد کرنا</item>
+    <item>مدد</item>
   </string-array>
   <string-array name="na_sa_rat">
     <item>نَصَرَتْ</item>
@@ -925,7 +925,7 @@
   </string-array>
   <string-array name="i_ba_da">
     <item>عِبَادَة</item>
-    <item>عبادت کرنا</item>
+    <item>عبادت</item>
   </string-array>
   <string-array name="a_ba_dat">
     <item>عَبَدَتْ</item>
@@ -1011,7 +1011,7 @@
   </string-array>
   <string-array name="zikr">
     <item>ذِكْر</item>
-    <item>ذکر کرنا</item>
+    <item>ذکر</item>
   </string-array>
   <string-array name="za_ka_rat">
     <item>ذَكَرَتْ</item>
@@ -1139,7 +1139,7 @@
   </string-array>
   <string-array name="kufr">
     <item>كُفْر</item>
-    <item>کفر کرنا</item>
+    <item>کفر</item>
   </string-array>
   <string-array name="ka_fa_rat">
     <item>كَفَرَتْ</item>
@@ -1221,7 +1221,7 @@
   </string-array>
   <string-array name="mad_rub">
     <item>مَضْرُوب</item>
-    <item>جس کو مار لگی</item>
+    <item>وہ جس کو مار لگی</item>
   </string-array>
   <string-array name="darb">
     <item>ضَرْب</item>

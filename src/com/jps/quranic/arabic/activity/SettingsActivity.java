@@ -37,6 +37,9 @@ public class SettingsActivity extends ListActivity
   {
     super.onCreate( savedInstanceState );
 
+    // set action bar title
+    getActionBar().setTitle( R.string.add_lessons );
+
     ListView listView = getListView();
 
     // add header text

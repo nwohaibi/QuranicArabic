@@ -53,6 +53,9 @@ public class InfoActivity extends Activity
     super.onCreate( savedInstanceState );
     setContentView( R.layout.info_view );
 
+    // set action bar title
+    getActionBar().setTitle( R.string.info );
+
     mRenderer.setZoomButtonsVisible( true );
     mRenderer.setStartAngle( 180 );
     mRenderer.setDisplayValues( true );

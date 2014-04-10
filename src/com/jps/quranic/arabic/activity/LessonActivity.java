@@ -46,6 +46,9 @@ public class LessonActivity extends ListActivity
       lessonHeaderText = lesson[2];
     }
 
+    // set action bar title
+    getActionBar().setTitle( lesson[0] );
+
     // set lesson header text
     if ( !isEmpty( lessonHeaderText ) && getListView().getHeaderViewsCount() == 0 )
     {

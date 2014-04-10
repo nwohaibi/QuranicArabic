@@ -64,6 +64,9 @@ public class FlashCardActivity extends Activity
 
     setContentView( R.layout.flash_card_view );
 
+    // set action bar title
+    getActionBar().setTitle( R.string.start_new_session );
+
     // get extras
     Intent intent = getIntent();
     boolean doStartFromSavedProgress = intent.getBooleanExtra( EXTRA_CONTINUE_WITH_SAVED_SESSION, false );

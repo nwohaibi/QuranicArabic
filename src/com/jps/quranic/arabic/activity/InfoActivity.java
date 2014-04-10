@@ -94,42 +94,33 @@ public class InfoActivity extends Activity
       mChartView.repaint();
     }
 
-    SimpleSeriesRenderer renderer = new SimpleSeriesRenderer();
-    renderer.setColor( Color.GRAY );
-
-    SimpleSeriesRenderer rendererDarkGray = new SimpleSeriesRenderer();
-    rendererDarkGray.setColor( Color.DKGRAY );
-
     int[] resIdArray = new int[]{ R.array.lesson_1, R.array.lesson_3, R.array.lesson_5, R.array.lesson_6,
                                   R.array.lesson_8, R.array.lesson_9, R.array.lesson_11, R.array.lesson_12,
                                   R.array.lesson_14, R.array.lesson_16, R.array.lesson_17, R.array.lesson_18,
                                   R.array.lesson_19, R.array.lesson_20, R.array.lesson_21, R.array.lesson_22,
                                   R.array.lesson_23, R.array.lesson_24, R.array.lesson_25 };
 
+    int allOccurrences = 0; // occurrences of words from all lectures in Qur'an Majeed
     for ( int resId : resIdArray )
     {
-      addCategoryToSeries( renderer, resId );
-    }
-
-    int allOccurrences = 0; // occurrences of words from all lectures in Qur'an Majeed
-    for ( int i = 0; i < mSeries.getItemCount(); i++ )
-    {
-      allOccurrences += mSeries.getValue( i );
+      String[] lesson = getResources().getStringArray( resId );
+      int wordOccurrence = Integer.parseInt( lesson[3] );
+      allOccurrences += wordOccurrence;
     }
 
     final int totalWordsQuran = 77934; // total occurrences of all words in Qur'an Majeed
     final int remainingWordsQuran = totalWordsQuran - allOccurrences;
+
+    SimpleSeriesRenderer renderer = new SimpleSeriesRenderer();
+    renderer.setColor( Color.GRAY );
+    mSeries.add( "All Lessons", allOccurrences );
+    mRenderer.addSeriesRenderer( renderer );
+
+    SimpleSeriesRenderer rendererDarkGray = new SimpleSeriesRenderer();
+    rendererDarkGray.setColor( Color.DKGRAY );
     mSeries.add( "Remaining", remainingWordsQuran );
     mRenderer.addSeriesRenderer( rendererDarkGray );
 
     mChartView.repaint();
-  }
-
-  private void addCategoryToSeries( SimpleSeriesRenderer renderer, int stringArrayResId )
-  {
-    String[] lesson = getResources().getStringArray( stringArrayResId );
-    int wordOccurrence = Integer.parseInt( lesson[3] );
-    mSeries.add( lesson[0], wordOccurrence );
-    mRenderer.addSeriesRenderer( renderer );
   }
 }

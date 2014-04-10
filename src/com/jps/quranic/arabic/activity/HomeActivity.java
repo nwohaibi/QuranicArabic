@@ -289,10 +289,14 @@ public class HomeActivity extends ListActivity
   {
     switch ( item.getItemId() )
     {
+      case R.id.info:
+        Intent infoIntent = new Intent( HomeActivity.this, InfoActivity.class );
+        startActivity( infoIntent );
+        return true;
       case R.id.add_lessons:
-        Intent intent = new Intent( HomeActivity.this, SettingsActivity.class );
-        intent.putExtra( SettingsActivity.EXTRA_LESSON_NAMES, (Serializable) getLessonNameList() );
-        startActivity( intent );
+        Intent addLessonsIntent = new Intent( HomeActivity.this, SettingsActivity.class );
+        addLessonsIntent.putExtra( SettingsActivity.EXTRA_LESSON_NAMES, (Serializable) getLessonNameList() );
+        startActivity( addLessonsIntent );
         return true;
       default:
         return super.onOptionsItemSelected( item );

@@ -26,6 +26,7 @@
     <activity android:name=".activity.LessonActivity"/>
     <activity android:name=".activity.FlashCardActivity"/>
     <activity android:name=".activity.SettingsActivity"/>
+    <activity android:name=".activity.InfoActivity"/>
 
   </application>
 </manifest> 

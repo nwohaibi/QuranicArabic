@@ -413,5 +413,14 @@
       <JiraViewConfigurationBean />
     </option>
   </component>
+  <component name="libraryTable">
+    <library name="achartengine-1.1.0">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/achartengine-1.1.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+  </component>
 </project>
 

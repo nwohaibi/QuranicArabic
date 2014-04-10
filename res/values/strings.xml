@@ -25,115 +25,146 @@
   <string-array name="lesson_1">
     <item>Lesson 1</item>
     <item>ضميريں</item>
+    <item></item>
+    <item>1295</item>
   </string-array>
   <string-array name="lesson_2">
     <item>Lesson 2</item>
     <item>رَبّ</item>
+    <item></item>
   </string-array>
   <string-array name="lesson_3">
     <item>Lesson 3</item>
     <item>لَ</item>
     <item>لَ : لیۓ، كا</item>
+    <item>1367</item>
   </string-array>
   <string-array name="lesson_4">
     <item>Lesson 4</item>
     <item>فِعْل مَاضِي</item>
+    <item></item>
   </string-array>
   <string-array name="lesson_5">
     <item>Lesson 5</item>
     <item>مِنْ</item>
     <item>مِنْ : سے</item>
+    <item>3026</item>
   </string-array>
   <string-array name="lesson_6">
     <item>Lesson 6</item>
     <item>عَنْ</item>
     <item>عَنْ : بارے میں، سے</item>
+    <item>404</item>
   </string-array>
   <string-array name="lesson_7">
     <item>Lesson 7</item>
     <item>فِعْل مُضَارِع</item>
+    <item></item>
   </string-array>
   <string-array name="lesson_8">
     <item>Lesson 8</item>
     <item>مَعَ</item>
     <item>مَعَ : ساتھ</item>
+    <item>163</item>
   </string-array>
   <string-array name="lesson_9">
     <item>Lesson 9</item>
     <item>فِي</item>
     <item>فِي : میں</item>
+    <item>1658</item>
   </string-array>
   <string-array name="lesson_10">
     <item>Lesson 10</item>
     <item>أمْر نَهْي</item>
+    <item></item>
   </string-array>
   <string-array name="lesson_11">
     <item>Lesson 11</item>
     <item>بِ</item>
     <item>بِ : ساتھ</item>
+    <item>510</item>
   </string-array>
   <string-array name="lesson_12">
     <item>Lesson 12</item>
     <item>عَلَى</item>
     <item>عَلَى : پر</item>
+    <item>1423</item>
   </string-array>
   <string-array name="lesson_13">
     <item>Lesson 13</item>
     <item>فِعْل</item>
+    <item></item>
   </string-array>
   <string-array name="lesson_14">
     <item>Lesson 14</item>
     <item>إِلىٰ</item>
     <item>إِلىٰ : طرف</item>
+    <item>736</item>
   </string-array>
   <string-array name="lesson_15">
     <item>Lesson 15</item>
     <item>فَعَلَتْ</item>
+    <item></item>
   </string-array>
   <string-array name="lesson_16">
     <item>Lesson 16</item>
     <item>فَتَحَ</item>
+    <item></item>
+    <item>29</item>
   </string-array>
   <string-array name="lesson_17">
     <item>Lesson 17</item>
     <item>عِنْدَ</item>
     <item>عِنْدَ : پاس، قريب</item>
+    <item>197</item>
   </string-array>
   <string-array name="lesson_18">
     <item>Lesson 18</item>
     <item>جَعَلَ</item>
     <item>جَعْل : بنانا، كرنا</item>
+    <item>346</item>
   </string-array>
   <string-array name="lesson_19">
     <item>Lesson 19</item>
     <item>نَصَرَ</item>
+    <item></item>
+    <item>92</item>
   </string-array>
   <string-array name="lesson_20">
     <item>Lesson 20</item>
     <item>عَبَدَ</item>
+    <item></item>
+    <item>163</item>
   </string-array>
   <string-array name="lesson_21">
     <item>Lesson 21</item>
     <item>ذَكَرَ</item>
     <item>ذِكْر : ذکر کرنا، ياد کرنا</item>
+    <item>163</item>
   </string-array>
   <string-array name="lesson_22">
     <item>Lesson 22</item>
     <item>هٰذا</item>
+    <item></item>
+    <item>2286</item>
   </string-array>
   <string-array name="lesson_23">
     <item>Lesson 23</item>
     <item>كَفَرَ</item>
     <item>كُفْر : كفر كرنا، نا شكرى كرنا، انكار كرنا</item>
+    <item>461</item>
   </string-array>
   <string-array name="lesson_24">
     <item>Lesson 24</item>
     <item>ضَرَبَ</item>
     <item>باب ضَرَبَ</item>
+    <item>58</item>
   </string-array>
   <string-array name="lesson_25">
     <item>Lesson 25</item>
     <item>ظَلَمَ</item>
+    <item></item>
+    <item>266</item>
   </string-array>
 
   <!-- Lesson 1 -->

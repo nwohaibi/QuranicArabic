@@ -47,7 +47,7 @@ public class LessonActivity extends ListActivity
     }
 
     // set lesson header text
-    if ( lessonHeaderText != null && getListView().getHeaderViewsCount() == 0 )
+    if ( !isEmpty( lessonHeaderText ) && getListView().getHeaderViewsCount() == 0 )
     {
       LayoutInflater inflater = getLayoutInflater();
       TextView lessonHeaderView = (TextView) inflater.inflate( R.layout.lesson_header_view, null );
@@ -57,5 +57,10 @@ public class LessonActivity extends ListActivity
 
     LessonArrayAdapter adapter = new LessonArrayAdapter( this, resIds );
     setListAdapter( adapter );
+  }
+
+  private boolean isEmpty( String string )
+  {
+    return string != null && string.isEmpty();
   }
 }

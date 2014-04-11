@@ -109,7 +109,7 @@
   <string-array name="lesson_16">
     <item>Lesson 16</item>
     <item>فَتَحَ</item>
-    <item></item>
+    <item>باب فَتَحَ</item>
     <item>29</item>
   </string-array>
   <string-array name="lesson_17">
@@ -121,25 +121,25 @@
   <string-array name="lesson_18">
     <item>Lesson 18</item>
     <item>جَعَلَ</item>
-    <item>جَعْل : بنانا، كرنا</item>
+    <item>باب فَتَحَ</item>
     <item>346</item>
   </string-array>
   <string-array name="lesson_19">
     <item>Lesson 19</item>
     <item>نَصَرَ</item>
-    <item></item>
+    <item>باب نَصَرَ</item>
     <item>92</item>
   </string-array>
   <string-array name="lesson_20">
     <item>Lesson 20</item>
     <item>عَبَدَ</item>
-    <item></item>
+    <item>باب نَصَرَ</item>
     <item>163</item>
   </string-array>
   <string-array name="lesson_21">
     <item>Lesson 21</item>
     <item>ذَكَرَ</item>
-    <item>ذِكْر : ذکر کرنا، ياد کرنا</item>
+    <item>باب نَصَرَ</item>
     <item>163</item>
   </string-array>
   <string-array name="lesson_22">
@@ -151,7 +151,7 @@
   <string-array name="lesson_23">
     <item>Lesson 23</item>
     <item>كَفَرَ</item>
-    <item>كُفْر : كفر كرنا، نا شكرى كرنا، انكار كرنا</item>
+    <item>باب نَصَرَ</item>
     <item>461</item>
   </string-array>
   <string-array name="lesson_24">
@@ -163,7 +163,7 @@
   <string-array name="lesson_25">
     <item>Lesson 25</item>
     <item>ظَلَمَ</item>
-    <item></item>
+    <item>باب ضَرَبَ</item>
     <item>266</item>
   </string-array>
 

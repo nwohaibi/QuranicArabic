@@ -41,8 +41,7 @@
           android:layout_height="wrap_content"
           android:layout_width="125dip"
           android:layout_alignParentBottom="true"
-          android:layout_centerHorizontal="true"
-          android:layout_toLeftOf="@+id/word_number_view"/>
+          android:layout_alignParentLeft="true"/>
 
   <!-- 5 of 15 -->
   <TextView android:id="@+id/word_number_view"
@@ -61,6 +60,5 @@
           android:layout_height="wrap_content"
           android:layout_width="125dip"
           android:layout_alignParentBottom="true"
-          android:layout_centerHorizontal="true"
-          android:layout_toRightOf="@+id/word_number_view"/>
+          android:layout_alignParentRight="true"/>
 </RelativeLayout>

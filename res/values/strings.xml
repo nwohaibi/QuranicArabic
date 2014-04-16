@@ -172,6 +172,12 @@
     <item>باب سَمِعَ</item>
     <item>100</item>
   </string-array>
+  <string-array name="lesson_27">
+    <item>Lesson 27</item>
+    <item>عَلِمَ</item>
+    <item>باب سَمِعَ</item>
+    <item>518</item>
+  </string-array>
 
   <!-- Lesson 1 -->
   <string-array name="hooa">
@@ -1443,5 +1449,91 @@
   <string-array name="hiya_tas_ma_u">
     <item>تَسْمَعُ (مؤنث)</item>
     <item>وہ سنتی ہے</item>
+  </string-array>
+
+  <!-- Lesson 27 -->
+  <string-array name="a_li_ma">
+    <item>عَلِمَ</item>
+    <item>اُس نے جانا</item>
+  </string-array>
+  <string-array name="a_li_mu">
+    <item>عَلِمُوا</item>
+    <item>اُن سب نے جانا</item>
+  </string-array>
+  <string-array name="a_lim_ta">
+    <item>عَلِمْتَ</item>
+    <item>آپ نے جانا</item>
+  </string-array>
+  <string-array name="a_lim_tum">
+    <item>عَلِمْتُمْ</item>
+    <item>آپ سب نے جانا</item>
+  </string-array>
+  <string-array name="a_lim_tu">
+    <item>عَلِمْتُ</item>
+    <item>ميں نے جانا</item>
+  </string-array>
+  <string-array name="a_lim_na">
+    <item>عَلِمْنَا</item>
+    <item>ہم نے جانا</item>
+  </string-array>
+  <string-array name="ya_la_mu">
+    <item>يَعْلَمُ</item>
+    <item>وہ جانتا ہے</item>
+  </string-array>
+  <string-array name="ya_la_mu_na">
+    <item>يَعْلَمُونَ</item>
+    <item>وہ سب جانتے ہيں</item>
+  </string-array>
+  <string-array name="ta_la_mu">
+    <item>تَعْلَمُ</item>
+    <item>آپ جانتے ہيں</item>
+  </string-array>
+  <string-array name="ta_la_mu_na">
+    <item>تَعْلَمُونَ</item>
+    <item>آپ سب جانتے ہيں</item>
+  </string-array>
+  <string-array name="a_la_mu">
+    <item>أَعْلَمُ</item>
+    <item>ميں جانتا ہوں</item>
+  </string-array>
+  <string-array name="na_la_mu">
+    <item>نَعْلَمُ</item>
+    <item>ہم جانتے ہيں</item>
+  </string-array>
+  <string-array name="e_lam">
+    <item>اِعْلَمْ</item>
+    <item>آپ جان ليں</item>
+  </string-array>
+  <string-array name="e_la_mu">
+    <item>اِعْلَمُوا</item>
+    <item>آپ سب جان ليں</item>
+  </string-array>
+  <string-array name="la_ta_lam">
+    <item>لاَ تَعْلَمْ</item>
+    <item>آپ مت جانيں</item>
+  </string-array>
+  <string-array name="la_ta_la_mu">
+    <item>لاَ تَعْلَمُوا</item>
+    <item>آپ سب مت جانيں</item>
+  </string-array>
+  <string-array name="a_lim">
+    <item>عَالِم</item>
+    <item>جاننے والا</item>
+  </string-array>
+  <string-array name="ma_lum">
+    <item>مَعْلُوم</item>
+    <item>وہ جس کو جانا گيا</item>
+  </string-array>
+  <string-array name="ilm">
+    <item>عِلْم</item>
+    <item>جاننا</item>
+  </string-array>
+  <string-array name="a_li_mat">
+    <item>عَلِمَتْ</item>
+    <item>اُس عورت نے جانا</item>
+  </string-array>
+  <string-array name="hiya_ta_la_mu">
+    <item>تَعْلَمُ (مؤنث)</item>
+    <item>وہ جانتی ہے</item>
   </string-array>
 </resources>

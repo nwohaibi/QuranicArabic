@@ -166,6 +166,12 @@
     <item>باب ضَرَبَ</item>
     <item>266</item>
   </string-array>
+  <string-array name="lesson_26">
+    <item>Lesson 26</item>
+    <item>باب سَمِعَ</item>
+    <item>باب سَمِعَ</item>
+    <item>100</item>
+  </string-array>
 
   <!-- Lesson 1 -->
   <string-array name="hooa">
@@ -1351,5 +1357,91 @@
   <string-array name="hiya_taz_li_mu">
     <item>تَظْلِمُ (مؤنث)</item>
     <item>وہ ظلم کرتی ہے</item>
+  </string-array>
+
+  <!-- Lesson 26 -->
+  <string-array name="sa_mi_a">
+    <item>سَمِعَ</item>
+    <item>اُس نے سنا</item>
+  </string-array>
+  <string-array name="sa_mi_u">
+    <item>سَمِعُوا</item>
+    <item>اُن سب نے سنا</item>
+  </string-array>
+  <string-array name="sa_me_ta">
+    <item>سَمِعْتَ</item>
+    <item>آپ نے سنا</item>
+  </string-array>
+  <string-array name="sa_me_tum">
+    <item>سَمِعْتُمْ</item>
+    <item>آپ سب نے سنا</item>
+  </string-array>
+  <string-array name="sa_me_tu">
+    <item>سَمِعْتُ</item>
+    <item>ميں نے سنا</item>
+  </string-array>
+  <string-array name="sa_me_na">
+    <item>سَمِعْنَا</item>
+    <item>ہم نے سنا</item>
+  </string-array>
+  <string-array name="yas_ma_u">
+    <item>يَسْمَعُ</item>
+    <item>وہ سنتا ہے</item>
+  </string-array>
+  <string-array name="yas_ma_u_na">
+    <item>يَسْمَعُونَ</item>
+    <item>وہ سب سنتے ہيں</item>
+  </string-array>
+  <string-array name="tas_ma_u">
+    <item>تَسْمَعُ</item>
+    <item>آپ سنتے ہيں</item>
+  </string-array>
+  <string-array name="tas_ma_u_na">
+    <item>تَسْمَعُونَ</item>
+    <item>آپ سب سنتے ہيں</item>
+  </string-array>
+  <string-array name="as_ma_u">
+    <item>أَسْمَعُ</item>
+    <item>ميں سنتا ہوں</item>
+  </string-array>
+  <string-array name="nas_ma_u">
+    <item>نَسْمَعُ</item>
+    <item>ہم سنتے ہيں</item>
+  </string-array>
+  <string-array name="is_ma">
+    <item>اِسْمَعْ</item>
+    <item>آپ سنيں</item>
+  </string-array>
+  <string-array name="is_ma_u">
+    <item>اِسْمَعُوا</item>
+    <item>آپ سب سنيں</item>
+  </string-array>
+  <string-array name="la_tas_ma">
+    <item>لاَ تَسْمَعْ</item>
+    <item>آپ مت سنيں</item>
+  </string-array>
+  <string-array name="la_tas_ma_u">
+    <item>لاَ تَسْمَعُوا</item>
+    <item>آپ سب مت سنيں</item>
+  </string-array>
+  <string-array name="sa_me">
+    <item>سَامِعْ</item>
+    <item>سننے والا</item>
+  </string-array>
+  <string-array name="mas_mu">
+    <item>مَسْمُوع</item>
+    <item>وہ جس کو سنا گيا</item>
+  </string-array>
+  <string-array name="sam_a">
+    <item>سَمْعَ</item>
+    <item>سننا</item>
+  </string-array>
+  <string-array name="sa_mi_at">
+    <item>سَمِعَتْ</item>
+    <item>اُس عورت نے سنا</item>
+  </string-array>
+  <string-array name="hiya_tas_ma_u">
+    <item>تَسْمَعُ (مؤنث)</item>
+    <item>وہ سنتی ہے</item>
   </string-array>
 </resources>

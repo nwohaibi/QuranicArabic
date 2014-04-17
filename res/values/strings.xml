@@ -178,6 +178,12 @@
     <item>باب سَمِعَ</item>
     <item>518</item>
   </string-array>
+  <string-array name="lesson_28">
+    <item>Lesson 28</item>
+    <item>عَمِلَ</item>
+    <item>باب سَمِعَ</item>
+    <item>318</item>
+  </string-array>
 
   <!-- Lesson 1 -->
   <string-array name="hooa">
@@ -1535,5 +1541,91 @@
   <string-array name="hiya_ta_la_mu">
     <item>تَعْلَمُ (مؤنث)</item>
     <item>وہ جانتی ہے</item>
+  </string-array>
+
+  <!-- Lesson 28 -->
+  <string-array name="a_mi_la">
+    <item>عَمِلَ</item>
+    <item>اُس نے عمل کيا</item>
+  </string-array>
+  <string-array name="a_mi_lu">
+    <item>عَمِلُوا</item>
+    <item>اُن سب نے عمل کيا</item>
+  </string-array>
+  <string-array name="a_mil_ta">
+    <item>عَمِلْتَ</item>
+    <item>آپ نے عمل کيا</item>
+  </string-array>
+  <string-array name="a_mil_tum">
+    <item>عَمِلْتُمْ</item>
+    <item>آپ سب نے عمل کيا</item>
+  </string-array>
+  <string-array name="a_mil_tu">
+    <item>عَمِلْتُ</item>
+    <item>ميں نے عمل کيا</item>
+  </string-array>
+  <string-array name="a_mil_na">
+    <item>عَمِلْنَا</item>
+    <item>ہم نے عمل کيا</item>
+  </string-array>
+  <string-array name="ya_ma_lu">
+    <item>يَعْمَلُ</item>
+    <item>وہ عمل کرتا ہے</item>
+  </string-array>
+  <string-array name="ya_ma_lu_na">
+    <item>يَعْمَلُونَ</item>
+    <item>وہ سب عمل کرتے ہيں</item>
+  </string-array>
+  <string-array name="ta_ma_lu">
+    <item>تَعْمَلُ</item>
+    <item>آپ عمل کرتے ہيں</item>
+  </string-array>
+  <string-array name="ta_ma_lu_na">
+    <item>تَعْمَلُونَ</item>
+    <item>آپ سب عمل کرتے ہيں</item>
+  </string-array>
+  <string-array name="a_ma_lu">
+    <item>أَعْمَلُ</item>
+    <item>ميں عمل کرتا ہوں</item>
+  </string-array>
+  <string-array name="na_ma_lu">
+    <item>نَعْمَلُ</item>
+    <item>ہم عمل کرتے ہيں</item>
+  </string-array>
+  <string-array name="e_mal">
+    <item>اِعْمَلْ</item>
+    <item>آپ عمل کريں</item>
+  </string-array>
+  <string-array name="e_ma_lu">
+    <item>اِعْمَلُوا</item>
+    <item>آپ سب عمل کريں</item>
+  </string-array>
+  <string-array name="la_ta_mal">
+    <item>لاَ تَعْمَلْ</item>
+    <item>آپ عمل مت کريں</item>
+  </string-array>
+  <string-array name="la_ta_ma_lu">
+    <item>لاَ تَعْمَلُوا</item>
+    <item>آپ سب عمل مت کريں</item>
+  </string-array>
+  <string-array name="a_mil">
+    <item>عَامِل</item>
+    <item>عمل کرنے والا</item>
+  </string-array>
+  <string-array name="ma_mul">
+    <item>مَعْمُول</item>
+    <item>وہ جس پر عمل کيا گيا</item>
+  </string-array>
+  <string-array name="a_mal">
+    <item>عَمَل</item>
+    <item>عمل</item>
+  </string-array>
+  <string-array name="a_mi_lat">
+    <item>عَمِلَتْ</item>
+    <item>اُس عورت نے عمل کيا</item>
+  </string-array>
+  <string-array name="hiya_ta_ma_lu">
+    <item>تَعْمَلُ (مؤنث)</item>
+    <item>وہ عمل کرتی ہے</item>
   </string-array>
 </resources>

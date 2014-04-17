@@ -85,7 +85,8 @@ public class InfoActivity extends Activity
             mChartView.repaint();
             Toast.makeText( InfoActivity.this,
                             "Chart data point index " + seriesSelection.getPointIndex() + " selected"
-                            + " point value=" + seriesSelection.getValue(), Toast.LENGTH_SHORT ).show();
+                            + " point value=" + seriesSelection.getValue(), Toast.LENGTH_SHORT
+            ).show();
           }
         }
       } );
@@ -101,7 +102,8 @@ public class InfoActivity extends Activity
                                   R.array.lesson_8, R.array.lesson_9, R.array.lesson_11, R.array.lesson_12,
                                   R.array.lesson_14, R.array.lesson_16, R.array.lesson_17, R.array.lesson_18,
                                   R.array.lesson_19, R.array.lesson_20, R.array.lesson_21, R.array.lesson_22,
-                                  R.array.lesson_23, R.array.lesson_24, R.array.lesson_25 };
+                                  R.array.lesson_23, R.array.lesson_24, R.array.lesson_25, R.array.lesson_26,
+                                  R.array.lesson_27, R.array.lesson_28 };
 
     int allOccurrences = 0; // occurrences of words from all lectures in Qur'an Majeed
     for ( int resId : resIdArray )

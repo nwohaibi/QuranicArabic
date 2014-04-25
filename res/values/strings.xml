@@ -184,6 +184,12 @@
     <item>باب سَمِعَ</item>
     <item>318</item>
   </string-array>
+  <string-array name="lesson_29">
+    <item>Lesson 29</item>
+    <item>ضَلَّ</item>
+    <item></item>
+    <item>113</item>
+  </string-array>
 
   <!-- Lesson 1 -->
   <string-array name="hooa">
@@ -1627,5 +1633,87 @@
   <string-array name="hiya_ta_ma_lu">
     <item>تَعْمَلُ (مؤنث)</item>
     <item>وہ عمل کرتی ہے</item>
+  </string-array>
+
+  <!-- Lesson 29 -->
+  <string-array name="dal_la">
+    <item>ضَلَّ</item>
+    <item>وہ بھٹک گيا</item>
+  </string-array>
+  <string-array name="dal_lu">
+    <item>ضَلُّوا</item>
+    <item>وہ سب بھٹک گۓ</item>
+  </string-array>
+  <string-array name="da_lal_ta">
+    <item>ضَلَلْتَ</item>
+    <item>آپ بھٹک گۓ</item>
+  </string-array>
+  <string-array name="da_lal_tum">
+    <item>ضَلَلْتُمْ</item>
+    <item>آپ سب بھٹک گۓ</item>
+  </string-array>
+  <string-array name="da_lal_tu">
+    <item>ضَلَلْتُ</item>
+    <item>ميں بھٹک گيا</item>
+  </string-array>
+  <string-array name="da_lal_na">
+    <item>ضَلَلْنَا</item>
+    <item>ہم بھٹک گۓ</item>
+  </string-array>
+  <string-array name="ya_dil_lu">
+    <item>يَضِلُّ</item>
+    <item>وہ بھٹکتا ہے</item>
+  </string-array>
+  <string-array name="ya_dil_lu_na">
+    <item>يَضِلُّونَ</item>
+    <item>وہ سب بھٹکتے ہيں</item>
+  </string-array>
+  <string-array name="ta_dil_lu">
+    <item>تَضِلُّ</item>
+    <item>آپ بھٹکتے ہيں</item>
+  </string-array>
+  <string-array name="ta_dil_lu_na">
+    <item>تَضِلُّونَ</item>
+    <item>آپ سب بھٹکتے ہيں</item>
+  </string-array>
+  <string-array name="a_dil_lu">
+    <item>أَضِلُّ</item>
+    <item>ميں بھٹکتا ہوں</item>
+  </string-array>
+  <string-array name="na_dil_lu">
+    <item>نَضِلُّ</item>
+    <item>ہم بھٹکتے ہيں</item>
+  </string-array>
+  <string-array name="dil_la">
+    <item>ضِلَّ</item>
+    <item>آپ بھٹکيں</item>
+  </string-array>
+  <string-array name="dil_lu">
+    <item>ضِلُّوا</item>
+    <item>آپ سب بھٹکيں</item>
+  </string-array>
+  <string-array name="la_ta_dil_la">
+    <item>لاَ تَضِلَّ</item>
+    <item>آپ مت بھٹکيں</item>
+  </string-array>
+  <string-array name="la_ta_dil_lu">
+    <item>لاَ تَضِلُّوا</item>
+    <item>آپ سب مت بھٹکيں</item>
+  </string-array>
+  <string-array name="dal">
+    <item>ضَالّ</item>
+    <item>بھٹکنے والا</item>
+  </string-array>
+  <string-array name="da_la_lah">
+    <item>ضَلاَلَة</item>
+    <item>بھٹکنا</item>
+  </string-array>
+  <string-array name="dal_lat">
+    <item>ضَلَّتْ</item>
+    <item>وہ بھٹک گئ</item>
+  </string-array>
+  <string-array name="hiya_ta_dil_lu">
+    <item>تَضِلُّ (مؤنث)</item>
+    <item>وہ بھٹکتی ہے</item>
   </string-array>
 </resources>

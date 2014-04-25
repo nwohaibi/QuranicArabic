@@ -190,6 +190,12 @@
     <item></item>
     <item>113</item>
   </string-array>
+  <string-array name="lesson_30">
+    <item>Lesson 30</item>
+    <item>ظَنَّ</item>
+    <item></item>
+    <item>68</item>
+  </string-array>
 
   <!-- Lesson 1 -->
   <string-array name="hooa">
@@ -1715,5 +1721,87 @@
   <string-array name="hiya_ta_dil_lu">
     <item>تَضِلُّ (مؤنث)</item>
     <item>وہ بھٹکتی ہے</item>
+  </string-array>
+
+  <!-- Lesson 30 -->
+  <string-array name="zan_na">
+    <item>ظَنَّ</item>
+    <item>اُس نے گُمان کيا</item>
+  </string-array>
+  <string-array name="zan_nu">
+    <item>ظَنُّوا</item>
+    <item>اُن سب نے گُمان کيا</item>
+  </string-array>
+  <string-array name="za_nan_ta">
+    <item>ظَنَنْتَ</item>
+    <item>آپ نے گُمان کيا</item>
+  </string-array>
+  <string-array name="za_nan_tum">
+    <item>ظَنَنْتُمْ</item>
+    <item>آپ سب نے گُمان کيا</item>
+  </string-array>
+  <string-array name="za_nan_tu">
+    <item>ظَنَنْتُ</item>
+    <item>ميں نے گُمان کيا</item>
+  </string-array>
+  <string-array name="za_nan_na">
+    <item>ظَنَنَّا</item>
+    <item>ہم نے گُمان کيا</item>
+  </string-array>
+  <string-array name="ya_zun_nu">
+    <item>يَظُنُّ</item>
+    <item>وہ گُمان کرتا ہے</item>
+  </string-array>
+  <string-array name="ya_zun_nu_na">
+    <item>يَظُنُّونَ</item>
+    <item>وہ سب گُمان کرتے ہيں</item>
+  </string-array>
+  <string-array name="ta_zun_nu">
+    <item>تَظُنُّ</item>
+    <item>آپ گُمان کرتے ہيں</item>
+  </string-array>
+  <string-array name="ta_zun_nu_na">
+    <item>تَظُنُّونَ</item>
+    <item>آپ سب گُمان کرتے ہيں</item>
+  </string-array>
+  <string-array name="a_zun_nu">
+    <item>أَظُنُّ</item>
+    <item>ميں گُمان کرتا ہوں</item>
+  </string-array>
+  <string-array name="na_zun_nu">
+    <item>نَظُنُّ</item>
+    <item>ہم گُمان کرتے ہيں</item>
+  </string-array>
+  <string-array name="zun_na">
+    <item>ظُنَّ</item>
+    <item>آپ گُمان کريں</item>
+  </string-array>
+  <string-array name="zun_nu">
+    <item>ظُنُّوا</item>
+    <item>آپ سب گُمان کريں</item>
+  </string-array>
+  <string-array name="la_ta_zun_na">
+    <item>لاَ تَظُنَّ</item>
+    <item>آپ گُمان مت کريں</item>
+  </string-array>
+  <string-array name="la_ta_zun_nu">
+    <item>لاَ تَظُنُّوا</item>
+    <item>آپ سب گُمان مت کريں</item>
+  </string-array>
+  <string-array name="zaan">
+    <item>ظَانّ</item>
+    <item>گُمان کرنے والا</item>
+  </string-array>
+  <string-array name="zan">
+    <item>ظَنّ</item>
+    <item>گُمان</item>
+  </string-array>
+  <string-array name="zan_nat">
+    <item>ظَنَّتْ</item>
+    <item>اُس عورت نے گُمان کيا</item>
+  </string-array>
+  <string-array name="hiya_ta_zun_nu">
+    <item>تَظُنُّ (مؤنث)</item>
+    <item>وہ گُمان کرتی ہے</item>
   </string-array>
 </resources>

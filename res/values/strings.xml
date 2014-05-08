@@ -202,6 +202,18 @@
     <item>باب ضَرَبَ</item>
     <item>107</item>
   </string-array>
+  <string-array name="lesson_32">
+    <item>Lesson 32</item>
+    <item>وَجَدَ</item>
+    <item>باب ضَرَبَ</item>
+    <item>124</item>
+  </string-array>
+  <string-array name="lesson_33">
+    <item>Lesson 33</item>
+    <item>قَالَ</item>
+    <item>باب نَصَرَ</item>
+    <item>1719</item>
+  </string-array>
 
   <!-- Lesson 1 -->
   <string-array name="hooa">
@@ -1895,5 +1907,177 @@
   <string-array name="hiya_ta_i_du">
     <item>تَعِدُ (مؤنث)</item>
     <item>وہ وعدہ کرتی ہے</item>
+  </string-array>
+
+  <!-- Lesson 32 -->
+  <string-array name="wa_ja_da">
+    <item>وَجَدَ</item>
+    <item>اُس نے پايا</item>
+  </string-array>
+  <string-array name="wa_ja_du">
+    <item>وَجَدُوا</item>
+    <item>اُن سب نے پايا</item>
+  </string-array>
+  <string-array name="wa_jat_ta">
+    <item>وَجَدْتَّ</item>
+    <item>آپ نے پايا</item>
+  </string-array>
+  <string-array name="wa_jat_tum">
+    <item>وَجَدْتُّمْ</item>
+    <item>آپ سب نے پايا</item>
+  </string-array>
+  <string-array name="wa_jat_tu">
+    <item>وَجَدْتُّ</item>
+    <item>ميں نے پايا</item>
+  </string-array>
+  <string-array name="wa_jad_na">
+    <item>وَجَدْنَا</item>
+    <item>ہم نے پايا</item>
+  </string-array>
+  <string-array name="ya_ji_du">
+    <item>يَجِدُ</item>
+    <item>وہ پاتا ہے</item>
+  </string-array>
+  <string-array name="ya_ji_du_na">
+    <item>يَجِدُونَ</item>
+    <item>وہ سب پاتے ہيں</item>
+  </string-array>
+  <string-array name="ta_ji_du">
+    <item>تَجِدُ</item>
+    <item>آپ پاتے ہيں</item>
+  </string-array>
+  <string-array name="ta_ji_du_na">
+    <item>تَجِدُونَ</item>
+    <item>آپ سب پاتے ہيں</item>
+  </string-array>
+  <string-array name="a_ji_du">
+    <item>أَجِدُ</item>
+    <item>ميں پاتا ہوں</item>
+  </string-array>
+  <string-array name="na_ji_du">
+    <item>نَجِدُ</item>
+    <item>ہم پاتے ہيں</item>
+  </string-array>
+  <string-array name="jid">
+    <item>جِدْ</item>
+    <item>آپ پا ليں</item>
+  </string-array>
+  <string-array name="ji_du">
+    <item>جِدُوا</item>
+    <item>آپ سب پا ليں</item>
+  </string-array>
+  <string-array name="la_ta_jid">
+    <item>لاَ تَجِدْ</item>
+    <item>آپ مت پائيں</item>
+  </string-array>
+  <string-array name="la_ta_ji_du">
+    <item>لاَ تَجِدُوا</item>
+    <item>آپ سب مت پائيں</item>
+  </string-array>
+  <string-array name="wa_jid">
+    <item>وَاجِدْ</item>
+    <item>پانے والا</item>
+  </string-array>
+  <string-array name="mau_jud">
+    <item>مَوْجُود</item>
+    <item>جس کو پايا گيا</item>
+  </string-array>
+  <string-array name="wu_jud">
+    <item>وُجُود</item>
+    <item>پانا</item>
+  </string-array>
+  <string-array name="wa_ja_dat">
+    <item>وَجَدَتْ</item>
+    <item>اُس عورت نے پايا</item>
+  </string-array>
+  <string-array name="hiya_ta_ji_du">
+    <item>تَجِدُ (مؤنث)</item>
+    <item>وہ پاتی ہے</item>
+  </string-array>
+
+  <!-- Lesson 33 -->
+  <string-array name="qa_la">
+    <item>قَالَ</item>
+    <item>اُس نے کہا</item>
+  </string-array>
+  <string-array name="qa_lu">
+    <item>قَالُوا</item>
+    <item>اُن سب نے کہا</item>
+  </string-array>
+  <string-array name="qul_ta">
+    <item>قُلْتَ</item>
+    <item>آپ نے کہا</item>
+  </string-array>
+  <string-array name="qul_tum">
+    <item>قُلْتُمْ</item>
+    <item>آپ سب نے کہا</item>
+  </string-array>
+  <string-array name="qul_tu">
+    <item>قُلْتُ</item>
+    <item>ميں نے کہا</item>
+  </string-array>
+  <string-array name="qul_na">
+    <item>قُلْنَا</item>
+    <item>ہم نے کہا</item>
+  </string-array>
+  <string-array name="ya_qu_lu">
+    <item>يَقُولُ</item>
+    <item>وہ کہتا ہے</item>
+  </string-array>
+  <string-array name="ya_qu_lu_na">
+    <item>يَقُولُونَ</item>
+    <item>وہ سب کہتے ہیں</item>
+  </string-array>
+  <string-array name="ta_qu_lu">
+    <item>تَقُولُ</item>
+    <item>آپ کہتے ہیں</item>
+  </string-array>
+  <string-array name="ta_qu_lu_na">
+    <item>تَقُولُونَ</item>
+    <item>آپ سب کہتے ہیں</item>
+  </string-array>
+  <string-array name="a_qu_lu">
+    <item>أَقُولُ</item>
+    <item>ميں کہتا ہوں</item>
+  </string-array>
+  <string-array name="na_qu_lu">
+    <item>نَقُولُ</item>
+    <item>ہم کہتے ہيں</item>
+  </string-array>
+  <string-array name="qul">
+    <item>قُلْ</item>
+    <item>آپ کہيں</item>
+  </string-array>
+  <string-array name="qu_lu">
+    <item>قُولُوا</item>
+    <item>آپ سب کہيں</item>
+  </string-array>
+  <string-array name="la_ta_qul">
+    <item>لاَ تَقُلْ</item>
+    <item>آپ مت کہيں</item>
+  </string-array>
+  <string-array name="la_ta_qu_lu">
+    <item>لاَ تَقُولُوا</item>
+    <item>آپ سب مت کہيں</item>
+  </string-array>
+  <string-array name="qa_il">
+    <item>قَائِل</item>
+    <item>کہنے والا</item>
+  </string-array>
+  <string-array name="ma_qul">
+    <item>مَقُول</item>
+    <item>جس بات کو کہا گيا</item>
+  </string-array>
+  <string-array name="qaul">
+    <item>قَوْل</item>
+    <item>بات</item>
+  </string-array>
+  <string-array name="qa_lat">
+    <item>قَالَتْ</item>
+    <item>اُس عورت نے کہا</item>
+  </string-array>
+  <string-array name="hiya_ta_qu_lu">
+    <item>تَقُولُ (موئنث)</item>
+    <item>وہ کہتی ہے</item>
   </string-array>
 </resources>

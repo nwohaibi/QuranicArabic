@@ -151,6 +151,18 @@ public class HomeActivity extends ListActivity
                                     R.array.id, R.array.i_du, R.array.la_ta_id, R.array.la_ta_i_du,
                                     R.array.wa_id, R.array.mau_ud, R.array.waad, R.array.wa_a_dat,
                                     R.array.hiya_ta_i_du };
+  private final int[] _lesson32 = { R.array.wa_ja_da, R.array.wa_ja_du, R.array.wa_jat_ta, R.array.wa_jat_tum,
+                                    R.array.wa_jat_tu, R.array.wa_jad_na, R.array.ya_ji_du, R.array.ya_ji_du_na,
+                                    R.array.ta_ji_du, R.array.ta_ji_du_na, R.array.a_ji_du, R.array.na_ji_du,
+                                    R.array.jid, R.array.ji_du, R.array.la_ta_jid, R.array.la_ta_ji_du,
+                                    R.array.wa_jid, R.array.mau_jud, R.array.wu_jud, R.array.wa_ja_dat,
+                                    R.array.hiya_ta_ji_du };
+  private final int[] _lesson33 = { R.array.qa_la, R.array.qa_lu, R.array.qul_ta, R.array.qul_tum,
+                                    R.array.qul_tu, R.array.qul_na, R.array.ya_qu_lu, R.array.ya_qu_lu_na,
+                                    R.array.ta_qu_lu, R.array.ta_qu_lu_na, R.array.a_qu_lu, R.array.na_qu_lu,
+                                    R.array.qul, R.array.qu_lu, R.array.la_ta_qul, R.array.la_ta_qu_lu,
+                                    R.array.qa_il, R.array.ma_qul, R.array.qaul, R.array.qa_lat,
+                                    R.array.hiya_ta_qu_lu };
 
   private Map<String, int[]> _lessonMap;
   private ArrayList<Lesson> _lessonList;
@@ -199,6 +211,8 @@ public class HomeActivity extends ListActivity
     String[] lesson29 = resources.getStringArray( R.array.lesson_29 );
     String[] lesson30 = resources.getStringArray( R.array.lesson_30 );
     String[] lesson31 = resources.getStringArray( R.array.lesson_31 );
+    String[] lesson32 = resources.getStringArray( R.array.lesson_32 );
+    String[] lesson33 = resources.getStringArray( R.array.lesson_33 );
 
     _lessonMap = new HashMap<String, int[]>();
     _lessonMap.put( lesson1[0], _lesson1 );
@@ -232,6 +246,8 @@ public class HomeActivity extends ListActivity
     _lessonMap.put( lesson29[0], _lesson29 );
     _lessonMap.put( lesson30[0], _lesson30 );
     _lessonMap.put( lesson31[0], _lesson31 );
+    _lessonMap.put( lesson32[0], _lesson32 );
+    _lessonMap.put( lesson33[0], _lesson33 );
 
     _lessonList = new ArrayList<Lesson>();
     _lessonList.add( new Lesson( R.array.lesson_1, lesson1[0], lesson1[1] ) );
@@ -265,6 +281,8 @@ public class HomeActivity extends ListActivity
     _lessonList.add( new Lesson( R.array.lesson_29, lesson29[0], lesson29[1] ) );
     _lessonList.add( new Lesson( R.array.lesson_30, lesson30[0], lesson30[1] ) );
     _lessonList.add( new Lesson( R.array.lesson_31, lesson31[0], lesson31[1] ) );
+    _lessonList.add( new Lesson( R.array.lesson_32, lesson32[0], lesson32[1] ) );
+    _lessonList.add( new Lesson( R.array.lesson_33, lesson33[0], lesson33[1] ) );
   }
 
   @Override

@@ -214,6 +214,12 @@
     <item>باب نَصَرَ</item>
     <item>1719</item>
   </string-array>
+  <string-array name="lesson_34">
+    <item>Lesson 34</item>
+    <item>كَانَ</item>
+    <item>باب نَصَرَ</item>
+    <item>1361</item>
+  </string-array>
 
   <!-- Lesson 1 -->
   <string-array name="hooa">
@@ -2079,5 +2085,87 @@
   <string-array name="hiya_ta_qu_lu">
     <item>تَقُولُ (موئنث)</item>
     <item>وہ کہتی ہے</item>
+  </string-array>
+
+  <!-- Lesson 34 -->
+  <string-array name="ka_na">
+    <item>كَانَ</item>
+    <item>وہ تھا</item>
+  </string-array>
+  <string-array name="ka_nu">
+    <item>كَانُوا</item>
+    <item>وہ سب تھے</item>
+  </string-array>
+  <string-array name="kun_ta">
+    <item>كُنْتَ</item>
+    <item>آپ تھے</item>
+  </string-array>
+  <string-array name="kun_tum">
+    <item>كُنْتُمْ</item>
+    <item>آپ سب تھے</item>
+  </string-array>
+  <string-array name="kun_tu">
+    <item>كُنْتُ</item>
+    <item>ميں تھا</item>
+  </string-array>
+  <string-array name="kun_na">
+    <item>كُنَّا</item>
+    <item>ہم تھے</item>
+  </string-array>
+  <string-array name="ya_ku_nu">
+    <item>يَكُونُ</item>
+    <item>وہ ہے</item>
+  </string-array>
+  <string-array name="ya_ku_nu_na">
+    <item>يَكُونُونَ</item>
+    <item>وہ سب ہيں</item>
+  </string-array>
+  <string-array name="ta_ku_nu">
+    <item>تَكُونُ</item>
+    <item>آپ ہيں</item>
+  </string-array>
+  <string-array name="ta_ku_nu_na">
+    <item>تَكُونُونَ</item>
+    <item>آپ سب ہيں</item>
+  </string-array>
+  <string-array name="a_ku_nu">
+    <item>أَكُونُ</item>
+    <item>ميں ہوں</item>
+  </string-array>
+  <string-array name="na_ku_nu">
+    <item>نَكُونُ</item>
+    <item>ہم ہيں</item>
+  </string-array>
+  <string-array name="kun">
+    <item>كُنْ</item>
+    <item>آپ ہو جائيں</item>
+  </string-array>
+  <string-array name="ku_nu">
+    <item>كُونُوا</item>
+    <item>آپ سب ہو جائيں</item>
+  </string-array>
+  <string-array name="la_ta_kun">
+    <item>لاَ تَكُنْ</item>
+    <item>آپ مت ہوں</item>
+  </string-array>
+  <string-array name="la_ta_ku_nu">
+    <item>لاَ تَكُونُوا</item>
+    <item>آپ سب مت ہوں</item>
+  </string-array>
+  <string-array name="ka_in">
+    <item>كَائِن</item>
+    <item>ہونے والا</item>
+  </string-array>
+  <string-array name="kaun">
+    <item>كَوْن</item>
+    <item>ہونا</item>
+  </string-array>
+  <string-array name="ka_nat">
+    <item>كَانَتْ</item>
+    <item>وہ تھی</item>
+  </string-array>
+  <string-array name="hiya_ta_ku_nu">
+    <item>تَكُونُ (مؤنث)</item>
+    <item>وہ عورت ہے</item>
   </string-array>
 </resources>

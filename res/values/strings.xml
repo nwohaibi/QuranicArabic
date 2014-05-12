@@ -574,7 +574,7 @@
   </string-array>
   <string-array name="maf_ul">
     <item>مَفْعُول</item>
-    <item>وہ جس پر اثر پڑا</item>
+    <item>جس پر اثر پڑا</item>
   </string-array>
   <string-array name="fail">
     <item>فِعْل</item>
@@ -926,7 +926,7 @@
   </string-array>
   <string-array name="man_sur">
     <item>مَنْصُور</item>
-    <item>وہ جس کی مدد ہوئ</item>
+    <item>جس کی مدد ہوئ</item>
   </string-array>
   <string-array name="nasr">
     <item>نَصْر</item>
@@ -1012,7 +1012,7 @@
   </string-array>
   <string-array name="ma_bud">
     <item>مَعْبُود</item>
-    <item>وہ جس کی عبادت ہوئ</item>
+    <item>جس کی عبادت ہوئ</item>
   </string-array>
   <string-array name="i_ba_da">
     <item>عِبَادَة</item>
@@ -1098,7 +1098,7 @@
   </string-array>
   <string-array name="maz_kur">
     <item>مَذْكُور</item>
-    <item>وہ جس کو ياد کيا گيا</item>
+    <item>جس کو ياد کيا گيا</item>
   </string-array>
   <string-array name="zikr">
     <item>ذِكْر</item>
@@ -1226,7 +1226,7 @@
   </string-array>
   <string-array name="mak_fur">
     <item>مَكْفُور</item>
-    <item>وہ جس کا کفر ہوا</item>
+    <item>جس کا کفر ہوا</item>
   </string-array>
   <string-array name="kufr">
     <item>كُفْر</item>
@@ -1312,7 +1312,7 @@
   </string-array>
   <string-array name="mad_rub">
     <item>مَضْرُوب</item>
-    <item>وہ جس کو مار لگی</item>
+    <item>جس کو مار لگی</item>
   </string-array>
   <string-array name="darb">
     <item>ضَرْب</item>
@@ -1398,7 +1398,7 @@
   </string-array>
   <string-array name="maz_lum">
     <item>مَظْلُوم</item>
-    <item>وہ جس پر ظلم ہوا</item>
+    <item>جس پر ظلم ہوا</item>
   </string-array>
   <string-array name="zulm">
     <item>ظُلْم</item>
@@ -1484,7 +1484,7 @@
   </string-array>
   <string-array name="mas_mu">
     <item>مَسْمُوع</item>
-    <item>وہ جس کو سُنا گيا</item>
+    <item>جس کو سُنا گيا</item>
   </string-array>
   <string-array name="sam_a">
     <item>سَمْع</item>
@@ -1570,7 +1570,7 @@
   </string-array>
   <string-array name="ma_lum">
     <item>مَعْلُوم</item>
-    <item>وہ جس کو جانا گيا</item>
+    <item>جس کو جانا گيا</item>
   </string-array>
   <string-array name="ilm">
     <item>عِلْم</item>
@@ -1656,7 +1656,7 @@
   </string-array>
   <string-array name="ma_mul">
     <item>مَعْمُول</item>
-    <item>وہ جس پر عمل ہوا</item>
+    <item>جس پر عمل ہوا</item>
   </string-array>
   <string-array name="a_mal">
     <item>عَمَل</item>

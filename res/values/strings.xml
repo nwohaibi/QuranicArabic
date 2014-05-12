@@ -220,6 +220,12 @@
     <item>باب نَصَرَ</item>
     <item>1361</item>
   </string-array>
+  <string-array name="lesson_35">
+    <item>Lesson 35</item>
+    <item>زَادَ</item>
+    <item>باب ضَرَبَ</item>
+    <item>51</item>
+  </string-array>
 
   <!-- Lesson 1 -->
   <string-array name="hooa">
@@ -2167,5 +2173,91 @@
   <string-array name="hiya_ta_ku_nu">
     <item>تَكُونُ (مؤنث)</item>
     <item>وہ عورت ہے</item>
+  </string-array>
+
+  <!-- Lesson 35 -->
+  <string-array name="za_da">
+    <item>زَادَ</item>
+    <item>اُس نے زيادہ کيا</item>
+  </string-array>
+  <string-array name="za_du">
+    <item>زَادُوا</item>
+    <item>اُن سب نے زيادہ کيا</item>
+  </string-array>
+  <string-array name="zat_ta">
+    <item>زَدْتَّ</item>
+    <item>آپ نے زيادہ کيا</item>
+  </string-array>
+  <string-array name="zat_tum">
+    <item>زَدْتُّم</item>
+    <item>آپ سب نے زيادہ کيا</item>
+  </string-array>
+  <string-array name="zat_tu">
+    <item>زَدْتُّ</item>
+    <item>ميں نے زيادہ کيا</item>
+  </string-array>
+  <string-array name="zad_na">
+    <item>زَدْنَا</item>
+    <item>ہم نے زيادہ کيا</item>
+  </string-array>
+  <string-array name="ya_zi_du">
+    <item>يَزيدُ</item>
+    <item>وہ زيادہ کرتا ہے</item>
+  </string-array>
+  <string-array name="ya_zi_du_na">
+    <item>يَزيدُونَ</item>
+    <item>وہ سب زيادہ کرتے ہيں</item>
+  </string-array>
+  <string-array name="ta_zi_du">
+    <item>تَزيدُ</item>
+    <item>آپ زيادہ کرتے ہيں</item>
+  </string-array>
+  <string-array name="ta_zi_du_na">
+    <item>تَزيدُونَ</item>
+    <item>آپ سب زيادہ کرتے ہيں</item>
+  </string-array>
+  <string-array name="a_zi_du">
+    <item>أَزيدُ</item>
+    <item>ميں زيادہ کرتا ہوں</item>
+  </string-array>
+  <string-array name="na_zi_du">
+    <item>نَزيدُ</item>
+    <item>ہم زيادہ کرتے ہيں</item>
+  </string-array>
+  <string-array name="zid">
+    <item>زِدْ</item>
+    <item>آپ زيادہ کريں</item>
+  </string-array>
+  <string-array name="zi_du">
+    <item>زيدُوا</item>
+    <item>آپ سب زيادہ کريں</item>
+  </string-array>
+  <string-array name="la_ta_zid">
+    <item>لاَ تَزِدْ</item>
+    <item>آپ زيادہ مت کريں</item>
+  </string-array>
+  <string-array name="la_ta_zi_du">
+    <item>لاَ تَزيدُوا</item>
+    <item>آپ سب زيادہ مت کريں</item>
+  </string-array>
+  <string-array name="za_id">
+    <item>زَائِد</item>
+    <item>زيادہ کرنے والا</item>
+  </string-array>
+  <string-array name="ma_zid">
+    <item>مَزيد</item>
+    <item>جس کو زيادہ کيا گيا</item>
+  </string-array>
+  <string-array name="zi_ya_dah">
+    <item>زيَادة</item>
+    <item>زيادہ</item>
+  </string-array>
+  <string-array name="za_dat">
+    <item>زَادَتْ</item>
+    <item>اُس عورت نے زيادہ کيا</item>
+  </string-array>
+  <string-array name="hiya_ta_zi_du">
+    <item>تَزيدُ (مؤنث)</item>
+    <item>وہ زيادہ کرتی ہے</item>
   </string-array>
 </resources>

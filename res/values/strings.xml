@@ -232,6 +232,12 @@
     <item>باب نَصَرَ</item>
     <item>197</item>
   </string-array>
+  <string-array name="lesson_37">
+    <item>Lesson 37</item>
+    <item>هَدَا</item>
+    <item>باب ضَرَبَ</item>
+    <item>163</item>
+  </string-array>
 
   <!-- Lesson 1 -->
   <string-array name="hooa">
@@ -2351,5 +2357,91 @@
   <string-array name="hiya_tad_u">
     <item>تَدْعُو (مؤنث)</item>
     <item>وه پُکارتى ہے</item>
+  </string-array>
+
+  <!-- Lesson 37 -->
+  <string-array name="ha_daa">
+    <item>هَدَا</item>
+    <item>اُس نے ہدايت دی</item>
+  </string-array>
+  <string-array name="ha_dau">
+    <item>هَدَوْا</item>
+    <item>اُن سب نے ہدايت دی</item>
+  </string-array>
+  <string-array name="ha_dai_ta">
+    <item>هَدَيْتَ</item>
+    <item>آپ نے ہدايت دی</item>
+  </string-array>
+  <string-array name="ha_dai_tum">
+    <item>هَدَيْتُمْ</item>
+    <item>آپ سب نے ہدايت دی</item>
+  </string-array>
+  <string-array name="ha_dai_tu">
+    <item>هَدَيْتُ</item>
+    <item>ميں نے ہدايت دی</item>
+  </string-array>
+  <string-array name="ha_dai_na">
+    <item>هَدَيْنَا</item>
+    <item>ہم نے ہدايت دی</item>
+  </string-array>
+  <string-array name="yah_di">
+    <item>يَهْدِي</item>
+    <item>وہ ہدايت ديتا ہے</item>
+  </string-array>
+  <string-array name="yah_du_na">
+    <item>يَهْدُونَ</item>
+    <item>وہ سب ہدايت ديتے ہيں</item>
+  </string-array>
+  <string-array name="tah_di">
+    <item>تَهْدِي</item>
+    <item>آپ ہدايت ديتے ہيں</item>
+  </string-array>
+  <string-array name="tah_du_na">
+    <item>تَهْدُونَ</item>
+    <item>آپ سب ہدايت ديتے ہيں</item>
+  </string-array>
+  <string-array name="ah_di">
+    <item>أَهْدِي</item>
+    <item>ميں ہدايت ديتا ہوں</item>
+  </string-array>
+  <string-array name="nah_di">
+    <item>نَهْدِي</item>
+    <item>ہم ہدايت ديتے ہيں</item>
+  </string-array>
+  <string-array name="ih_di">
+    <item>اِهْدِ</item>
+    <item>آپ ہدايت ديں</item>
+  </string-array>
+  <string-array name="ih_du">
+    <item>اِهْدُوا</item>
+    <item>آپ سب ہدايت ديں</item>
+  </string-array>
+  <string-array name="la_tah_di">
+    <item>لاَ تَهْدِ</item>
+    <item>آپ ہدايت مت ديں</item>
+  </string-array>
+  <string-array name="la_tah_du">
+    <item>لاَ تَهْدُوا</item>
+    <item>آپ سب ہدايت مت ديں</item>
+  </string-array>
+  <string-array name="ha_din">
+    <item>هَادٍ</item>
+    <item>ہدايت دينے والا</item>
+  </string-array>
+  <string-array name="mah_di">
+    <item>مَهْدِيّ</item>
+    <item>جس کو ہدايت دی گئ</item>
+  </string-array>
+  <string-array name="hi_da_yah">
+    <item>هِدَايَة \\ هُدَى</item>
+    <item>ہدايت</item>
+  </string-array>
+  <string-array name="ha_dat">
+    <item>هَدَتْ</item>
+    <item>اُس عورت نے ہدايت دی</item>
+  </string-array>
+  <string-array name="hiya_tah_di">
+    <item>تَهْدِي (مؤنث)</item>
+    <item>وہ ہدايت ديتی ہے</item>
   </string-array>
 </resources>

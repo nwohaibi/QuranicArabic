@@ -736,7 +736,7 @@
   </string-array>
   <string-array name="maf_tuh">
     <item>مَفْتُوح</item>
-    <item>وہ جو کھلا</item>
+    <item>جس کو کھولا گيا</item>
   </string-array>
   <string-array name="fath">
     <item>فَتْح</item>
@@ -852,7 +852,7 @@
   </string-array>
   <string-array name="maj_ul">
     <item>مَجْعُول</item>
-    <item>وہ جو بنا</item>
+    <item>جس کو بنايا گيا</item>
   </string-array>
   <string-array name="jal">
     <item>جَعْل</item>

@@ -226,6 +226,12 @@
     <item>باب ضَرَبَ</item>
     <item>51</item>
   </string-array>
+  <string-array name="lesson_36">
+    <item>Lesson 36</item>
+    <item>دَعَا</item>
+    <item>باب نَصَرَ</item>
+    <item>197</item>
+  </string-array>
 
   <!-- Lesson 1 -->
   <string-array name="hooa">
@@ -2259,5 +2265,91 @@
   <string-array name="hiya_ta_zi_du">
     <item>تَزيدُ (مؤنث)</item>
     <item>وہ زيادہ کرتی ہے</item>
+  </string-array>
+
+  <!-- Lesson 36 -->
+  <string-array name="da_a">
+    <item>دَعَا</item>
+    <item>اُس نے پُکارا</item>
+  </string-array>
+  <string-array name="da_au">
+    <item>دَعَوْا</item>
+    <item>اُن سب نے پُکارا</item>
+  </string-array>
+  <string-array name="da_au_ta">
+    <item>دَعَوْتَ</item>
+    <item>آپ نے پُکارا</item>
+  </string-array>
+  <string-array name="da_au_tum">
+    <item>دَعَوْتُمْ</item>
+    <item>آپ سب نے پُکارا</item>
+  </string-array>
+  <string-array name="da_au_tu">
+    <item>دَعَوْتُ</item>
+    <item>ميں نے پُکارا</item>
+  </string-array>
+  <string-array name="da_au_na">
+    <item>دَعَوْنَا</item>
+    <item>ہم نے پُکارا</item>
+  </string-array>
+  <string-array name="yad_u">
+    <item>يَدْعُو</item>
+    <item>وہ پُکارتا ہے</item>
+  </string-array>
+  <string-array name="yad_u_na">
+    <item>يَدْعُونَ</item>
+    <item>وہ سب پُکارتے ہيں</item>
+  </string-array>
+  <string-array name="tad_u">
+    <item>تَدْعُو</item>
+    <item>آپ پُکارتے ہيں</item>
+  </string-array>
+  <string-array name="tad_u_na">
+    <item>تَدْعُونَ</item>
+    <item>آپ سب پُکارتے ہيں</item>
+  </string-array>
+  <string-array name="ad_u">
+    <item>أَدْعُو</item>
+    <item>ميں پُکارتا ہوں</item>
+  </string-array>
+  <string-array name="nad_u">
+    <item>نَدْعُو</item>
+    <item>ہم پُکارتے ہيں</item>
+  </string-array>
+  <string-array name="ud_u">
+    <item>اُدْعُ</item>
+    <item>آپ پُکاريں</item>
+  </string-array>
+  <string-array name="ud_uu">
+    <item>اُدْعُوا</item>
+    <item>آپ سب پُکاريں</item>
+  </string-array>
+  <string-array name="la_tad_u">
+    <item>لاَ تَدْعُ</item>
+    <item>آپ مت پُکاريں</item>
+  </string-array>
+  <string-array name="la_tad_uu">
+    <item>لاَ تَدْعُوا</item>
+    <item>آپ سب مت پُکاريں</item>
+  </string-array>
+  <string-array name="da_in">
+    <item>دَاعٍ</item>
+    <item>پُکارنے والا</item>
+  </string-array>
+  <string-array name="mad_u">
+    <item>مَدْعُوّ</item>
+    <item>جس کو پُکارا گيا</item>
+  </string-array>
+  <string-array name="du_a">
+    <item>دُعَاء</item>
+    <item>پُکار</item>
+  </string-array>
+  <string-array name="da_at">
+    <item>دَعَتْ</item>
+    <item>اُس عورت نے پُکارا</item>
+  </string-array>
+  <string-array name="hiya_tad_u">
+    <item>تَدْعُو (مؤنث)</item>
+    <item>وه پُکارتى ہے</item>
   </string-array>
 </resources>

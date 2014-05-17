@@ -238,6 +238,12 @@
     <item>باب ضَرَبَ</item>
     <item>163</item>
   </string-array>
+  <string-array name="lesson_38">
+    <item>Lesson 38</item>
+    <item>خَشِيَ</item>
+    <item>باب سَمِعَ</item>
+    <item>48</item>
+  </string-array>
 
   <!-- Lesson 1 -->
   <string-array name="hooa">
@@ -2443,5 +2449,87 @@
   <string-array name="hiya_tah_di">
     <item>تَهْدِي (مؤنث)</item>
     <item>وہ ہدايت ديتی ہے</item>
+  </string-array>
+
+  <!-- Lesson 38 -->
+  <string-array name="kha_shi_ya">
+    <item>خَشِيَ</item>
+    <item>وہ ڈرا</item>
+  </string-array>
+  <string-array name="kha_shu">
+    <item>خَشُوْا</item>
+    <item>وہ سب ڈرے</item>
+  </string-array>
+  <string-array name="kha_shi_ta">
+    <item>خَشِيتَ</item>
+    <item>آپ ڈرے</item>
+  </string-array>
+  <string-array name="kha_shi_tum">
+    <item>خَشِيتُمْ</item>
+    <item>آپ سب ڈرے</item>
+  </string-array>
+  <string-array name="kha_shi_tu">
+    <item>خَشِيتُ</item>
+    <item>ميں ڈرا</item>
+  </string-array>
+  <string-array name="kha_shi_na">
+    <item>خَشِينَا</item>
+    <item>ہم ڈرے</item>
+  </string-array>
+  <string-array name="yakh_sha">
+    <item>يَخْشَى</item>
+    <item>وہ ڈرتا ہے</item>
+  </string-array>
+  <string-array name="yakh_shau_na">
+    <item>يَخْشَوْنَ</item>
+    <item>وہ سب ڈرتے ہيں</item>
+  </string-array>
+  <string-array name="takh_sha">
+    <item>تَخْشَى</item>
+    <item>آپ ڈرتے ہيں</item>
+  </string-array>
+  <string-array name="takh_shau_na">
+    <item>تَخْشَوْنَ</item>
+    <item>آپ سب ڈرتے ہيں</item>
+  </string-array>
+  <string-array name="akh_sha">
+    <item>أَخْشَى</item>
+    <item>ميں ڈرتا ہوں</item>
+  </string-array>
+  <string-array name="nakh_sha">
+    <item>نَخْشَى</item>
+    <item>ہم ڈرتے ہيں</item>
+  </string-array>
+  <string-array name="ikh_sha">
+    <item>اِخْشَ</item>
+    <item>آپ ڈر جائيں</item>
+  </string-array>
+  <string-array name="ikh_shau">
+    <item>اِخْشَوْا</item>
+    <item>آپ سب ڈر جائيں</item>
+  </string-array>
+  <string-array name="la_takh_sha">
+    <item>لاَ تخْشَ</item>
+    <item>آپ مت ڈريں</item>
+  </string-array>
+  <string-array name="la_takh_shau">
+    <item>لاَ تخْشَوْا</item>
+    <item>آپ سب مت ڈريں</item>
+  </string-array>
+  <string-array name="kha_shin">
+    <item>خَاشٍ</item>
+    <item>ڈرانے والا</item>
+  </string-array>
+  <string-array name="kha_shiy_ya">
+    <item>خَشِيَّة</item>
+    <item>ڈر</item>
+  </string-array>
+  <string-array name="kha_shi_yat">
+    <item>خَشِيَتْ</item>
+    <item>وہ ڈر گئ</item>
+  </string-array>
+  <string-array name="hiya_takh_sha">
+    <item>تَخْشَى (مؤنث)</item>
+    <item>وہ ڈرتی ہے</item>
   </string-array>
 </resources>

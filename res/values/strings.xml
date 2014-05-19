@@ -2502,11 +2502,11 @@
   </string-array>
   <string-array name="ikh_sha">
     <item>اِخْشَ</item>
-    <item>آپ ڈر جائيں</item>
+    <item>آپ ڈريں</item>
   </string-array>
   <string-array name="ikh_shau">
     <item>اِخْشَوْا</item>
-    <item>آپ سب ڈر جائيں</item>
+    <item>آپ سب ڈريں</item>
   </string-array>
   <string-array name="la_takh_sha">
     <item>لاَ تخْشَ</item>
@@ -2518,7 +2518,7 @@
   </string-array>
   <string-array name="kha_shin">
     <item>خَاشٍ</item>
-    <item>ڈرانے والا</item>
+    <item>ڈرنے والا</item>
   </string-array>
   <string-array name="kha_shiy_ya">
     <item>خَشِيَّة</item>

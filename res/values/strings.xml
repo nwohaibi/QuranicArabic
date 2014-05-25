@@ -608,11 +608,11 @@
   </string-array>
   <string-array name="maf_u_lun">
     <item>مَفْعُولُون</item>
-    <item>وہ جن پر اثر پڑا</item>
+    <item>جن پر اثر پڑا</item>
   </string-array>
   <string-array name="maf_u_lin">
     <item>مَفْعُولِين</item>
-    <item>وہ جن پر اثر پڑا</item>
+    <item>جن پر اثر پڑا</item>
   </string-array>
 
   <!-- Lesson 14 -->

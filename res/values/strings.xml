@@ -1692,83 +1692,83 @@
   <!-- Lesson 29 -->
   <string-array name="dal_la">
     <item>ضَلَّ</item>
-    <item>وہ بھٹک گيا</item>
+    <item>وہ گمراہ ہو گيا</item>
   </string-array>
   <string-array name="dal_lu">
     <item>ضَلُّوا</item>
-    <item>وہ سب بھٹک گۓ</item>
+    <item>وہ سب گمراہ ہو گۓ</item>
   </string-array>
   <string-array name="da_lal_ta">
     <item>ضَلَلْتَ</item>
-    <item>آپ بھٹک گۓ</item>
+    <item>آپ گمراہ ہو گۓ</item>
   </string-array>
   <string-array name="da_lal_tum">
     <item>ضَلَلْتُمْ</item>
-    <item>آپ سب بھٹک گۓ</item>
+    <item>آپ سب گمراہ ہو گۓ</item>
   </string-array>
   <string-array name="da_lal_tu">
     <item>ضَلَلْتُ</item>
-    <item>ميں بھٹک گيا</item>
+    <item>ميں گمراہ ہو گيا</item>
   </string-array>
   <string-array name="da_lal_na">
     <item>ضَلَلْنَا</item>
-    <item>ہم بھٹک گۓ</item>
+    <item>ہم گمراہ ہو گۓ</item>
   </string-array>
   <string-array name="ya_dil_lu">
     <item>يَضِلُّ</item>
-    <item>وہ بھٹکتا ہے</item>
+    <item>وہ گمراہ ہے</item>
   </string-array>
   <string-array name="ya_dil_lu_na">
     <item>يَضِلُّونَ</item>
-    <item>وہ سب بھٹکتے ہيں</item>
+    <item>وہ سب گمراہ ہيں</item>
   </string-array>
   <string-array name="ta_dil_lu">
     <item>تَضِلُّ</item>
-    <item>آپ بھٹکتے ہيں</item>
+    <item>آپ گمراہ ہيں</item>
   </string-array>
   <string-array name="ta_dil_lu_na">
     <item>تَضِلُّونَ</item>
-    <item>آپ سب بھٹکتے ہيں</item>
+    <item>آپ سب گمراہ ہيں</item>
   </string-array>
   <string-array name="a_dil_lu">
     <item>أَضِلُّ</item>
-    <item>ميں بھٹکتا ہوں</item>
+    <item>ميں گمراہ ہوں</item>
   </string-array>
   <string-array name="na_dil_lu">
     <item>نَضِلُّ</item>
-    <item>ہم بھٹکتے ہيں</item>
+    <item>ہم گمراہ ہيں</item>
   </string-array>
   <string-array name="dil_la">
     <item>ضِلَّ</item>
-    <item>آپ بھٹک جائيں</item>
+    <item>آپ گمراہ ہو جائيں</item>
   </string-array>
   <string-array name="dil_lu">
     <item>ضِلُّوا</item>
-    <item>آپ سب بھٹک جائيں</item>
+    <item>آپ سب گمراہ ہو جائيں</item>
   </string-array>
   <string-array name="la_ta_dil_la">
     <item>لاَ تَضِلَّ</item>
-    <item>آپ مت بھٹکيں</item>
+    <item>آپ گمراہ مت ہوں</item>
   </string-array>
   <string-array name="la_ta_dil_lu">
     <item>لاَ تَضِلُّوا</item>
-    <item>آپ سب مت بھٹکيں</item>
+    <item>آپ سب گمراہ مت ہوں</item>
   </string-array>
   <string-array name="dal">
     <item>ضَالّ</item>
-    <item>بھٹکنے والا</item>
+    <item>گمراہ</item>
   </string-array>
   <string-array name="da_la_lah">
     <item>ضَلاَلَة</item>
-    <item>بھٹکنا</item>
+    <item>گمراہ ہونا</item>
   </string-array>
   <string-array name="dal_lat">
     <item>ضَلَّتْ</item>
-    <item>وہ بھٹک گئ</item>
+    <item>وہ گمراہ ہو گئ</item>
   </string-array>
   <string-array name="hiya_ta_dil_lu">
     <item>تَضِلُّ (مؤنث)</item>
-    <item>وہ بھٹکتی ہے</item>
+    <item>وہ عورت گمراہ ہے</item>
   </string-array>
 
   <!-- Lesson 30 -->

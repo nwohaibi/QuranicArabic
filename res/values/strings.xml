@@ -244,6 +244,12 @@
     <item>باب سَمِعَ</item>
     <item>48</item>
   </string-array>
+  <string-array name="lesson_39">
+    <item>Lesson 39</item>
+    <item>أَمَرَ</item>
+    <item></item>
+    <item>232</item>
+  </string-array>
 
   <!-- Lesson 1 -->
   <string-array name="hooa">
@@ -2531,5 +2537,91 @@
   <string-array name="hiya_takh_sha">
     <item>تَخْشَى (مؤنث)</item>
     <item>وہ ڈرتی ہے</item>
+  </string-array>
+
+  <!-- Lesson 39 -->
+  <string-array name="a_ma_ra">
+    <item>أَمَرَ</item>
+    <item>اُس نے حکم ديا</item>
+  </string-array>
+  <string-array name="a_ma_ru">
+    <item>أَمَرُوا</item>
+    <item>اُن سب نے حکم ديا</item>
+  </string-array>
+  <string-array name="a_mar_ta">
+    <item>أَمَرْتَ</item>
+    <item>آپ نے حکم ديا</item>
+  </string-array>
+  <string-array name="a_mar_tum">
+    <item>أَمَرْتُمْ</item>
+    <item>آپ سب نے حکم ديا</item>
+  </string-array>
+  <string-array name="a_mar_tu">
+    <item>أَمَرْتُ</item>
+    <item>ميں نے حکم ديا</item>
+  </string-array>
+  <string-array name="a_mar_na">
+    <item>أَمَرْنَا</item>
+    <item>ہم نے حکم ديا</item>
+  </string-array>
+  <string-array name="ya_mu_ru">
+    <item>يَأْمُرُ</item>
+    <item>وہ حکم ديتا ہے</item>
+  </string-array>
+  <string-array name="ya_mu_ru_na">
+    <item>يَأْمُرُونَ</item>
+    <item>وہ سب حکم ديتے ہيں</item>
+  </string-array>
+  <string-array name="ta_mu_ru">
+    <item>تَأْمُرُ</item>
+    <item>آپ حکم ديتے ہيں</item>
+  </string-array>
+  <string-array name="ta_mu_ru_na">
+    <item>تَأْمُرُونَ</item>
+    <item>آپ سب حکم ديتے ہيں</item>
+  </string-array>
+  <string-array name="a_mu_ru">
+    <item>آمُرُ</item>
+    <item>ميں حکم ديتا ہوں</item>
+  </string-array>
+  <string-array name="na_mu_ru">
+    <item>نَأْمُرُ</item>
+    <item>ہم حکم ديتے ہيں</item>
+  </string-array>
+  <string-array name="mur">
+    <item>مُرْ</item>
+    <item>آپ حکم ديں</item>
+  </string-array>
+  <string-array name="mu_ru">
+    <item>مُرُوا</item>
+    <item>آپ سب حکم ديں</item>
+  </string-array>
+  <string-array name="la_ta_mur">
+    <item>لاَ تَأْمُرْ</item>
+    <item>آپ حکم مت ديں</item>
+  </string-array>
+  <string-array name="la_ta_mu_ru">
+    <item>لاَ تَأْمُرُوا</item>
+    <item>آپ سب حکم مت ديں</item>
+  </string-array>
+  <string-array name="a_mir">
+    <item>آمِر</item>
+    <item>حکم دينے والا</item>
+  </string-array>
+  <string-array name="ma_mur">
+    <item>مَأْمُور</item>
+    <item>جس کو حکم ديا گيا</item>
+  </string-array>
+  <string-array name="amr">
+    <item>أَمْر</item>
+    <item>حکم</item>
+  </string-array>
+  <string-array name="a_ma_rat">
+    <item>أَمَرَتْ</item>
+    <item>اُس عورت نے حکم ديا</item>
+  </string-array>
+  <string-array name="hiya_ta_mu_ru">
+    <item>تَأْمُرُ (مؤنث)</item>
+    <item>وہ حکم ديتی ہے</item>
   </string-array>
 </resources>

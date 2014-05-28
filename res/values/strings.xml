@@ -247,8 +247,14 @@
   <string-array name="lesson_39">
     <item>Lesson 39</item>
     <item>أَمَرَ</item>
-    <item></item>
+    <item>باب نَصَرَ</item>
     <item>232</item>
+  </string-array>
+  <string-array name="lesson_40">
+    <item>Lesson 40</item>
+    <item>رَأَى</item>
+    <item></item>
+    <item>269</item>
   </string-array>
 
   <!-- Lesson 1 -->
@@ -2623,5 +2629,91 @@
   <string-array name="hiya_ta_mu_ru">
     <item>تَأْمُرُ (مؤنث)</item>
     <item>وہ حکم ديتی ہے</item>
+  </string-array>
+
+  <!-- Lesson 40 -->
+  <string-array name="ra_a">
+    <item>رَأَى</item>
+    <item>اُس نے ديکھا</item>
+  </string-array>
+  <string-array name="ra_au">
+    <item>رَأَوْا</item>
+    <item>اُن سب نے ديکھا</item>
+  </string-array>
+  <string-array name="ra_ai_ta">
+    <item>رَأَيْتَ</item>
+    <item>آپ نے ديکھا</item>
+  </string-array>
+  <string-array name="ra_ai_tum">
+    <item>رَأَيْتُمْ</item>
+    <item>آپ سب نے ديکھا</item>
+  </string-array>
+  <string-array name="ra_ai_tu">
+    <item>رَأَيْتُ</item>
+    <item>ميں نے ديکھا</item>
+  </string-array>
+  <string-array name="ra_ai_na">
+    <item>رَأَيْنَا</item>
+    <item>ہم نے ديکھا</item>
+  </string-array>
+  <string-array name="ya_ra">
+    <item>يَرَى</item>
+    <item>وہ ديکھتا ہے</item>
+  </string-array>
+  <string-array name="ya_rau_na">
+    <item>يَرَوْنَ</item>
+    <item>وہ سب ديکھتے ہيں</item>
+  </string-array>
+  <string-array name="ta_ra">
+    <item>تَرَى</item>
+    <item>آپ ديکھتے ہيں</item>
+  </string-array>
+  <string-array name="ta_rau_na">
+    <item>تَرَوْنَ</item>
+    <item>آپ سب ديکھتے ہيں</item>
+  </string-array>
+  <string-array name="a_ra">
+    <item>أَرَى</item>
+    <item>ميں ديکھتا ہوں</item>
+  </string-array>
+  <string-array name="na_ra">
+    <item>نَرَى</item>
+    <item>ہم ديکھتے ہيں</item>
+  </string-array>
+  <string-array name="ra">
+    <item>رَ</item>
+    <item>آپ ديکھيں</item>
+  </string-array>
+  <string-array name="rau">
+    <item>رَوْا</item>
+    <item>آپ سب ديکھيں</item>
+  </string-array>
+  <string-array name="la_ta_ra">
+    <item>لاَ تَرَ</item>
+    <item>آپ مت ديکھيں</item>
+  </string-array>
+  <string-array name="la_ta_rau">
+    <item>لاَ تَرَوْا</item>
+    <item>آپ سب مت ديکھيں</item>
+  </string-array>
+  <string-array name="ra_in">
+    <item>رَاءٍ</item>
+    <item>ديکھنے والا</item>
+  </string-array>
+  <string-array name="mar_i">
+    <item>مَرْءِىّ</item>
+    <item>جس کو ديکھا گيا</item>
+  </string-array>
+  <string-array name="ra_yun">
+    <item>رَأْيٌ</item>
+    <item>ديکھنا</item>
+  </string-array>
+  <string-array name="ra_at">
+    <item>رَأَتْ</item>
+    <item>اُس عورت نے ديکھا</item>
+  </string-array>
+  <string-array name="hiya_ta_ra">
+    <item>تَرَى (مؤنث)</item>
+    <item>وہ ديکھتی ہے</item>
   </string-array>
 </resources>

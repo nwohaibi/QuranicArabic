@@ -262,6 +262,12 @@
     <item></item>
     <item>263</item>
   </string-array>
+  <string-array name="lesson_42">
+    <item>Lesson 42</item>
+    <item>شَاءَ</item>
+    <item></item>
+    <item>277</item>
+  </string-array>
 
   <!-- Lesson 1 -->
   <string-array name="hooa">
@@ -2807,5 +2813,87 @@
   <string-array name="hiya_ta_ti">
     <item>تَأْتِي (مؤنث)</item>
     <item>وہ آتی ہے</item>
+  </string-array>
+
+  <!-- Lesson 42 -->
+  <string-array name="sha_a">
+    <item>شَاءَ</item>
+    <item>اُس نے چاہا</item>
+  </string-array>
+  <string-array name="shaa_u">
+    <item>شَاءُوا</item>
+    <item>اُن سب نے چاہا</item>
+  </string-array>
+  <string-array name="she_ta">
+    <item>شِئْتَ</item>
+    <item>آپ نے چاہا</item>
+  </string-array>
+  <string-array name="she_tum">
+    <item>شِئْتُمْ</item>
+    <item>آپ سب نے چاہا</item>
+  </string-array>
+  <string-array name="she_tu">
+    <item>شِئْتُ</item>
+    <item>ميں نے چاہا</item>
+  </string-array>
+  <string-array name="she_na">
+    <item>شِئْنَا</item>
+    <item>ہم نے چاہا</item>
+  </string-array>
+  <string-array name="ya_sha_u">
+    <item>يَشَاءُ</item>
+    <item>وہ چاہتا ہے</item>
+  </string-array>
+  <string-array name="ya_sha_u_na">
+    <item>يَشَاءُونَ</item>
+    <item>وہ سب چاہتے ہيں</item>
+  </string-array>
+  <string-array name="ta_sha_u">
+    <item>تَشَاءُ</item>
+    <item>آپ چاہتے ہيں</item>
+  </string-array>
+  <string-array name="ta_sha_u_na">
+    <item>تَشَاءُونَ</item>
+    <item>آپ سب چاہتے ہيں</item>
+  </string-array>
+  <string-array name="a_sha_u">
+    <item>أَشَاءُ</item>
+    <item>ميں چاہتا ہوں</item>
+  </string-array>
+  <string-array name="na_sha_u">
+    <item>نَشَاءُ</item>
+    <item>ہم چاہتے ہيں</item>
+  </string-array>
+  <string-array name="sha">
+    <item>شَأْ</item>
+    <item>آپ چاہيں</item>
+  </string-array>
+  <string-array name="sha_u">
+    <item>شَاؤُوا</item>
+    <item>آپ سب چاہيں</item>
+  </string-array>
+  <string-array name="la_ta_sha">
+    <item>لاَ تَشَأْ</item>
+    <item>آپ مت چاہيں</item>
+  </string-array>
+  <string-array name="la_ta_sha_u">
+    <item>لاَ تَشَاؤُوا</item>
+    <item>آپ سب مت چاہيں</item>
+  </string-array>
+  <string-array name="sha_in">
+    <item>شَاءٍ</item>
+    <item>چاہنے والا</item>
+  </string-array>
+  <string-array name="ma_shi_ah">
+    <item>مَشِيئَة</item>
+    <item>چاہنا</item>
+  </string-array>
+  <string-array name="sha_at">
+    <item>شَاءَتْ</item>
+    <item>اُس عورت نے چاہا</item>
+  </string-array>
+  <string-array name="hiya_ta_sha_u">
+    <item>تَشَاءُ (مؤنث)</item>
+    <item>وہ چاہتی ہے</item>
   </string-array>
 </resources>

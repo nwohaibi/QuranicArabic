@@ -256,6 +256,12 @@
     <item></item>
     <item>269</item>
   </string-array>
+  <string-array name="lesson_41">
+    <item>Lesson 41</item>
+    <item>أَتَى</item>
+    <item></item>
+    <item>263</item>
+  </string-array>
 
   <!-- Lesson 1 -->
   <string-array name="hooa">
@@ -2715,5 +2721,91 @@
   <string-array name="hiya_ta_ra">
     <item>تَرَى (مؤنث)</item>
     <item>وہ ديکھتی ہے</item>
+  </string-array>
+
+  <!-- Lesson 41 -->
+  <string-array name="a_ta">
+    <item>أَتَى</item>
+    <item>وہ آيا</item>
+  </string-array>
+  <string-array name="a_tau">
+    <item>أَتَوْا</item>
+    <item>وہ سب آئے</item>
+  </string-array>
+  <string-array name="a_tai_ta">
+    <item>أَتَيْتَ</item>
+    <item>آپ آئے</item>
+  </string-array>
+  <string-array name="a_tai_tum">
+    <item>أَتَيْتُمْ</item>
+    <item>آپ سب آئے</item>
+  </string-array>
+  <string-array name="a_tai_tu">
+    <item>أَتَيْتُ</item>
+    <item>ميں آيا</item>
+  </string-array>
+  <string-array name="a_tai_na">
+    <item>أَتَيْنَا</item>
+    <item>ہم آئے</item>
+  </string-array>
+  <string-array name="ya_ti">
+    <item>يَأْتِي</item>
+    <item>وہ آتا ہے</item>
+  </string-array>
+  <string-array name="ya_tu_na">
+    <item>يَأْتُونَ</item>
+    <item>وہ سب آتے ہيں</item>
+  </string-array>
+  <string-array name="ta_ti">
+    <item>تَأْتِي</item>
+    <item>آپ آتے ہيں</item>
+  </string-array>
+  <string-array name="ta_tu_na">
+    <item>تَأْتُونَ</item>
+    <item>آپ سب آتے ہيں</item>
+  </string-array>
+  <string-array name="aa_ti">
+    <item>آتِي</item>
+    <item>ميں آتا ہوں</item>
+  </string-array>
+  <string-array name="na_ti">
+    <item>نَأْتِي</item>
+    <item>ہم آتے ہيں</item>
+  </string-array>
+  <string-array name="i_ti">
+    <item>إِيتِ</item>
+    <item>آپ آئيں</item>
+  </string-array>
+  <string-array name="i_tu">
+    <item>إِيتُوا</item>
+    <item>آپ سب آئيں</item>
+  </string-array>
+  <string-array name="la_ta_ti">
+    <item>لاَ تَأْتِ</item>
+    <item>آپ مت آئيں</item>
+  </string-array>
+  <string-array name="la_ta_tu">
+    <item>لاَ تَأْتُوا</item>
+    <item>آپ سب مت آئيں</item>
+  </string-array>
+  <string-array name="aa_tin">
+    <item>آتٍ</item>
+    <item>لانے والا</item>
+  </string-array>
+  <string-array name="ma_ti">
+    <item>مَأْتِيٌّ</item>
+    <item>جو آيا</item>
+  </string-array>
+  <string-array name="it_yan">
+    <item>إِتْيَان</item>
+    <item>آنا</item>
+  </string-array>
+  <string-array name="a_tat">
+    <item>أَتَتْ</item>
+    <item>وہ آئی</item>
+  </string-array>
+  <string-array name="hiya_ta_ti">
+    <item>تَأْتِي (مؤنث)</item>
+    <item>وہ آتی ہے</item>
   </string-array>
 </resources>

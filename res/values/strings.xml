@@ -1716,27 +1716,27 @@
   <!-- Lesson 29 -->
   <string-array name="dal_la">
     <item>ضَلَّ</item>
-    <item>وہ گمراہ ہو گيا</item>
+    <item>وہ گمراہ ہوا</item>
   </string-array>
   <string-array name="dal_lu">
     <item>ضَلُّوا</item>
-    <item>وہ سب گمراہ ہو گۓ</item>
+    <item>وہ سب گمراہ ہوئے</item>
   </string-array>
   <string-array name="da_lal_ta">
     <item>ضَلَلْتَ</item>
-    <item>آپ گمراہ ہو گۓ</item>
+    <item>آپ گمراہ ہوئے</item>
   </string-array>
   <string-array name="da_lal_tum">
     <item>ضَلَلْتُمْ</item>
-    <item>آپ سب گمراہ ہو گۓ</item>
+    <item>آپ سب گمراہ ہوئے</item>
   </string-array>
   <string-array name="da_lal_tu">
     <item>ضَلَلْتُ</item>
-    <item>ميں گمراہ ہو گيا</item>
+    <item>ميں گمراہ ہوا</item>
   </string-array>
   <string-array name="da_lal_na">
     <item>ضَلَلْنَا</item>
-    <item>ہم گمراہ ہو گۓ</item>
+    <item>ہم گمراہ ہوئے</item>
   </string-array>
   <string-array name="ya_dil_lu">
     <item>يَضِلُّ</item>
@@ -1788,7 +1788,7 @@
   </string-array>
   <string-array name="dal_lat">
     <item>ضَلَّتْ</item>
-    <item>وہ گمراہ ہو گئ</item>
+    <item>وہ گمراہ ہوئی</item>
   </string-array>
   <string-array name="hiya_ta_dil_lu">
     <item>تَضِلُّ (مؤنث)</item>

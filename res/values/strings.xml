@@ -268,6 +268,12 @@
     <item></item>
     <item>277</item>
   </string-array>
+  <string-array name="lesson_43">
+    <item>Lesson 43</item>
+    <item>فعل مؤنث</item>
+    <item></item>
+    <item></item>
+  </string-array>
 
   <!-- Lesson 1 -->
   <string-array name="hooa">
@@ -2895,5 +2901,47 @@
   <string-array name="hiya_ta_sha_u">
     <item>تَشَاءُ (مؤنث)</item>
     <item>وہ چاہتی ہے</item>
+  </string-array>
+
+  <!-- Lesson 43 -->
+  <string-array name="fa_al_na">
+    <item>فَعَلْنَ</item>
+    <item>اُن عورتوں نے کيا</item>
+  </string-array>
+  <string-array name="fa_al_ti">
+    <item>فَعَلْتِ</item>
+    <item>آپ نے کيا (مؤنث)</item>
+  </string-array>
+  <string-array name="fa_al_tun_na">
+    <item>فَعَلْتُنَّ</item>
+    <item>آپ سب نے کيا (مؤنث)</item>
+  </string-array>
+  <string-array name="yaf_al_na">
+    <item>يَفْعَلْنَ</item>
+    <item>وہ سب کرتی ہيں</item>
+  </string-array>
+  <string-array name="taf_a_li_na">
+    <item>تَفْعَلِينَ</item>
+    <item>آپ کرتی ہيں</item>
+  </string-array>
+  <string-array name="taf_al_na">
+    <item>تَفْعَلْنَ</item>
+    <item>آپ سب کرتی ہيں</item>
+  </string-array>
+  <string-array name="if_a_li">
+    <item>إِفْعَلِي</item>
+    <item>آپ کريں (مؤنث)</item>
+  </string-array>
+  <string-array name="if_al_na">
+    <item>إِفْعَلْنَ</item>
+    <item>آپ سب کريں (مؤنث)</item>
+  </string-array>
+  <string-array name="la_taf_a_li">
+    <item>لاَ تَفْعَلِي</item>
+    <item>آپ مت کريں (مؤنث)</item>
+  </string-array>
+  <string-array name="la_taf_al_na">
+    <item>لاَ تَفْعَلْنَ</item>
+    <item>آپ سب مت کريں (مؤنث)</item>
   </string-array>
 </resources>

@@ -694,11 +694,11 @@
   </string-array>
   <string-array name="maf_ula">
     <item>مَفْعُولَة</item>
-    <item>وہ عورت جس پر اثر پڑا</item>
+    <item>جس عورت پر اثر پڑا</item>
   </string-array>
   <string-array name="maf_ulat">
     <item>مَفْعُولاَت</item>
-    <item>وہ عورتيں جن پر اثر پڑا</item>
+    <item>جن عورتوں پر اثر پڑا</item>
   </string-array>
 
   <!-- Lesson 16 -->

@@ -274,6 +274,12 @@
     <item></item>
     <item></item>
   </string-array>
+  <string-array name="lesson_44">
+    <item>Lesson 44</item>
+    <item>فُعِلَ</item>
+    <item></item>
+    <item></item>
+  </string-array>
 
   <!-- Lesson 1 -->
   <string-array name="hooa">
@@ -2943,5 +2949,63 @@
   <string-array name="la_taf_al_na">
     <item>لاَ تَفْعَلْنَ</item>
     <item>آپ سب مت کريں (مؤنث)</item>
+  </string-array>
+
+  <!-- Lesson 44 -->
+  <string-array name="fu_i_la">
+    <item>فُعِلَ</item>
+    <item>وه کيا گيا</item>
+  </string-array>
+  <string-array name="fu_i_lu">
+    <item>فُعِلُوا</item>
+    <item>وه سب کيے گئے</item>
+  </string-array>
+  <string-array name="fu_il_ta">
+    <item>فُعِلْتَ</item>
+    <item>آپ کيے گئے</item>
+  </string-array>
+  <string-array name="fu_il_tum">
+    <item>فُعِلْتُمْ</item>
+    <item>آپ سب کيے گئے</item>
+  </string-array>
+  <string-array name="fu_il_tu">
+    <item>فُعِلْتُ</item>
+    <item>ميں کيا گيا</item>
+  </string-array>
+  <string-array name="fu_il_na">
+    <item>فُعِلْنَا</item>
+    <item>ہم کيے گئے</item>
+  </string-array>
+  <string-array name="fu_i_lat">
+    <item>فُعِلَتْ</item>
+    <item>وه کی گئى</item>
+  </string-array>
+  <string-array name="yuf_a_lu">
+    <item>يُفْعَلُ</item>
+    <item>وہ کيا جاتا ہے</item>
+  </string-array>
+  <string-array name="yuf_a_lu_na">
+    <item>يُفْعَلُونَ</item>
+    <item>وہ سب کيے جاتے ہيں</item>
+  </string-array>
+  <string-array name="tuf_a_lu">
+    <item>تُفْعَلُ</item>
+    <item>آپ کيے جاتے ہيں</item>
+  </string-array>
+  <string-array name="tuf_a_lu_na">
+    <item>تُفْعَلُونَ</item>
+    <item>آپ سب کيے جاتے ہيں</item>
+  </string-array>
+  <string-array name="uf_a_lu">
+    <item>أُفْعَلُ</item>
+    <item>ميں کيا جاتا ہوں</item>
+  </string-array>
+  <string-array name="nuf_a_lu">
+    <item>نُفْعَلُ</item>
+    <item>ہم کيے جاتے ہيں</item>
+  </string-array>
+  <string-array name="hiya_tuf_a_lu">
+    <item>تُفْعَلُ (مؤنث)</item>
+    <item>وه کی جاتى ہے</item>
   </string-array>
 </resources>

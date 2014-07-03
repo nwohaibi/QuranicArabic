@@ -280,6 +280,12 @@
     <item></item>
     <item></item>
   </string-array>
+  <string-array name="lesson_45">
+    <item>Lesson 45</item>
+    <item>سَبَّحَ</item>
+    <item></item>
+    <item>48</item>
+  </string-array>
 
   <!-- Lesson 1 -->
   <string-array name="hooa">
@@ -3007,5 +3013,91 @@
   <string-array name="hiya_tuf_a_lu">
     <item>تُفْعَلُ (مؤنث)</item>
     <item>وه کی جاتى ہے</item>
+  </string-array>
+
+  <!-- Lesson 45 -->
+  <string-array name="sab_ba_ha">
+    <item>سَبَّحَ</item>
+    <item>اُس نے تعريف کی</item>
+  </string-array>
+  <string-array name="sab_ba_hu">
+    <item>سَبَّحُوا</item>
+    <item>اُن سب نے تعريف کی</item>
+  </string-array>
+  <string-array name="sab_bah_ta">
+    <item>سَبَّحْتَ</item>
+    <item>آپ نے تعريف کی</item>
+  </string-array>
+  <string-array name="sab_bah_tum">
+    <item>سَبَّحْتُمْ</item>
+    <item>آپ سب نے تعريف کی</item>
+  </string-array>
+  <string-array name="sab_bah_tu">
+    <item>سَبَّحْتُ</item>
+    <item>ميں نے تعريف کی</item>
+  </string-array>
+  <string-array name="sab_bah_na">
+    <item>سَبَّحْنَا</item>
+    <item>ہم نے تعريف کی</item>
+  </string-array>
+  <string-array name="yu_sab_bi_hu">
+    <item>يُسَبِّحُ</item>
+    <item>وہ تعريف کرتا ہے</item>
+  </string-array>
+  <string-array name="yu_sab_bi_hu_na">
+    <item>يُسَبِّحُونَ</item>
+    <item>وہ سب تعريف کرتے ہيں</item>
+  </string-array>
+  <string-array name="tu_sab_bi_hu">
+    <item>تُسَبِّحُ</item>
+    <item>آپ تعريف کرتے ہيں</item>
+  </string-array>
+  <string-array name="tu_sab_bi_hu_na">
+    <item>تُسَبِّحُونَ</item>
+    <item>آپ سب تعريف کرتے ہيں</item>
+  </string-array>
+  <string-array name="u_sab_bi_hu">
+    <item>أُسَبِّحُ</item>
+    <item>ميں تعريف کرتا ہوں</item>
+  </string-array>
+  <string-array name="nu_sab_bi_hu">
+    <item>نُسَبِّحُ</item>
+    <item>ہم تعريف کرتے ہيں</item>
+  </string-array>
+  <string-array name="sab_bih">
+    <item>سَبِّحْ</item>
+    <item>آپ تعريف کريں</item>
+  </string-array>
+  <string-array name="sab_bi_hu">
+    <item>سَبِّحُوا</item>
+    <item>آپ سب تعريف کريں</item>
+  </string-array>
+  <string-array name="la_tu_sab_bih">
+    <item>لاَ تُسَبِّحْ</item>
+    <item>آپ تعريف مت کريں</item>
+  </string-array>
+  <string-array name="la_tu_sab_bi_hu">
+    <item>لاَ تُسَبِّحُوا</item>
+    <item>آپ سب تعريف مت کريں</item>
+  </string-array>
+  <string-array name="mu_sab_bih">
+    <item>مُسَبِّحْ</item>
+    <item>تعريف کرنے والا</item>
+  </string-array>
+  <string-array name="mu_sab_bah">
+    <item>مُسَبَّحْ</item>
+    <item>جس کی تعريف کی گئی</item>
+  </string-array>
+  <string-array name="tas_bih">
+    <item>تَسْبِيحْ</item>
+    <item>تعريف</item>
+  </string-array>
+  <string-array name="sab_ba_hat">
+    <item>سَبَّحَتْ</item>
+    <item>اُس عورت نے تعريف کی</item>
+  </string-array>
+  <string-array name="hiya_tu_sab_bi_hu">
+    <item>تُسَبِّحُ (مؤنث)</item>
+    <item>وہ تعريف کرتی ہے</item>
   </string-array>
 </resources>

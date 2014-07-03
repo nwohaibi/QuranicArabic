@@ -2976,10 +2976,6 @@
     <item>فُعِلْنَا</item>
     <item>ہم کيے گئے</item>
   </string-array>
-  <string-array name="fu_i_lat">
-    <item>فُعِلَتْ</item>
-    <item>وه کی گئى</item>
-  </string-array>
   <string-array name="yuf_a_lu">
     <item>يُفْعَلُ</item>
     <item>وہ کيا جاتا ہے</item>
@@ -3003,6 +2999,10 @@
   <string-array name="nuf_a_lu">
     <item>نُفْعَلُ</item>
     <item>ہم کيے جاتے ہيں</item>
+  </string-array>
+  <string-array name="fu_i_lat">
+    <item>فُعِلَتْ</item>
+    <item>وه کی گئى</item>
   </string-array>
   <string-array name="hiya_tuf_a_lu">
     <item>تُفْعَلُ (مؤنث)</item>

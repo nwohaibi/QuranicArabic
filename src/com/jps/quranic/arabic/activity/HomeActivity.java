@@ -218,9 +218,9 @@ public class HomeActivity extends ListActivity
                                     R.array.taf_a_li_na, R.array.taf_al_na, R.array.if_a_li, R.array.if_al_na,
                                     R.array.la_taf_a_li, R.array.la_taf_al_na };
   private final int[] _lesson44 = { R.array.fu_i_la, R.array.fu_i_lu, R.array.fu_il_ta, R.array.fu_il_tum,
-                                    R.array.fu_il_tu, R.array.fu_il_na, R.array.fu_i_lat, R.array.yuf_a_lu,
-                                    R.array.yuf_a_lu_na, R.array.tuf_a_lu, R.array.tuf_a_lu_na, R.array.uf_a_lu,
-                                    R.array.nuf_a_lu, R.array.hiya_tuf_a_lu };
+                                    R.array.fu_il_tu, R.array.fu_il_na, R.array.yuf_a_lu, R.array.yuf_a_lu_na,
+                                    R.array.tuf_a_lu, R.array.tuf_a_lu_na, R.array.uf_a_lu, R.array.nuf_a_lu,
+                                    R.array.fu_i_lat, R.array.hiya_tuf_a_lu };
 
   private Map<String, int[]> _lessonMap;
   private ArrayList<Lesson> _lessonList;

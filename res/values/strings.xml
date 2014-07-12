@@ -292,6 +292,12 @@
     <item></item>
     <item>198</item>
   </string-array>
+  <string-array name="lesson_47">
+    <item>Lesson 47</item>
+    <item>نَزَّلَ</item>
+    <item></item>
+    <item>79</item>
+  </string-array>
 
   <!-- Lesson 1 -->
   <string-array name="hooa">
@@ -3191,5 +3197,91 @@
   <string-array name="hiya_tu_kaz_zi_bu">
     <item>تُكَذِّبُ (مؤنث)</item>
     <item>وہ جھٹلاتی ہے</item>
+  </string-array>
+
+  <!-- Lesson 47 -->
+  <string-array name="naz_za_la">
+    <item>نَزَّلَ</item>
+    <item>اُس نے اُتارا</item>
+  </string-array>
+  <string-array name="naz_za_lu">
+    <item>نَزَّلُوا</item>
+    <item>اُن سب نے اُتارا</item>
+  </string-array>
+  <string-array name="naz_zal_ta">
+    <item>نَزَّلْتَ</item>
+    <item>آپ نے اُتارا</item>
+  </string-array>
+  <string-array name="naz_zal_tum">
+    <item>نَزَّلْتُمْ</item>
+    <item>آپ سب نے اُتارا</item>
+  </string-array>
+  <string-array name="naz_zal_tu">
+    <item>نَزَّلْتُ</item>
+    <item>ميں نے اُتارا</item>
+  </string-array>
+  <string-array name="naz_zal_na">
+    <item>نَزَّلْنَا</item>
+    <item>ہم نے اُتارا</item>
+  </string-array>
+  <string-array name="yu_naz_zi_lu">
+    <item>يُنَزِّلُ</item>
+    <item>وہ اُتارتا ہے</item>
+  </string-array>
+  <string-array name="yu_naz_zi_lu_na">
+    <item>يُنَزِّلُونَ</item>
+    <item>وہ سب اُتارتے ہيں</item>
+  </string-array>
+  <string-array name="tu_naz_zi_lu">
+    <item>تُنَزِّلُ</item>
+    <item>آپ اُتارتے ہيں</item>
+  </string-array>
+  <string-array name="tu_naz_zi_lu_na">
+    <item>تُنَزِّلُونَ</item>
+    <item>آپ سب اُتارتے ہيں</item>
+  </string-array>
+  <string-array name="u_naz_zi_lu">
+    <item>أُنَزِّلُ</item>
+    <item>ميں اُتارتا ہوں</item>
+  </string-array>
+  <string-array name="nu_naz_zi_lu">
+    <item>نُنَزِّلُ</item>
+    <item>ہم اُتارتے ہيں</item>
+  </string-array>
+  <string-array name="naz_zil">
+    <item>نَزِّلْ</item>
+    <item>آپ اُتاريں</item>
+  </string-array>
+  <string-array name="naz_zi_lu">
+    <item>نَزِّلُوا</item>
+    <item>آپ سب اُتاريں</item>
+  </string-array>
+  <string-array name="la_tu_naz_zil">
+    <item>لاَ تُنَزِّلْ</item>
+    <item>آپ مت اُتاريں</item>
+  </string-array>
+  <string-array name="la_tu_naz_zi_lu">
+    <item>لاَ تُنَزِّلُوا</item>
+    <item>آپ سب مت اُتاريں</item>
+  </string-array>
+  <string-array name="mu_naz_zil">
+    <item>مُنَزِّل</item>
+    <item>اُتارنے والا</item>
+  </string-array>
+  <string-array name="mu_naz_zal">
+    <item>مُنَزَّل</item>
+    <item>جس کو اُتارا گيا</item>
+  </string-array>
+  <string-array name="tan_zil">
+    <item>تَنْزِيل</item>
+    <item>اُتارنا</item>
+  </string-array>
+  <string-array name="naz_za_lat">
+    <item>نَزَّلَتْ</item>
+    <item>اُس عورت نے اُتارا</item>
+  </string-array>
+  <string-array name="hiya_tu_naz_zi_lu">
+    <item>تُنَزِّلُ (مؤنث)</item>
+    <item>وہ اُتارتی ہے</item>
   </string-array>
 </resources>

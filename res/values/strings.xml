@@ -286,6 +286,12 @@
     <item></item>
     <item>48</item>
   </string-array>
+  <string-array name="lesson_46">
+    <item>Lesson 46</item>
+    <item>كَذَّبَ</item>
+    <item></item>
+    <item>198</item>
+  </string-array>
 
   <!-- Lesson 1 -->
   <string-array name="hooa">
@@ -3099,5 +3105,91 @@
   <string-array name="hiya_tu_sab_bi_hu">
     <item>تُسَبِّحُ (مؤنث)</item>
     <item>وہ تعريف کرتی ہے</item>
+  </string-array>
+
+  <!-- Lesson 46 -->
+  <string-array name="kaz_za_ba">
+    <item>كَذَّبَ</item>
+    <item>اُس نے جھٹلايا</item>
+  </string-array>
+  <string-array name="kaz_za_bu">
+    <item>كَذَّبُوا</item>
+    <item>اُن سب نے جھٹلايا</item>
+  </string-array>
+  <string-array name="kaz_zab_ta">
+    <item>كَذَّبْتَ</item>
+    <item>آپ نے جھٹلايا</item>
+  </string-array>
+  <string-array name="kaz_zab_tum">
+    <item>كَذَّبْتُمْ</item>
+    <item>آپ سب نے جھٹلايا</item>
+  </string-array>
+  <string-array name="kaz_zab_tu">
+    <item>كَذَّبْتُ</item>
+    <item>ميں نے جھٹلايا</item>
+  </string-array>
+  <string-array name="kaz_zab_na">
+    <item>كَذَّبْنَا</item>
+    <item>ہم نے جھٹلايا</item>
+  </string-array>
+  <string-array name="yu_kaz_zi_bu">
+    <item>يُكَذِّبُ</item>
+    <item>وہ جھٹلاتا ہے</item>
+  </string-array>
+  <string-array name="yu_kaz_zi_bu_na">
+    <item>يُكَذِّبُونَ</item>
+    <item>وہ سب جھٹلاتے ہيں</item>
+  </string-array>
+  <string-array name="tu_kaz_zi_bu">
+    <item>تُكَذِّبُ</item>
+    <item>آپ جھٹلاتے ہيں</item>
+  </string-array>
+  <string-array name="tu_kaz_zi_bu_na">
+    <item>تُكَذِّبُونَ</item>
+    <item>آپ سب جھٹلاتے ہيں</item>
+  </string-array>
+  <string-array name="u_kaz_zi_bu">
+    <item>أُكَذِّبُ</item>
+    <item>ميں جھٹلاتا ہوں</item>
+  </string-array>
+  <string-array name="nu_kaz_zi_bu">
+    <item>نُكَذِّبُ</item>
+    <item>ہم جھٹلاتے ہيں</item>
+  </string-array>
+  <string-array name="kaz_zib">
+    <item>كَذِّبْ</item>
+    <item>آپ جھٹلائيں</item>
+  </string-array>
+  <string-array name="kaz_zi_bu">
+    <item>كَذِّبُوا</item>
+    <item>آپ سب جھٹلائيں</item>
+  </string-array>
+  <string-array name="la_tu_kaz_zib">
+    <item>لاَ تُكَذِّبْ</item>
+    <item>آپ مت جھٹلائيں</item>
+  </string-array>
+  <string-array name="la_tu_kaz_zi_bu">
+    <item>لاَ تُكَذِّبُوا</item>
+    <item>آپ سب مت جھٹلائيں</item>
+  </string-array>
+  <string-array name="mu_kaz_zib">
+    <item>مُكَذِّبْ</item>
+    <item>جھٹلانے والا</item>
+  </string-array>
+  <string-array name="mu_kaz_zab">
+    <item>مُكَذَّبْ</item>
+    <item>جس کو جھٹلايا گيا</item>
+  </string-array>
+  <string-array name="tak_zib">
+    <item>تَكْذِيب</item>
+    <item>جھٹلانا</item>
+  </string-array>
+  <string-array name="kaz_za_bat">
+    <item>كَذَّبَتْ</item>
+    <item>اُس عورت نے جھٹلايا</item>
+  </string-array>
+  <string-array name="hiya_tu_kaz_zi_bu">
+    <item>تُكَذِّبُ (مؤنث)</item>
+    <item>وہ جھٹلاتی ہے</item>
   </string-array>
 </resources>

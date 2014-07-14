@@ -998,7 +998,7 @@
   </string-array>
   <string-array name="man_sur">
     <item>مَنْصُور</item>
-    <item>جس کی مدد ہوئ</item>
+    <item>جس کی مدد کی گئی</item>
   </string-array>
   <string-array name="nasr">
     <item>نَصْر</item>
@@ -1084,7 +1084,7 @@
   </string-array>
   <string-array name="ma_bud">
     <item>مَعْبُود</item>
-    <item>جس کی عبادت ہوئ</item>
+    <item>جس کی عبادت کی گئی</item>
   </string-array>
   <string-array name="i_ba_da">
     <item>عِبَادَة</item>
@@ -1298,7 +1298,7 @@
   </string-array>
   <string-array name="mak_fur">
     <item>مَكْفُور</item>
-    <item>جس کا کفر ہوا</item>
+    <item>جس کا کفر کيا گيا</item>
   </string-array>
   <string-array name="kufr">
     <item>كُفْر</item>
@@ -1470,7 +1470,7 @@
   </string-array>
   <string-array name="maz_lum">
     <item>مَظْلُوم</item>
-    <item>جس پر ظلم ہوا</item>
+    <item>جس پر ظلم کيا گيا</item>
   </string-array>
   <string-array name="zulm">
     <item>ظُلْم</item>
@@ -1728,7 +1728,7 @@
   </string-array>
   <string-array name="ma_mul">
     <item>مَعْمُول</item>
-    <item>جس پر عمل ہوا</item>
+    <item>جس پر عمل کيا گيا</item>
   </string-array>
   <string-array name="a_mal">
     <item>عَمَل</item>

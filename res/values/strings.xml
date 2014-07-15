@@ -298,6 +298,12 @@
     <item></item>
     <item>79</item>
   </string-array>
+  <string-array name="lesson_48">
+    <item>Lesson 48</item>
+    <item>جَاهَدَ</item>
+    <item></item>
+    <item>31</item>
+  </string-array>
 
   <!-- Lesson 1 -->
   <string-array name="hooa">
@@ -3283,5 +3289,91 @@
   <string-array name="hiya_tu_naz_zi_lu">
     <item>تُنَزِّلُ (مؤنث)</item>
     <item>وہ اُتارتی ہے</item>
+  </string-array>
+
+  <!-- Lesson 48 -->
+  <string-array name="jaa_ha_da">
+    <item>جَاهَدَ</item>
+    <item>اُس نے جہاد کيا</item>
+  </string-array>
+  <string-array name="jaa_ha_du">
+    <item>جَاهَدُوا</item>
+    <item>اُن سب نے جہاد کيا</item>
+  </string-array>
+  <string-array name="jaa_hat_ta">
+    <item>جَاهَدْتَّ</item>
+    <item>آپ نے جہاد کيا</item>
+  </string-array>
+  <string-array name="jaa_hat_tum">
+    <item>جَاهَدْتُّمْ</item>
+    <item>آپ سب نے جہاد کيا</item>
+  </string-array>
+  <string-array name="jaa_hat_tu">
+    <item>جَاهَدْتُّ</item>
+    <item>ميں نے جہاد کيا</item>
+  </string-array>
+  <string-array name="jaa_had_na">
+    <item>جَاهَدْنَا</item>
+    <item>ہم نے جہاد کيا</item>
+  </string-array>
+  <string-array name="yu_jaa_hi_du">
+    <item>يُجَاهِدُ</item>
+    <item>وہ جہاد کرتا ہے</item>
+  </string-array>
+  <string-array name="yu_jaa_hi_du_na">
+    <item>يُجَاهِدُونَ</item>
+    <item>وہ سب جہاد کرتے ہيں</item>
+  </string-array>
+  <string-array name="tu_jaa_hi_du">
+    <item>تُجَاهِدُ</item>
+    <item>آپ جہاد کرتے ہيں</item>
+  </string-array>
+  <string-array name="tu_jaa_hi_du_na">
+    <item>تُجَاهِدُونَ</item>
+    <item>آپ سب جہاد کرتے ہيں</item>
+  </string-array>
+  <string-array name="oo_jaa_hi_du">
+    <item>أُجَاهِدُ</item>
+    <item>ميں جہاد کرتا ہوں</item>
+  </string-array>
+  <string-array name="nu_jaa_hi_du">
+    <item>نُجَاهِدُ</item>
+    <item>ہم جہاد کرتے ہيں</item>
+  </string-array>
+  <string-array name="jaa_hid">
+    <item>جَاهِدْ</item>
+    <item>آپ جہاد کريں</item>
+  </string-array>
+  <string-array name="jaa_hi_du">
+    <item>جَاهِدُوا</item>
+    <item>آپ سب جہاد کريں</item>
+  </string-array>
+  <string-array name="la_tu_jaa_hid">
+    <item>لاَ تُجَاهِدْ</item>
+    <item>آپ جہاد مت کريں</item>
+  </string-array>
+  <string-array name="la_tu_jaa_hi_du">
+    <item>لاَ تُجَاهِدُوا</item>
+    <item>آپ سب جہاد مت کريں</item>
+  </string-array>
+  <string-array name="mu_jaa_hid">
+    <item>مُجَاهِدْ</item>
+    <item>جہاد کرنے والا</item>
+  </string-array>
+  <string-array name="mu_jaa_had">
+    <item>مُجَاهَدْ</item>
+    <item>جس سے جہاد کيا گيا</item>
+  </string-array>
+  <string-array name="mu_jaa_hi_dah">
+    <item>مُجَاهَدَة</item>
+    <item>جہاد</item>
+  </string-array>
+  <string-array name="jaa_ha_dat">
+    <item>جَاهَدَتْ</item>
+    <item>اُس عورت نے جہاد کيا</item>
+  </string-array>
+  <string-array name="hiya_tu_jaa_hi_du">
+    <item>تُجَاهِدُ (مؤنث)</item>
+    <item>وہ جہاد کرتی ہے</item>
   </string-array>
 </resources>

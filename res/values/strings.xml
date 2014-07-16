@@ -304,6 +304,12 @@
     <item></item>
     <item>31</item>
   </string-array>
+  <string-array name="lesson_49">
+    <item>Lesson 49</item>
+    <item>نَادَى</item>
+    <item></item>
+    <item>44</item>
+  </string-array>
 
   <!-- Lesson 1 -->
   <string-array name="hooa">
@@ -3375,5 +3381,91 @@
   <string-array name="hiya_tu_jaa_hi_du">
     <item>تُجَاهِدُ (مؤنث)</item>
     <item>وہ جہاد کرتی ہے</item>
+  </string-array>
+
+  <!-- Lesson 49 -->
+  <string-array name="naa_da">
+    <item>نَادَى</item>
+    <item>اُس نے ندا دی</item>
+  </string-array>
+  <string-array name="naa_dau">
+    <item>نَادَوْا</item>
+    <item>اُن سب نے ندا دی</item>
+  </string-array>
+  <string-array name="naa_dai_ta">
+    <item>نَادَيْتَ</item>
+    <item>آپ نے ندا دی</item>
+  </string-array>
+  <string-array name="naa_dai_tum">
+    <item>نَادَيْتُمْ</item>
+    <item>آپ سب نے ندا دی</item>
+  </string-array>
+  <string-array name="naa_dai_tu">
+    <item>نَادَيْتُ</item>
+    <item>ميں نے ندا دی</item>
+  </string-array>
+  <string-array name="naa_dai_naa">
+    <item>نَادَيْنَا</item>
+    <item>ہم نے ندا دی</item>
+  </string-array>
+  <string-array name="yu_naa_di">
+    <item>يُنَادِي</item>
+    <item>وہ ندا ديتا ہے</item>
+  </string-array>
+  <string-array name="yu_naa_du_na">
+    <item>يُنَادُون</item>
+    <item>وہ سب ندا ديتے ہيں</item>
+  </string-array>
+  <string-array name="tu_naa_di">
+    <item>تُنَادِي</item>
+    <item>آپ ندا ديتے ہيں</item>
+  </string-array>
+  <string-array name="tu_naa_du_na">
+    <item>تُنَادُونَ</item>
+    <item>آپ سب ندا ديتے ہيں</item>
+  </string-array>
+  <string-array name="oo_naa_di">
+    <item>أُنَادِي</item>
+    <item>ميں ندا ديتا ہوں</item>
+  </string-array>
+  <string-array name="nu_naa_di">
+    <item>نُنَادِي</item>
+    <item>ہم ندا ديتے ہيں</item>
+  </string-array>
+  <string-array name="naa_di">
+    <item>نَادِ</item>
+    <item>آپ ندا ديں</item>
+  </string-array>
+  <string-array name="naa_du">
+    <item>نَادُوا</item>
+    <item>آپ سب ندا ديں</item>
+  </string-array>
+  <string-array name="la_tu_naa_di">
+    <item>لاَ تُنَادِ</item>
+    <item>آپ ندا مت ديں</item>
+  </string-array>
+  <string-array name="la_tu_naa_du">
+    <item>لاَ تُنَادُوا</item>
+    <item>آپ سب ندا مت ديں</item>
+  </string-array>
+  <string-array name="mu_naa_din">
+    <item>مُنَادٍ</item>
+    <item>ندا دينے والا</item>
+  </string-array>
+  <string-array name="mu_naa_da">
+    <item>مُنَادَى</item>
+    <item>جس کو ندا دی گئی</item>
+  </string-array>
+  <string-array name="mu_naa_dah">
+    <item>مُنَادَاة</item>
+    <item>ندا</item>
+  </string-array>
+  <string-array name="naa_dat">
+    <item>نَادَتْ</item>
+    <item>اُس عورت نے ندا دی</item>
+  </string-array>
+  <string-array name="hiya_tu_naa_di">
+    <item>تُنَادِي (مؤنث)</item>
+    <item>وہ ندا ديتی ہے</item>
   </string-array>
 </resources>

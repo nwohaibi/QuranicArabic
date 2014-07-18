@@ -310,6 +310,12 @@
     <item></item>
     <item>44</item>
   </string-array>
+  <string-array name="lesson_50">
+    <item>Lesson 50</item>
+    <item>أَخْرَجَ</item>
+    <item></item>
+    <item>108</item>
+  </string-array>
 
   <!-- Lesson 1 -->
   <string-array name="hooa">
@@ -3467,5 +3473,91 @@
   <string-array name="hiya_tu_naa_di">
     <item>تُنَادِي (مؤنث)</item>
     <item>وہ ندا ديتی ہے</item>
+  </string-array>
+
+  <!-- Lesson 50 -->
+  <string-array name="akh_ra_ja">
+    <item>أَخْرَجَ</item>
+    <item>اُس نے نکالا</item>
+  </string-array>
+  <string-array name="akh_ra_ju">
+    <item>أَخْرَجُوا</item>
+    <item>اُن سب نے نکالا</item>
+  </string-array>
+  <string-array name="akh_raj_ta">
+    <item>أَخْرَجْتَ</item>
+    <item>آپ نے نکالا</item>
+  </string-array>
+  <string-array name="akh_raj_tum">
+    <item>أَخْرَجْتُمْ</item>
+    <item>آپ سب نے نکالا</item>
+  </string-array>
+  <string-array name="akh_raj_tu">
+    <item>أَخْرَجْتُ</item>
+    <item>ميں نے نکالا</item>
+  </string-array>
+  <string-array name="akh_raj_naa">
+    <item>أَخْرَجْنَا</item>
+    <item>ہم نے نکالا</item>
+  </string-array>
+  <string-array name="yukh_ri_ju">
+    <item>يُخْرِجُ</item>
+    <item>وہ نکالتا ہے</item>
+  </string-array>
+  <string-array name="yukh_ri_ju_na">
+    <item>يُخْرِجُونَ</item>
+    <item>وہ سب نکالتے ہيں</item>
+  </string-array>
+  <string-array name="tukh_ri_ju">
+    <item>تُخْرِجُ</item>
+    <item>آپ نکالتے ہيں</item>
+  </string-array>
+  <string-array name="tukh_ri_ju_na">
+    <item>تُخْرِجُونَ</item>
+    <item>آپ سب نکالتے ہيں</item>
+  </string-array>
+  <string-array name="ukh_ri_ju">
+    <item>أُخْرِجُ</item>
+    <item>ميں نکالتا ہوں</item>
+  </string-array>
+  <string-array name="nukh_ri_ju">
+    <item>نُخْرِجُ</item>
+    <item>ہم نکالتے ہيں</item>
+  </string-array>
+  <string-array name="akh_rij">
+    <item>أَخْرِجْ</item>
+    <item>آپ نکاليں</item>
+  </string-array>
+  <string-array name="akh_ri_ju">
+    <item>أَخْرِجُوا</item>
+    <item>آپ سب نکاليں</item>
+  </string-array>
+  <string-array name="la_tukh_rij">
+    <item>لاَ تُخْرِجْ</item>
+    <item>آپ مت نکاليں</item>
+  </string-array>
+  <string-array name="la_tukh_ri_ju">
+    <item>لاَ تُخْرِجُوا</item>
+    <item>آپ سب مت نکاليں</item>
+  </string-array>
+  <string-array name="mukh_rij">
+    <item>مُخْرِج</item>
+    <item>نکالنے والا</item>
+  </string-array>
+  <string-array name="mukh_raj">
+    <item>مُخْرَج</item>
+    <item>جس کو نکالا گيا</item>
+  </string-array>
+  <string-array name="ikh_raaj">
+    <item>إِخْرَاج</item>
+    <item>نکالنا</item>
+  </string-array>
+  <string-array name="akh_ra_jat">
+    <item>أَخْرَجَتْ</item>
+    <item>اُس عورت نے نکالا</item>
+  </string-array>
+  <string-array name="hiya_tukh_ri_ju">
+    <item>تُخْرِجُ (مؤنث)</item>
+    <item>وہ نکالتی ہے</item>
   </string-array>
 </resources>

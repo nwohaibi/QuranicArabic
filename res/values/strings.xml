@@ -316,6 +316,12 @@
     <item></item>
     <item>108</item>
   </string-array>
+  <string-array name="lesson_51">
+    <item>Lesson 51</item>
+    <item>أَسْلَمَ</item>
+    <item>حکم مانا، فرمانبرداری کی</item>
+    <item>72</item>
+  </string-array>
 
   <!-- Lesson 1 -->
   <string-array name="hooa">
@@ -3559,5 +3565,87 @@
   <string-array name="hiya_tukh_ri_ju">
     <item>تُخْرِجُ (مؤنث)</item>
     <item>وہ نکالتی ہے</item>
+  </string-array>
+
+  <!-- Lesson 51 -->
+  <string-array name="as_la_ma">
+    <item>أَسْلَمَ</item>
+    <item>وہ اِسلام لايا</item>
+  </string-array>
+  <string-array name="as_la_mu">
+    <item>أَسْلَمُوْا</item>
+    <item>وہ سب اِسلام لائے</item>
+  </string-array>
+  <string-array name="as_lam_ta">
+    <item>أَسْلَمْتَ</item>
+    <item>آپ اِسلام لائے</item>
+  </string-array>
+  <string-array name="as_lam_tum">
+    <item>أَسْلَمْتُمْ</item>
+    <item>آپ سب اِسلام لائے</item>
+  </string-array>
+  <string-array name="as_lam_tu">
+    <item>أَسْلَمْتُ</item>
+    <item>ميں اِسلام لايا</item>
+  </string-array>
+  <string-array name="as_lam_na">
+    <item>أَسْلَمْنَا</item>
+    <item>ہم اِسلام لائے</item>
+  </string-array>
+  <string-array name="yus_li_mu">
+    <item>يُسْلِمُ</item>
+    <item>وہ اِسلام لاتا ہے</item>
+  </string-array>
+  <string-array name="yus_li_mu_na">
+    <item>يُسْلِمُونَ</item>
+    <item>وہ سب اِسلام لاتے ہيں</item>
+  </string-array>
+  <string-array name="tus_li_mu">
+    <item>تُسْلِمُ</item>
+    <item>آپ اِسلام لاتے ہيں</item>
+  </string-array>
+  <string-array name="tus_li_mu_na">
+    <item>تُسْلِمُونَ</item>
+    <item>آپ سب اِسلام لاتے ہيں</item>
+  </string-array>
+  <string-array name="us_li_mu">
+    <item>أُسْلِمُ</item>
+    <item>ميں اِسلام لاتا ہوں</item>
+  </string-array>
+  <string-array name="nus_li_mu">
+    <item>نُسْلِمُ</item>
+    <item>ہم اِسلام لاتے ہيں</item>
+  </string-array>
+  <string-array name="as_lim">
+    <item>أَسْلِمْ</item>
+    <item>آپ اِسلام لائيں</item>
+  </string-array>
+  <string-array name="as_li_mu">
+    <item>أَسْلِمُوا</item>
+    <item>آپ سب اِسلام لائيں</item>
+  </string-array>
+  <string-array name="la_tus_lim">
+    <item>لاَ تُسْلِمْ</item>
+    <item>آپ اِسلام مت لائيں</item>
+  </string-array>
+  <string-array name="la_tus_li_mu">
+    <item>لاَ تُسْلِمُوا</item>
+    <item>آپ سب اِسلام مت لائيں</item>
+  </string-array>
+  <string-array name="mus_lim">
+    <item>مُسْلِم</item>
+    <item>اِسلام لانے والا</item>
+  </string-array>
+  <string-array name="is_lam">
+    <item>إِسْلاَم</item>
+    <item>اِسلام</item>
+  </string-array>
+  <string-array name="as_la_mat">
+    <item>أَسْلَمَتْ</item>
+    <item>وہ اِسلام لائی</item>
+  </string-array>
+  <string-array name="hiya_tus_li_mu">
+    <item>تُسْلِمُ (مؤنث)</item>
+    <item>وہ اِسلام لاتی ہے</item>
   </string-array>
 </resources>

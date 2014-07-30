@@ -322,6 +322,12 @@
     <item>حکم مانا، فرمانبرداری کی</item>
     <item>72</item>
   </string-array>
+  <string-array name="lesson_52">
+    <item>Lesson 52</item>
+    <item>أَشْرَكَ</item>
+    <item>ساتھی بنايا</item>
+    <item>120</item>
+  </string-array>
 
   <!-- Lesson 1 -->
   <string-array name="hooa">
@@ -3647,5 +3653,91 @@
   <string-array name="hiya_tus_li_mu">
     <item>تُسْلِمُ (مؤنث)</item>
     <item>وہ اِسلام لاتی ہے</item>
+  </string-array>
+
+  <!-- Lesson 52 -->
+  <string-array name="ash_ra_ka">
+    <item>أَشْرَكَ</item>
+    <item>اُس نے شريک کيا</item>
+  </string-array>
+  <string-array name="ash_ra_ku">
+    <item>أَشْرَكُوْا</item>
+    <item>اُن سب نے شريک کيا</item>
+  </string-array>
+  <string-array name="ash_rak_ta">
+    <item>أَشْرَكْتَ</item>
+    <item>آپ نے شريک کيا</item>
+  </string-array>
+  <string-array name="ash_rak_tum">
+    <item>أَشْرَكْتُمْ</item>
+    <item>آپ سب نے شريک کيا</item>
+  </string-array>
+  <string-array name="ash_rak_tu">
+    <item>أَشْرَكْتُ</item>
+    <item>ميں نے شريک کيا</item>
+  </string-array>
+  <string-array name="ash_rak_na">
+    <item>أَشْرَكْنَا</item>
+    <item>ہم نے شريک کيا</item>
+  </string-array>
+  <string-array name="yush_ri_ku">
+    <item>يُشْرِكُ</item>
+    <item>وہ شريک کرتا ہے</item>
+  </string-array>
+  <string-array name="yush_ri_ku_na">
+    <item>يُشْرِكُونَ</item>
+    <item>وہ سب شريک کرتے ہيں</item>
+  </string-array>
+  <string-array name="tush_ri_ku">
+    <item>تُشْرِكُ</item>
+    <item>آپ شريک کرتے ہيں</item>
+  </string-array>
+  <string-array name="tush_ri_ku_na">
+    <item>تُشْرِكُونَ</item>
+    <item>آپ سب شريک کرتے ہيں</item>
+  </string-array>
+  <string-array name="ush_ri_ku">
+    <item>أُشْرِكُ</item>
+    <item>ميں شريک کرتا ہوں</item>
+  </string-array>
+  <string-array name="nush_ri_ku">
+    <item>نُشْرِكُ</item>
+    <item>ہم شريک کرتے ہیں</item>
+  </string-array>
+  <string-array name="ash_rik">
+    <item>أَشْرِكْ</item>
+    <item>آپ شريک کریں</item>
+  </string-array>
+  <string-array name="ash_ri_ku">
+    <item>أَشْرِكُوا</item>
+    <item>آپ سب شريک کریں</item>
+  </string-array>
+  <string-array name="la_tush_rik">
+    <item>لاَ تُشْرِكْ</item>
+    <item>آپ شريک مت کریں</item>
+  </string-array>
+  <string-array name="la_tush_ri_ku">
+    <item>لاَ تُشْرِكُوا</item>
+    <item>آپ سب شريک مت کریں</item>
+  </string-array>
+  <string-array name="mush_rik">
+    <item>مُشْرِكْ</item>
+    <item>شريک کرنے والا</item>
+  </string-array>
+  <string-array name="mush_rak">
+    <item>مُشْرَكْ</item>
+    <item>جس سے شريک کيا گيا</item>
+  </string-array>
+  <string-array name="ish_rak">
+    <item>إِشْرَاكْ</item>
+    <item>شريک کرنا</item>
+  </string-array>
+  <string-array name="ash_ra_kat">
+    <item>أَشْرَكَتْ</item>
+    <item>اُس عورت نے شريک کيا</item>
+  </string-array>
+  <string-array name="hiya_tush_ri_ku">
+    <item>تُشْرِكُ (مؤنث)</item>
+    <item>وہ شريک کرتی ہے</item>
   </string-array>
 </resources>

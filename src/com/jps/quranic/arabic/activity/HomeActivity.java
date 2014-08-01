@@ -261,7 +261,8 @@ public class HomeActivity extends ListActivity
                                     R.array.as_lam_tu, R.array.as_lam_na, R.array.yus_li_mu, R.array.yus_li_mu_na,
                                     R.array.tus_li_mu, R.array.tus_li_mu_na, R.array.us_li_mu, R.array.nus_li_mu,
                                     R.array.as_lim, R.array.as_li_mu, R.array.la_tus_lim, R.array.la_tus_li_mu,
-                                    R.array.mus_lim, R.array.is_lam, R.array.as_la_mat, R.array.hiya_tus_li_mu };
+                                    R.array.mus_lim, R.array.mus_lam, R.array.is_lam, R.array.as_la_mat,
+                                    R.array.hiya_tus_li_mu };
   private final int[] _lesson52 = { R.array.ash_ra_ka, R.array.ash_ra_ku, R.array.ash_rak_ta, R.array.ash_rak_tum,
                                     R.array.ash_rak_tu, R.array.ash_rak_na, R.array.yush_ri_ku, R.array.yush_ri_ku_na,
                                     R.array.tush_ri_ku, R.array.tush_ri_ku_na, R.array.ush_ri_ku, R.array.nush_ri_ku,

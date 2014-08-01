@@ -3576,83 +3576,87 @@
   <!-- Lesson 51 -->
   <string-array name="as_la_ma">
     <item>أَسْلَمَ</item>
-    <item>وہ اِسلام لايا</item>
+    <item>اُس نے فرمانبرداری کی</item>
   </string-array>
   <string-array name="as_la_mu">
     <item>أَسْلَمُوْا</item>
-    <item>وہ سب اِسلام لائے</item>
+    <item>اُن سب نے فرمانبرداری کی</item>
   </string-array>
   <string-array name="as_lam_ta">
     <item>أَسْلَمْتَ</item>
-    <item>آپ اِسلام لائے</item>
+    <item>آپ نے فرمانبرداری کی</item>
   </string-array>
   <string-array name="as_lam_tum">
     <item>أَسْلَمْتُمْ</item>
-    <item>آپ سب اِسلام لائے</item>
+    <item>آپ نے فرمانبرداری کی</item>
   </string-array>
   <string-array name="as_lam_tu">
     <item>أَسْلَمْتُ</item>
-    <item>ميں اِسلام لايا</item>
+    <item>آپ نے فرمانبرداری کی</item>
   </string-array>
   <string-array name="as_lam_na">
     <item>أَسْلَمْنَا</item>
-    <item>ہم اِسلام لائے</item>
+    <item>ہم نے فرمانبرداری کی</item>
   </string-array>
   <string-array name="yus_li_mu">
     <item>يُسْلِمُ</item>
-    <item>وہ اِسلام لاتا ہے</item>
+    <item>وہ فرمانبرداری کرتا ہے</item>
   </string-array>
   <string-array name="yus_li_mu_na">
     <item>يُسْلِمُونَ</item>
-    <item>وہ سب اِسلام لاتے ہيں</item>
+    <item>وہ سب فرمانبرداری کرتے ہيں</item>
   </string-array>
   <string-array name="tus_li_mu">
     <item>تُسْلِمُ</item>
-    <item>آپ اِسلام لاتے ہيں</item>
+    <item>آپ فرمانبرداری کرتے ہيں</item>
   </string-array>
   <string-array name="tus_li_mu_na">
     <item>تُسْلِمُونَ</item>
-    <item>آپ سب اِسلام لاتے ہيں</item>
+    <item>آپ سب فرمانبرداری کرتے ہيں</item>
   </string-array>
   <string-array name="us_li_mu">
     <item>أُسْلِمُ</item>
-    <item>ميں اِسلام لاتا ہوں</item>
+    <item>ميں فرمانبرداری کرتا ہوں</item>
   </string-array>
   <string-array name="nus_li_mu">
     <item>نُسْلِمُ</item>
-    <item>ہم اِسلام لاتے ہيں</item>
+    <item>ہم فرمانبرداری کرتے ہيں</item>
   </string-array>
   <string-array name="as_lim">
     <item>أَسْلِمْ</item>
-    <item>آپ اِسلام لائيں</item>
+    <item>آپ فرمانبرداری کريں</item>
   </string-array>
   <string-array name="as_li_mu">
     <item>أَسْلِمُوا</item>
-    <item>آپ سب اِسلام لائيں</item>
+    <item>آپ سب فرمانبرداری کريں</item>
   </string-array>
   <string-array name="la_tus_lim">
     <item>لاَ تُسْلِمْ</item>
-    <item>آپ اِسلام مت لائيں</item>
+    <item>آپ فرمانبرداری مت کريں</item>
   </string-array>
   <string-array name="la_tus_li_mu">
     <item>لاَ تُسْلِمُوا</item>
-    <item>آپ سب اِسلام مت لائيں</item>
+    <item>آپ سب فرمانبرداری مت کريں</item>
   </string-array>
   <string-array name="mus_lim">
     <item>مُسْلِم</item>
-    <item>اِسلام لانے والا</item>
+    <item>فرمانبرداری کرنے والا</item>
+  </string-array>
+  <string-array name="mus_lam">
+    <item>مُسْلَم</item>
+    <item>جس کی فرمانبرداری کی گئی</item>
   </string-array>
   <string-array name="is_lam">
     <item>إِسْلاَم</item>
-    <item>اِسلام</item>
+    <item>فرمانبرداری</item>
   </string-array>
   <string-array name="as_la_mat">
     <item>أَسْلَمَتْ</item>
-    <item>وہ اِسلام لائی</item>
+    <item>اُس عورت نے فرمانبرداری کی</item>
   </string-array>
   <string-array name="hiya_tus_li_mu">
     <item>تُسْلِمُ (مؤنث)</item>
-    <item>وہ اِسلام لاتی ہے</item>
+    <item>وہ فرمانبرداری کرتی ہے</item>
   </string-array>
 
   <!-- Lesson 52 -->

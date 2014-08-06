@@ -109,7 +109,7 @@ public class InfoActivity extends Activity
                                   R.array.lesson_39, R.array.lesson_40, R.array.lesson_41, R.array.lesson_42,
                                   R.array.lesson_45, R.array.lesson_46, R.array.lesson_47, R.array.lesson_48,
                                   R.array.lesson_49, R.array.lesson_50, R.array.lesson_51, R.array.lesson_52,
-                                  R.array.lesson_53, R.array.lesson_54 };
+                                  R.array.lesson_53, R.array.lesson_54, R.array.lesson_55 };
 
     int allOccurrences = 0; // occurrences of words from all lectures in Qur'an Majeed
     for ( int resId : resIdArray )
